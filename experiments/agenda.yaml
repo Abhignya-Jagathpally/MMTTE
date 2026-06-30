@@ -1,0 +1,56 @@
+# Research-agenda objective list (endpoint-gated auto-research pattern).
+# Each experiment declares its endpoint, the MAXIMUM claim it can license, and the
+# comparators/question. The claim gate (configs/endpoints.yaml + evaluation/claim_gate)
+# enforces that OS experiments can never emit a relapse/PFS or clinical-use claim.
+
+experiments:
+  - id: E0_OS_baseline
+    endpoint: open_gdc_os
+    allowed_claim: technical_validation
+    primary_metric: c_index
+    secondary_metrics: [calibration, dca, nri_idi]
+    status: done            # v0.7
+    must_compare:
+      - clinical
+      - clinical+cyto
+      - clinical+omics
+      - clinical+cyto+omics
+      - mmSYGNAL_agnostic
+      - mmSYGNAL_selected
+    artifacts:
+      - outputs/experiment0_open_gdc_os/sota_comparison.csv
+      - outputs/experiment0_open_gdc_os/matched_ablation.csv
+      - outputs/experiment0_open_gdc_os/benchmark_claim_card.md
+
+  - id: E1_program_vs_pca
+    endpoint: open_gdc_os
+    allowed_claim: technical_validation
+    status: ready           # both feature paths exist (program_activity vs omics PCA)
+    question: "Do official miner3/mmSYGNAL program activities outperform RNA PCA on OS?"
+    must_compare:
+      - clinical+omics_pca
+      - clinical+mmSYGNAL_program_activity
+      - clinical+cyto+omics_pca
+      - clinical+cyto+mmSYGNAL_program_activity
+
+  - id: E2_residual_risk_reclassification
+    endpoint: open_gdc_os
+    allowed_claim: hypothesis_generating
+    status: done            # mmrf_reclassification_outcomes.csv
+    question: "Do clinical-low/molecular-high patients have worse outcomes?"
+    artifacts:
+      - outputs/experiment0_open_gdc_os/mmrf_reclassification_outcomes.csv
+
+  - id: E3_controlled_pfs
+    endpoint: controlled_commpass_pfs
+    allowed_claim: primary_biological_if_confirmed
+    status: blocked
+    blocked_until: controlled_access_data_available
+    question: "Does molecular residual risk identify progression/relapse-risk strata beyond clinical burden?"
+    requires:
+      - data/controlled/clinical_pfs.csv   # MMRF Researcher Gateway / dbGaP
+      - external_validation_cohort
+
+# Claim ladder (labels used everywhere; see docs + figures):
+#   technical_validation -> hypothesis_generating -> endpoint_correct_validation
+#   -> external_validation -> clinical_use(not claimed)

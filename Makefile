@@ -32,6 +32,12 @@ run:
 residual-report:
 	$(PY) -m mm_tte_survival.cli residual-report --config configs/real_training.yaml
 
+figures:
+	$(PY) scripts/figures/fig4_os_benchmark.py
+	$(PY) scripts/figures/fig5_reclassification.py
+	$(PY) scripts/figures/sfig3_mmsygnal_program_validation.py
+	$(PY) scripts/figures/sfig4_repeated_split.py
+
 test:
 	pytest -q
 
