@@ -59,6 +59,10 @@ def main(argv=None):
                                               "(in-fold PCA vs precomputed-PCA leak delta)")
     p_reb.add_argument("--config", default="configs/experiments/rebaseline_open_gdc_os.yaml")
 
+    p_sd = sub.add_parser("stage-d", help="Stage-D negative controls: HSS biology-vs-regularization "
+                                          "(real vs permuted vs random labels, lambda controls)")
+    p_sd.add_argument("--config", default="configs/experiments/stageD_open_gdc_os.yaml")
+
     args = parser.parse_args(argv)
     if args.cmd == "make-demo-data":
         make_demo_data(args.out, args.n, args.p, args.seed)
@@ -102,6 +106,13 @@ def main(argv=None):
         res = run_rebaseline(cfg)
         print(res["leak_delta"].to_string(index=False))
         print(f"\nOutputs: {res['outdir']}")
+    elif args.cmd == "stage-d":
+        from .experiments_stageD import run_stage_d
+        cfg = load_config(args.config)
+        res = run_stage_d(cfg)
+        print(res["summary"].to_string(index=False))
+        print("\nDECISION:", res["decision"]["verdict"])
+        print(f"Outputs: {res['outdir']}")
 
 
 if __name__ == "__main__":

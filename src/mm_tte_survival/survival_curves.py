@@ -43,7 +43,24 @@ def cox_survival(eta, H_grid):
 
 
 def ipcw_ibs(t_train, e_train, t_test, e_test, S_test, grid) -> float:
-    """IPCW integrated Brier score (lower is better). S_test: (n_test, len(grid))."""
-    surv_train = Surv.from_arrays(np.asarray(e_train).astype(bool), np.asarray(t_train, dtype=float))
-    surv_test = Surv.from_arrays(np.asarray(e_test).astype(bool), np.asarray(t_test, dtype=float))
-    return float(integrated_brier_score(surv_train, surv_test, np.asarray(S_test), np.asarray(grid)))
+    """IPCW integrated Brier score (lower is better). S_test: (n_test, len(grid)).
+
+    Robust to small/degenerate groups: grid times are clamped strictly inside the
+    censoring support of BOTH train and test, and any boundary time that sksurv
+    still rejects is dropped before retrying. Returns nan if no valid grid remains.
+    """
+    t_train = np.asarray(t_train, dtype=float); t_test = np.asarray(t_test, dtype=float)
+    surv_train = Surv.from_arrays(np.asarray(e_train).astype(bool), t_train)
+    surv_test = Surv.from_arrays(np.asarray(e_test).astype(bool), t_test)
+    g = np.asarray(grid, dtype=float); S = np.asarray(S_test)
+    hi = min(t_train.max(), t_test.max())
+    keep = g < hi
+    g, S = g[keep], S[:, keep]
+    for _ in range(3):
+        if g.size == 0:
+            return float("nan")
+        try:
+            return float(integrated_brier_score(surv_train, surv_test, S, g))
+        except ValueError:
+            g, S = g[:-1], S[:, :-1]   # drop the boundary point sksurv rejects, retry
+    return float("nan")
