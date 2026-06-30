@@ -1,7 +1,19 @@
 PY ?= python
 CONFIG ?= configs/experiments/experiment0_open_gdc_os.yaml
 
-.PHONY: setup fetch-open-gdc build-features audit experiment0 residual-report run test package clean
+.PHONY: setup fetch-open-gdc build-features audit experiment0 residual-report run \
+        analysis figures all exploratory test package clean
+
+# ---------------------------------------------------------------------------
+# Canonical execution path (Fragility 1: one auditable path to the manuscript).
+#   make all  ==  run -> analysis -> figures
+# `run` fits every model (compute-only, src/ pipeline). `analysis` refits the
+# repeated-split / ablation / reclassification numbers to CSV. `figures` is
+# PLOT-ONLY (reads CSVs, fits nothing). Nothing outside this path produces a
+# manuscript artifact; exploratory scripts live under the `exploratory` target.
+# ---------------------------------------------------------------------------
+all: run analysis figures
+	@echo "== canonical reproduction complete: model run + analysis CSVs + figures =="
 
 setup:
 	pip install -e ".[dev]"
@@ -34,16 +46,28 @@ residual-report:
 
 RSCRIPT ?= /home/aj0486@students.ad.unt.edu/micromamba/envs/rsygnal/bin/Rscript
 
+# Analysis = compute-only. Refits models and writes CSVs the figures consume.
+# This is the ONLY layer (besides `run`) allowed to fit a model for the record.
 analysis:
 	$(PY) scripts/analysis/within_stratum_reclassification.py
 	$(PY) scripts/analysis/program_vs_pca_ablation.py
+	$(PY) scripts/analysis/repeated_split_detail.py
 
+# Figures = plot-only. Every script here reads outputs/*.csv and fits nothing.
 figures: analysis
 	$(PY) scripts/figures/fig4_os_benchmark.py
 	$(RSCRIPT) scripts/figures/fig5_within_stratum.R
 	$(PY) scripts/figures/fig5_reclassification.py
 	$(PY) scripts/figures/sfig3_mmsygnal_program_validation.py
 	$(PY) scripts/figures/sfig4_repeated_split.py
+
+# Exploratory = NOT part of the canonical record. Neural ablation + standalone
+# real-data benchmark/interpretation that write to outputs/real_run/. Kept
+# callable (no orphan scripts) but explicitly outside `make all`.
+exploratory:
+	$(PY) -m mm_tte_survival.cli run-experiments --config configs/real_training.yaml
+	$(PY) scripts/realdata/benchmark.py
+	$(PY) scripts/realdata/interpret.py
 
 test:
 	pytest -q

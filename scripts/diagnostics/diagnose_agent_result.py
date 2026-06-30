@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 """Diagnose whether a real-data run supports the intended relapse/PFS claim.
 
+NOT part of the scientific record (read-only diagnostic; writes no artifact).
+
 Usage:
-  python scripts/analysis/diagnose_agent_result.py \
+  python scripts/diagnostics/diagnose_agent_result.py \
     --leaderboard outputs/real_run/leaderboard.csv \
     --manifest outputs/real_run/run_manifest.json \
     --endpoint open_gdc_os

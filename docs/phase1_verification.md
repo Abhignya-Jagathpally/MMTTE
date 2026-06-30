@@ -23,4 +23,12 @@ write_all_reports (write-only + cards)`.
 Note: `scripts/realdata/benchmark.py` and `interpret.py` (Steps 6–7) remain as
 standalone exploratory analyses writing to `outputs/real_run/`; they are NOT part
 of the `main.py` production path and can be retired once their outputs are folded
-into the report layer.
+into the report layer. They are reachable via `make exploratory` (kept callable,
+explicitly outside the canonical `make all`). See `scripts/README.md` for the full
+role register of every script (which may fit a model for the record, which is
+plot-only).
+
+Fragility-1 update: Figure S4 previously refit 200 Cox models inside the figure
+script. That compute now lives in `scripts/analysis/repeated_split_detail.py`
+(CSV out); `scripts/figures/sfig4_repeated_split.py` is plot-only. Canonical
+reproduction is now a single command: `make all` (= run → analysis → figures).

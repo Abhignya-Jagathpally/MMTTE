@@ -1,10 +1,18 @@
-"""High-level production entrypoint.
+"""High-level production entrypoint — the single canonical execution path.
 
-Exposes the abstract scientific workflow: configuration, endpoint resolution,
-data loading + contracts, matched-cohort construction, train-only preprocessing,
-the residual-risk model + endpoint-correct evaluation suite, and endpoint-gated
-reporting. The neural MultiHeadSurvivalModel is a parallel experimental path; the
-default production model is the interpretable ResidualRiskModel.
+Canonical stages (Fragility 1: one auditable path to the manuscript):
+
+    load -> validate -> preprocess -> fit -> evaluate -> report   [this module]
+                                                          -> figure [make figures]
+
+`run_pipeline` covers load..report. Preprocess+fit are train-only and live inside
+`evaluate_model_suite` (compute-only; see docs/phase1_verification.md). The figure
+stage is plot-only and orchestrated by the Makefile, so the full record regenerates
+with a single command: `make all` (= run -> analysis -> figures).
+
+The default production model is the interpretable ResidualRiskModel. The neural
+MultiHeadSurvivalModel / OPSD heads are a parallel EXPERIMENTAL path (`make
+exploratory`), not part of this canonical path and not the headline claim.
 """
 from __future__ import annotations
 
@@ -24,10 +32,10 @@ def run_pipeline(config_path: str) -> dict:
     set_seed(cfg.seed)
     raw_cfg = cfg.to_dict()
 
-    # 1. endpoint + claim context
+    # endpoint + claim context
     endpoint = resolve_endpoint(raw_cfg)
 
-    # 2. data loading
+    # [load] data loading
     raw = load_modalities(
         clinical_path=cfg.paths.clinical,
         cytogenetics_path=cfg.paths.cytogenetics,
@@ -35,14 +43,15 @@ def run_pipeline(config_path: str) -> dict:
         program_activity_path=getattr(cfg.paths, "program_activity", None),
     )
 
-    # 3. contracts / leakage / provenance checks
+    # [validate] contracts / leakage / provenance checks
     validate_all_inputs(raw=raw, endpoint=endpoint, schema=raw_cfg["schema"],
                         output_dir=cfg.paths.outdir)
 
-    # 4-8. matched cohort, train-only preprocessing, residual-risk model, evaluation suite
+    # [preprocess + fit + evaluate] matched cohort, train-only preprocessing,
+    # residual-risk model, endpoint-correct evaluation suite (compute-only)
     results = evaluate_model_suite(raw_cfg)
 
-    # 9. endpoint-gated reports + cards
+    # [report] endpoint-gated reports + cards (write-only). [figure] -> `make figures`
     outdir = write_all_reports(raw_cfg, results)
 
     c = results["claim_report"]
