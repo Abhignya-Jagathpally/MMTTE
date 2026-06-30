@@ -1,0 +1,7 @@
+feature_set,brier_at_horizon,calibration_slope,calibration_in_the_large,horizon
+clinical,0.1481,0.9907,-0.0167,24.0
+clinical+RNA_PCA,0.1329,0.8633,-0.024,24.0
+clinical+miner3_programs,0.1547,0.7148,-0.0277,24.0
+clinical+cyto+RNA_PCA,0.1309,0.8598,-0.0301,24.0
+clinical+cyto+miner3_programs,0.1487,0.7017,-0.0269,24.0
+clinical+cyto+RNA_PCA+miner3_programs,0.1345,0.822,-0.0273,24.0

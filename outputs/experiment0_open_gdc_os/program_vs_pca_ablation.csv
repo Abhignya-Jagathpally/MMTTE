@@ -1,0 +1,7 @@
+feature_set,n_features,test_cindex,ci_low,ci_high,n_test,events_test
+clinical,7,0.723,0.6318,0.8139,182,38
+clinical+RNA_PCA,23,0.7827,0.7116,0.8441,182,38
+clinical+miner3_programs,23,0.6941,0.5932,0.7777,182,38
+clinical+cyto+RNA_PCA,31,0.7807,0.7141,0.8357,182,38
+clinical+cyto+miner3_programs,31,0.7086,0.6198,0.7839,182,38
+clinical+cyto+RNA_PCA+miner3_programs,47,0.7511,0.6756,0.8192,182,38

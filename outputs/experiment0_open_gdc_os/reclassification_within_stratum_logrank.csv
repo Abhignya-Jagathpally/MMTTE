@@ -1,0 +1,3 @@
+stratum,contrast,n_high,n_low,events_high,events_low,logrank_p
+clinical_low,molecular_high_vs_low,180,183,24,8,0.0015
+clinical_high,molecular_high_vs_low,183,180,76,44,0.0001

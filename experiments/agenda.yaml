@@ -25,7 +25,7 @@ experiments:
   - id: E1_program_vs_pca
     endpoint: open_gdc_os
     allowed_claim: technical_validation
-    status: ready           # both feature paths exist (program_activity vs omics PCA)
+    status: done            # see docs/experiment1_program_vs_pca.md (RNA PCA > miner3 programs on OS)
     question: "Do official miner3/mmSYGNAL program activities outperform RNA PCA on OS?"
     must_compare:
       - clinical+omics_pca

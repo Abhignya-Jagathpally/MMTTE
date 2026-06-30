@@ -70,16 +70,21 @@ def main():
             KaplanMeierFitter().fit(t[mask], e[mask], label=f"{lab} (n={int(mask.sum())})").plot_survival_function(ax=ax, ci_show=False, color=col)
     ax.set_title("C. OS within clinical-low stratum"); ax.set_xlabel("months"); ax.set_ylabel("survival")
 
-    # D. hazard ratios for reclassification groups
+    # D. WITHIN-STRATUM hazard ratios (molecular-high vs molecular-low) — corrects
+    #    the misleading "HR vs rest" comparison.
     ax = axes[1, 1]
-    o = out[out["hazard_ratio_vs_rest"].notna()].copy()
-    o = o.sort_values("hazard_ratio_vs_rest")
-    ax.barh(range(len(o)), o["hazard_ratio_vs_rest"], color=COLORS["model"], edgecolor="black", lw=0.4)
-    ax.set_yticks(range(len(o))); ax.set_yticklabels(o["group"], fontsize=7.5)
-    ax.axvline(1.0, color="gray", ls=":"); ax.set_xlabel("hazard ratio vs rest")
-    ax.set_title("D. Reclassification-group HRs (OS)")
-    for i, (_, r) in enumerate(o.iterrows()):
-        ax.text(r["hazard_ratio_vs_rest"], i, f" {r['hazard_ratio_vs_rest']:.2f} (p={r['logrank_p_vs_rest']:.1e})", va="center", fontsize=7)
+    ws = pd.read_csv(D / "reclassification_within_stratum_hr.csv")
+    ws = ws[ws["analysis"] == "within_stratum"].copy()
+    ax.axvline(1.0, color="gray", ls=":")
+    ax.errorbar(ws["HR"], range(len(ws)),
+                xerr=[ws["HR"] - ws["ci_low"], ws["ci_high"] - ws["HR"]],
+                fmt="o", color=COLORS["model"], capsize=4, ms=7)
+    ax.set_yticks(range(len(ws)))
+    ax.set_yticklabels([f"{s}: mol-high vs low" for s in ws["stratum"]], fontsize=8)
+    ax.set_xscale("log"); ax.set_xlabel("hazard ratio (within stratum)")
+    ax.set_title("D. Within-stratum HRs (molecular high vs low)")
+    for i, (_, r) in enumerate(ws.iterrows()):
+        ax.text(r["ci_high"] * 1.05, i, f"HR {r['HR']:.2f}, p={r['p']:.1e}", va="center", fontsize=7.5)
 
     fig.suptitle("Molecular residual-risk reclassification (open-GDC OS, hypothesis-generating)", fontsize=12)
     fig.tight_layout(rect=[0, 0, 1, 0.97])

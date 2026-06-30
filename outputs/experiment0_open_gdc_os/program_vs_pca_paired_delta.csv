@@ -1,0 +1,5 @@
+comparison,cindex_model_a,cindex_model_b,delta_cindex,delta_ci_low,delta_ci_high,p_bootstrap,claim
+clinical+miner3_programs_vs_clinical+RNA_PCA,0.6941,0.7827,-0.0886,-0.1432,-0.0373,0.9995,no_evidence_of_improvement
+clinical+cyto+miner3_programs_vs_clinical+cyto+RNA_PCA,0.7086,0.7807,-0.0721,-0.1218,-0.0197,0.998,no_evidence_of_improvement
+clinical+cyto+RNA_PCA+miner3_programs_vs_clinical+cyto+RNA_PCA,0.7511,0.7807,-0.0296,-0.0649,0.0063,0.941,no_evidence_of_improvement
+clinical+cyto+RNA_PCA+miner3_programs_vs_clinical+cyto+miner3_programs,0.7511,0.7086,0.0425,0.001,0.086,0.022,confirmed_improvement

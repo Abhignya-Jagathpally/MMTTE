@@ -1,0 +1,6 @@
+analysis,stratum,term,HR,ci_low,ci_high,p,n,events
+interaction_model,all,clinical_high,5.528,2.602,11.742,0.0,,
+interaction_model,all,molecular_high,3.356,1.507,7.473,0.003,,
+interaction_model,all,clin_x_mol,0.624,0.258,1.51,0.2957,,
+within_stratum,clinical_low,molecular_high_vs_low,3.393,1.523,7.56,0.0028,363.0,32.0
+within_stratum,clinical_high,molecular_high_vs_low,2.101,1.446,3.052,0.0001,363.0,120.0

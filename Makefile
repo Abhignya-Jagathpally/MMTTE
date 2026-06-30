@@ -32,8 +32,15 @@ run:
 residual-report:
 	$(PY) -m mm_tte_survival.cli residual-report --config configs/real_training.yaml
 
-figures:
+RSCRIPT ?= /home/aj0486@students.ad.unt.edu/micromamba/envs/rsygnal/bin/Rscript
+
+analysis:
+	$(PY) scripts/analysis/within_stratum_reclassification.py
+	$(PY) scripts/analysis/program_vs_pca_ablation.py
+
+figures: analysis
 	$(PY) scripts/figures/fig4_os_benchmark.py
+	$(RSCRIPT) scripts/figures/fig5_within_stratum.R
 	$(PY) scripts/figures/fig5_reclassification.py
 	$(PY) scripts/figures/sfig3_mmsygnal_program_validation.py
 	$(PY) scripts/figures/sfig4_repeated_split.py
