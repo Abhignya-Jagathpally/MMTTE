@@ -29,3 +29,7 @@ mm-tte-run = "mm_tte_survival.main:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["external", "outputs", "data", "venv", ".venv"]

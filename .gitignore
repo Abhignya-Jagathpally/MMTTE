@@ -20,3 +20,7 @@ dist/
 # Third-party model (GPL-3.0): cloned, not vendored
 external/mmSYGNAL-risk-prediction-models/
 outputs/benchmarks/mmSYGNAL/
+
+# mmSYGNAL-network-derived program activity (do not redistribute)
+data/real/mmsygnal_program_activity_0_140.csv
+external/miner3/

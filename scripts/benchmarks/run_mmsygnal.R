@@ -54,17 +54,19 @@ for (m in names(models)) {
   scores[[paste0("mmsygnal_", m, "_score")]] <- score_high(models[[m]], newdata)
 }
 
-# grade-based subtype selection (A > B > C); agnostic if no relevant subtype
+# grade-based subtype selection (A > B > C); agnostic if no relevant subtype.
+# Vectorised case_when (NOT apply, which coerces the row to character).
 if (!is.null(cyto) && "patient_id" %in% names(cyto)) {
   scores <- scores %>% left_join(cyto, by = "patient_id")
-  pick <- function(row) {
-    if (isTRUE(row[["t_4_14"]] == 1)) return(row[["mmsygnal_t_4_14_score"]])     # A
-    if (isTRUE(row[["amp1q"]]  == 1)) return(row[["mmsygnal_amp1q_score"]])      # B
-    if (isTRUE(row[["del13q"]] == 1)) return(row[["mmsygnal_del13_score"]])      # B
-    if (isTRUE(row[["del1p"]]  == 1)) return(row[["mmsygnal_del1p_score"]])      # B
-    return(row[["mmsygnal_agnostic_score"]])                                     # C
-  }
-  scores$mmsygnal_selected_score <- apply(scores, 1, pick)
+  pos <- function(col) if (col %in% names(scores)) !is.na(scores[[col]]) & scores[[col]] == 1 else rep(FALSE, nrow(scores))
+  scores <- scores %>%
+    mutate(mmsygnal_selected_score = dplyr::case_when(
+      pos("t_4_14") ~ mmsygnal_t_4_14_score,   # grade A
+      pos("amp1q")  ~ mmsygnal_amp1q_score,    # grade B
+      pos("del13q") ~ mmsygnal_del13_score,    # grade B
+      pos("del1p")  ~ mmsygnal_del1p_score,    # grade B
+      TRUE          ~ mmsygnal_agnostic_score  # grade C
+    ))
 } else {
   scores$mmsygnal_selected_score <- scores$mmsygnal_agnostic_score
 }
