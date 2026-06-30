@@ -1,5 +1,5 @@
 import torch
-from mm_tte_survival.losses import cox_ph_loss, lognormal_aft_loss, first_hitting_time_loss
+from mm_tte_survival.training.losses import cox_ph_loss, lognormal_aft_loss, first_hitting_time_loss
 from mm_tte_survival.metrics import harrell_c_index
 
 

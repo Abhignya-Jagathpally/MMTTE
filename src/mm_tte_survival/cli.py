@@ -38,6 +38,14 @@ def main(argv=None):
     )
     p_res.add_argument("--config", default="configs/real_training.yaml")
 
+    p_main = sub.add_parser("run", help="Run the full pipeline via main.run_pipeline")
+    p_main.add_argument("--config", default="configs/experiments/experiment0_open_gdc_os.yaml")
+
+    p_ext = sub.add_parser("external-validate",
+                           help="Train on one cohort, evaluate the frozen model on an external cohort")
+    p_ext.add_argument("--train-config", required=True)
+    p_ext.add_argument("--external-config", required=True)
+
     args = parser.parse_args(argv)
     if args.cmd == "make-demo-data":
         make_demo_data(args.out, args.n, args.p, args.seed)
@@ -58,6 +66,12 @@ def main(argv=None):
         cfg = load_config(args.config)
         res = run_residual_report(cfg)
         print(f"\nOutputs: {res['outdir']}")
+    elif args.cmd == "run":
+        from .main import run_pipeline
+        run_pipeline(args.config)
+    elif args.cmd == "external-validate":
+        from .evaluation.external import run_external_validation
+        run_external_validation(args.train_config, args.external_config)
 
 
 if __name__ == "__main__":

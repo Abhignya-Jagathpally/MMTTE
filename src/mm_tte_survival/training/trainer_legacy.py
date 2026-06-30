@@ -11,8 +11,8 @@ from torch import nn
 torch.set_num_threads(1)
 
 from .losses import cox_ph_loss, lognormal_aft_loss, first_hitting_time_loss, risk_from_output, soft_distillation_loss
-from .metrics import harrell_c_index, integrated_brier_proxy
-from .models import SurvivalMLP, make_ema_teacher, update_ema_teacher
+from ..metrics import harrell_c_index, integrated_brier_proxy
+from ..models import SurvivalMLP, make_ema_teacher, update_ema_teacher
 
 
 @dataclass

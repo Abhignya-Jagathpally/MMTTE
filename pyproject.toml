@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mm-tte-opisd"
-version = "0.1.0"
-description = "Cytogenetic subtype-aware multiple myeloma time-to-event modeling with Cox, AFT, first-hitting-time, and on-policy self-distillation."
+version = "0.2.0"
+description = "Endpoint-gated, cytogenetic subtype-aware multiple myeloma time-to-event modeling: clinical+molecular residual-risk decomposition with Cox/AFT/FHT and on-policy self-distillation."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -15,14 +15,17 @@ dependencies = [
   "scipy>=1.10",
   "torch>=2.0",
   "pyyaml>=6.0",
-  "matplotlib>=3.7"
+  "matplotlib>=3.7",
+  "lifelines>=0.30",
+  "pydantic>=2"
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8.0", "ruff>=0.5"]
+dev = ["pytest>=8.0", "ruff>=0.5", "build>=1.0"]
 
 [project.scripts]
 mm-tte = "mm_tte_survival.cli:main"
+mm-tte-run = "mm_tte_survival.main:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

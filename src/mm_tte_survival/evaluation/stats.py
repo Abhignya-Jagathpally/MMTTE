@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import numpy as np
 
-from .metrics import fast_c_index as harrell_c_index
+from ..metrics import fast_c_index as harrell_c_index
 
 
 # --------------------------------------------------------------------------- #

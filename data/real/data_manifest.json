@@ -1,0 +1,30 @@
+{
+  "source": "GDC MMRF-CoMMpass open access (Data Release 45.0)",
+  "tables": {
+    "clinical_survival.csv": {
+      "rows": 995,
+      "cols": 23,
+      "md5": "df53e7c85397"
+    },
+    "cytogenetics.csv": {
+      "rows": 908,
+      "cols": 9,
+      "md5": "34bbb6d4ac9b"
+    },
+    "omics.csv": {
+      "rows": 787,
+      "cols": 129,
+      "md5": "0de203e6cfb9"
+    },
+    "program_activity.csv": {
+      "rows": 787,
+      "cols": 11,
+      "md5": "cea5b9c118a3"
+    },
+    "cytogenetics_provenance.csv": {
+      "rows": 8,
+      "cols": 5,
+      "md5": "103c35ff5e12"
+    }
+  }
+}

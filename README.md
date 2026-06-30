@@ -39,10 +39,55 @@ Or:
 bash scripts/run_all.sh
 ```
 
+## Production entrypoint (v0.2 refactor)
+
+The clean high-level entrypoint is `mm_tte_survival.main.run_pipeline`:
+
+```bash
+python -m mm_tte_survival.main --config configs/experiments/experiment0_open_gdc_os.yaml
+# or:  mm-tte run --config configs/experiments/experiment0_open_gdc_os.yaml
+# or:  make experiment0
+```
+
+It resolves the endpoint, loads modalities, runs data contracts, builds the
+matched cohort, fits the first-class **ResidualRiskModel** (clinical Cox +
+molecular-residual Cox), runs the endpoint-correct evaluation suite (matched
+ablation, paired ΔC-index, repeated splits, calibration, DCA, NRI/IDI,
+reclassification outcomes), and writes endpoint-gated reports + model/claim/data
+cards. **OS endpoints cannot license relapse/PFS claims** (enforced in code and
+CI guardrails).
+
+### Layered package
+```
+src/mm_tte_survival/
+  main.py                 # high-level orchestrator
+  config/                 # loader + pydantic schema + set_seed
+  data/                   # loaders, contracts, cohort, splits, provenance
+  preprocessing/          # train-only impute/scale pipeline
+  features/               # clinical-residualization
+  models/                 # residual_risk (1st-class), encoder, heads, neural_survival
+  training/               # losses, distillation policy, trainers
+  evaluation/             # cindex/stats, paired_delta, calibration, dca, nri,
+                          #   claim_gate, evaluate_model_suite, external
+  reports/                # run_reports + model/claim/data cards + figures
+  utils/                  # seeds, io, logging
+```
+
 ## Configs
 
+- `configs/endpoints.yaml`: endpoint registry (gates which claims are allowed).
+- `configs/experiments/`: per-endpoint experiment configs (experiment0 = OS pilot).
+- `configs/features/`, `configs/models/`, `configs/reports/`: modular configs.
 - `configs/default.yaml`: fast smoke-test configuration.
-- `configs/real_training.yaml`: heavier real-data configuration; update paths after data access and audit.
+- `configs/real_training.yaml`: legacy heavy real-data config (still supported via
+  `mm-tte residual-report`).
+
+## External validation (interface ready)
+```bash
+mm-tte external-validate \
+  --train-config configs/experiments/experiment0_open_gdc_os.yaml \
+  --external-config configs/experiments/external_geo_or_gmmg.yaml
+```
 
 ## Expected outputs
 

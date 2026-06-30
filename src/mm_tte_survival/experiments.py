@@ -9,7 +9,7 @@ import torch
 from .config import ensure_outdir
 from .data import prepare_dataset
 from .metrics import harrell_c_index, bootstrap_ci
-from .train import fit_neural_survival, subtype_event_rate_baseline
+from .training.trainer_legacy import fit_neural_survival, subtype_event_rate_baseline
 
 
 def run_experiments(cfg: dict) -> dict:

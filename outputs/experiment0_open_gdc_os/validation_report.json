@@ -1,0 +1,63 @@
+{
+  "endpoint": "open_gdc_os",
+  "endpoint_type": "overall_survival",
+  "n_patients_clinical": 995,
+  "checks": [
+    {
+      "check": "clinical_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "patient_id_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "patient_id_unique",
+      "passed": true,
+      "detail": "0 duplicates"
+    },
+    {
+      "check": "patient_id_nonnull",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "time_positive",
+      "passed": true,
+      "detail": "0 non-positive / NaN times"
+    },
+    {
+      "check": "event_binary",
+      "passed": true,
+      "detail": "values=[np.int64(0), np.int64(1)]"
+    },
+    {
+      "check": "endpoint_declared",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "endpoint_type_valid",
+      "passed": true,
+      "detail": "overall_survival"
+    },
+    {
+      "check": "cytogenetics_provenance_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "omics_features_numeric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_outcome_leak_into_features",
+      "passed": true,
+      "detail": "leaking: []"
+    }
+  ],
+  "all_passed": true
+}

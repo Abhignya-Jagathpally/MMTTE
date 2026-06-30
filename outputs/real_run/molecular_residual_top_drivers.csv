@@ -1,16 +1,16 @@
-feature,coef,abs_coef,direction,abs_std_contribution,feature_kind,provenance,mapped_genes
-PC1,0.2818418611540555,0.2818418611540555,higher_risk,0.27213865789171027,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),MCM6;TUBB;TFDP1;MCM3;TMPO
-PC6,-0.20336073642673327,0.20336073642673327,lower_risk,0.19988770046334384,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),TMEM37;RAPGEF2;ANKRD28;TGFA;FAAH2
-PC3,0.20186191534990497,0.20186191534990497,higher_risk,0.19935340811100563,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),CCND2;GNG11;KIF21B;STAP1;SPN
-PC4,0.13894367959567752,0.13894367959567752,higher_risk,0.13810045444001437,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),HCK;LST1;P2RY13;HK3;MNDA
-PC14,0.13591919654785267,0.13591919654785267,higher_risk,0.13498947206200596,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),FOSB;DUSP1;PTGS2;NR4A2;RGS2
-PC8,0.12686471975222885,0.12686471975222885,higher_risk,0.1263734457391484,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),HERC6;MAF;STXBP6;STAT4;TACC1
-amp1q,0.1057747473659663,0.1057747473659663,higher_risk,0.10348739928137464,cytogenetic_call,CNV/RNA-surrogate cytogenetic call,
-PC10,-0.10169806368748825,0.10169806368748825,lower_risk,0.1005354501768284,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),CITED2;SLC17A9;QPRT;CERCAM;RBP1
-PC7,-0.09512616316044599,0.09512616316044599,lower_risk,0.09376016795240176,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),CD200;BTLA;NRG3;MGLL;LYPD6B
-PC11,0.08716933216472805,0.08716933216472805,higher_risk,0.08926501764016675,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),FRMD6;PLEKHO1;RAMP2;WNT10A;PLEK
-PC12,-0.07922018393683086,0.07922018393683086,lower_risk,0.078569858675562,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),XAF1;IFIT3;IFI6;SDC3;FABP5
-del1p,0.06490704281283712,0.06490704281283712,higher_risk,0.0671316584059065,cytogenetic_call,CNV/RNA-surrogate cytogenetic call,
-PC15,0.05424626069610851,0.05424626069610851,higher_risk,0.053711511823537714,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),RASA3;F12;DUSP4;TNFRSF18;NEIL1
-PC16,0.05397660270448734,0.05397660270448734,higher_risk,0.05298724672827753,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),OSR2;BNIP3;TMEM38A;MYO1G;RAB33A
-PC9,0.039196864737786406,0.039196864737786406,higher_risk,0.038803688719475975,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),SLC43A1;STOM;SHMT2;MLKL;ATP2B4
+feature,coef,abs_coef,direction,feature_kind,provenance,mapped_genes
+PC1,0.2818418611540555,0.2818418611540555,higher_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),MCM6;TUBB;TFDP1;MCM3;TMPO
+PC6,-0.20336073642673327,0.20336073642673327,lower_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),TMEM37;RAPGEF2;ANKRD28;TGFA;FAAH2
+PC3,0.20186191534990497,0.20186191534990497,higher_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),CCND2;GNG11;KIF21B;STAP1;SPN
+PC4,0.13894367959567752,0.13894367959567752,higher_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),HCK;LST1;P2RY13;HK3;MNDA
+PC14,0.13591919654785267,0.13591919654785267,higher_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),FOSB;DUSP1;PTGS2;NR4A2;RGS2
+PC8,0.12686471975222885,0.12686471975222885,higher_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),HERC6;MAF;STXBP6;STAT4;TACC1
+amp1q,0.1057747473659663,0.1057747473659663,higher_risk,cytogenetic_call,CNV/RNA-surrogate cytogenetic call,
+PC10,-0.10169806368748825,0.10169806368748825,lower_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),CITED2;SLC17A9;QPRT;CERCAM;RBP1
+PC7,-0.09512616316044599,0.09512616316044599,lower_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),CD200;BTLA;NRG3;MGLL;LYPD6B
+PC11,0.08716933216472805,0.08716933216472805,higher_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),FRMD6;PLEKHO1;RAMP2;WNT10A;PLEK
+PC12,-0.07922018393683086,0.07922018393683086,lower_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),XAF1;IFIT3;IFI6;SDC3;FABP5
+del1p,0.06490704281283712,0.06490704281283712,higher_risk,cytogenetic_call,CNV/RNA-surrogate cytogenetic call,
+PC15,0.05424626069610851,0.05424626069610851,higher_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),RASA3;F12;DUSP4;TNFRSF18;NEIL1
+PC16,0.05397660270448734,0.05397660270448734,higher_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),OSR2;BNIP3;TMEM38A;MYO1G;RAB33A
+PC9,0.039196864737786406,0.039196864737786406,higher_risk,rna_pca_loading_derived,RNA PC loading-derived (NOT a direct gene-level causal feature),SLC43A1;STOM;SHMT2;MLKL;ATP2B4

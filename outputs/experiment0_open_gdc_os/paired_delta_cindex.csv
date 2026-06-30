@@ -1,0 +1,7 @@
+comparison,cindex_model_a,cindex_model_b,delta_cindex,delta_ci_low,delta_ci_high,p_bootstrap,claim
+clinical+omics_vs_clinical,0.7827,0.723,0.0597,-0.0097,0.1364,0.0555,hypothesis_generating_improvement
+clinical+cyto+omics_vs_clinical,0.7807,0.723,0.0577,-0.022,0.1419,0.0785,hypothesis_generating_improvement
+clinical+cyto+omics_vs_clinical+cyto,0.7807,0.735,0.0457,-0.0133,0.1052,0.0625,hypothesis_generating_improvement
+clinical+programs_vs_clinical,0.7696,0.723,0.0466,-0.0343,0.1329,0.1375,hypothesis_generating_improvement
+clinical+cyto+programs_vs_clinical+cyto,0.766,0.735,0.031,-0.0369,0.0972,0.186,hypothesis_generating_improvement
+residual_total_vs_clinical,0.7841,0.723,0.061,-0.0186,0.1461,0.067,hypothesis_generating_improvement
