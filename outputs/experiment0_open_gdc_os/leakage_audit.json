@@ -1,10 +1,20 @@
 {
+  "one_row_per_patient": true,
+  "train_test_patient_disjoint": true,
+  "endpoint_columns_in_features": [],
+  "split_is_patient_aware": true,
   "imputer_fit_on": "train",
   "scaler_fit_on": "train",
-  "pca_fit_on": "train_or_precomputed",
   "orthogonalizer_fit_on": "train",
   "cox_fit_on": "train",
   "test_used_for_model_selection": false,
+  "omics_pca_in_fold": false,
+  "omics_pca_scope": "full_cohort_precomputed_offline",
+  "omics_pca_known_limitation": "Omics PCs are precomputed on the full RNA cohort (build_omics.py) and passed through; this is a mild unsupervised leak. The molecular C-index/IBS is optimistically biased until the PCA-in-fold path lands (Stage A). NOT hidden.",
   "split_strategy": "stratified_event",
-  "note": "Omics PCA fit once on full RNA cohort (unsupervised); all survival-model preprocessing is train-only. No test outcomes touch any coefficient."
+  "checks_enforced": [
+    "one_row_per_patient",
+    "train_test_patient_disjoint",
+    "no_endpoint_or_id_column_in_features"
+  ]
 }

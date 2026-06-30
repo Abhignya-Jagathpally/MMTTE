@@ -1,137 +1,101 @@
-# MM-TTE-OPSD
+# MM-TTE — a leak-proof, endpoint-gated survival benchmark for open MMRF-CoMMpass
 
-Clean repo for **cytogenetic subtype-aware time-to-event modeling in multiple myeloma**.
+A **reference-validated time-to-event framework** for multiple-myeloma **overall
+survival (OS)** on open data, plus a **pre-registered cross-axis ceiling result**:
+neither omics-PCA conditioning nor cytogenetic-**subtype** conditioning beats a
+pooled penalised model. The durable contribution is the *methodology and the honest
+negative*, not a subtype-aware model.
 
-The repo implements:
+> **Endpoint scope (binding).** The open GDC MMRF-CoMMpass cohort carries **OS only**
+> — there is no relapse/PFS. OS results **cannot** license any PFS/relapse claim
+> (enforced in the claim gate). This is **technical validation**, not a clinical tool.
+>
+> **Cytogenetics are sequencing-inferred, NOT FISH.** CNV subtypes (`amp1q, del1p,
+> del13q, del17p, hyperdiploid`) come from GDC copy-number segments; translocations
+> (`t_4_14, t_11_14, t_14_16`) are RNA-expression **surrogates**. No FISH exists for
+> the open cohort (MMRF seqFISH is controlled-access). See label validation below.
 
-- Cox proportional hazards neural baseline.
-- Log-normal accelerated failure time model.
-- Inverse-Gaussian first-hitting-time model.
-- On-policy self-distillation (OPSD) variants for Cox, AFT, and FHT.
-- Cytogenetic subtype-aware evaluation: `amp1q`, `del1p`, `del13q`, `del17p`, `t_4_14`, `t_11_14`, `hyperdiploid` by default.
-- Data audit gates to decide whether a dataset is usable for survival/TTE, subtype TTE, or multi-omic TTE.
-- Seurat pseudobulk and PLINK QC templates for real-data extension.
+## What this repo actually shows
 
-## Why this repo is intentionally narrower than ResistanceMap
+1. **Reference-validated survival losses.** Cox (Breslow), log-normal AFT, and
+   inverse-Gaussian first-hitting-time NLLs match scipy closed forms to ~1e-15 and
+   stay numerically live in the censored / overflow regimes
+   (`training/losses.py`, `tests/test_losses.py`, SFig loss-correctness).
+2. **A leak-proof, endpoint-gated benchmark.** Patient-disjoint event-stratified
+   splits, in-fold PCA with a fit manifest, an **executable leakage audit that fails
+   loud**, IPCW integrated Brier score, CNV-only primary labels, claim gating,
+   pre-registration + negative controls.
+3. **The honest model is pooled penalised Cox.** `clinical + omics(in-fold)`,
+   C≈0.74 (50 patient-disjoint splits); everything lands in/near the honest
+   open-data ceiling (~0.62–0.65 for MM-OS). Fig 1.
+4. **Subtype-awareness is a pre-registered NULL.** A neural subtype-conditioned model
+   improves rare-subtype calibration **no more than scrambled labels** (Stage D), and
+   a pooled neural model does **not** beat penalised Cox (Direction-2). Figs 2–3.
+5. **The labels are validated to the extent open data allows.** External real FISH
+   (GSE6477: del13, hyperdiploid), expression-cluster concordance (GSE19784:
+   translocations), internal cross-modality concordance, literature CNV-vs-FISH
+   concordance, and **robustness to realistic label noise** — so the null is not a
+   label-accuracy artifact. Fig 4. See `docs/subtype_label_validation.md`.
 
-The v12 branch is scientifically honest that it supports cell-line IC50 screening, not patient-level relapse/TTE forecasting. The v20/v19 line adds a better patient-survival-proxy pathway, but true longitudinal resistance-state modeling remains blocked unless real pre-event molecular follow-up snapshots are joined. This repo therefore claims only **TTE risk modeling** unless the data audit proves longitudinal molecular states exist.
+Full narrative: **`docs/contribution_and_results.md`** and the framing decision in
+**`docs/FRAMING_SUBTYPE_AWARE_NULL.md`**.
 
-## Quick start
+## Reproduce (canonical, corrected, leak-proof)
 
 ```bash
-cd mm_tte_opisd
-python -m venv .venv
-source .venv/bin/activate
-pip install -e .
+pip install -e ".[dev]"
+pytest -q                                   # 48 tests, incl. loss-correctness reference checks
 
-python -m mm_tte_survival.cli make-demo-data --out data/demo
-python -m mm_tte_survival.cli audit-data \
-  --clinical data/demo/clinical.csv \
-  --cytogenetics data/demo/cytogenetics.csv \
-  --omics data/demo/omics.csv \
-  --out outputs/demo_audit.json
-python -m mm_tte_survival.cli run-experiments --config configs/default.yaml
+# canonical model record (claim-gated):
+mm-tte run         --config configs/experiments/experiment0_open_gdc_os.yaml
+mm-tte rebaseline  --config configs/experiments/rebaseline_open_gdc_os.yaml   # leak-proof C/IBS
+
+# the pre-registered negative controls (the headline negative):
+mm-tte stage-d         # subtype biology vs regularization  -> NULL
+mm-tte regularization  # pooled neural vs penalised Cox      -> NULL
+
+# subtype-label validation (external real-FISH + concordance + label-noise):
+mm-tte validate-subtypes
+mm-tte label-noise
+mm-tte subtype-calibration   # characterization only (external survival replication unmeetable)
+
+# figures (300 dpi, plot-only) -> figures/final/:
+python scripts/figures/fig_ceiling_forest.py     # Fig 1 — discrimination ceiling
+python scripts/figures/fig_calibration.py        # Fig 2 — calibration (real S(τ), not sigmoid)
+python scripts/figures/fig_subtype_null.py       # Fig 3 — subtype-aware NULL
+python scripts/figures/fig_label_validation.py   # Fig 4 — label validation
+python scripts/figures/sfig_loss_correctness.py  # SFig — loss reference-equivalence
+python scripts/figures/sfig4_repeated_split.py   # SFig — repeated-split stability
 ```
 
-Or:
+`make all` runs the canonical path (`run → analysis → figures`); `make validation`
+runs the subtype-label validation stack. The raw GDC data is real and on disk; the
+build scripts (`scripts/realdata/`) regenerate it where access allows.
 
-```bash
-bash scripts/run_all.sh
-```
+## Layered package
 
-## Production entrypoint (v0.2 refactor)
-
-The clean high-level entrypoint is `mm_tte_survival.main.run_pipeline`:
-
-```bash
-python -m mm_tte_survival.main --config configs/experiments/experiment0_open_gdc_os.yaml
-# or:  mm-tte run --config configs/experiments/experiment0_open_gdc_os.yaml
-# or:  make experiment0
-```
-
-It resolves the endpoint, loads modalities, runs data contracts, builds the
-matched cohort, fits the first-class **ResidualRiskModel** (clinical Cox +
-molecular-residual Cox), runs the endpoint-correct evaluation suite (matched
-ablation, paired ΔC-index, repeated splits, calibration, DCA, NRI/IDI,
-reclassification outcomes), and writes endpoint-gated reports + model/claim/data
-cards. **OS endpoints cannot license relapse/PFS claims** (enforced in code and
-CI guardrails).
-
-### Layered package
 ```
 src/mm_tte_survival/
-  main.py                 # high-level orchestrator
-  config/                 # loader + pydantic schema + set_seed
-  data/                   # loaders, contracts, cohort, splits, provenance
-  preprocessing/          # train-only impute/scale pipeline
-  features/               # clinical-residualization
-  models/                 # residual_risk (1st-class), encoder, heads, neural_survival
-  training/               # losses, distillation policy, trainers
-  evaluation/             # cindex/stats, paired_delta, calibration, dca, nri,
-                          #   claim_gate, evaluate_model_suite, external
-  reports/                # run_reports + model/claim/data cards + figures
-  utils/                  # seeds, io, logging
+  main.py                 # canonical orchestrator (load->validate->preprocess->fit->evaluate->report)
+  config/ data/ preprocessing/ features/
+  models/                 # residual_risk (1st-class, pooled penalised Cox), heads, hierarchical (NULL arm)
+  training/               # losses (reference-validated), trainers
+  evaluation/             # cindex/stats, paired_delta, calibration, dca, nri, claim_gate, leakage audit
+  validation/             # external_geo, internal_concordance, label-noise, fish_ready (subtype-label trust)
+  reports/                # endpoint-gated model/claim/data cards
+experiments_{stageD,regularization,label_noise,calibration_subtype}.py   # pre-registered controls
 ```
 
-## Configs
+## Scientific guardrails (enforced)
 
-- `configs/endpoints.yaml`: endpoint registry (gates which claims are allowed).
-- `configs/experiments/`: per-endpoint experiment configs (experiment0 = OS pilot).
-- `configs/features/`, `configs/models/`, `configs/reports/`: modular configs.
-- `configs/default.yaml`: fast smoke-test configuration.
-- `configs/real_training.yaml`: legacy heavy real-data config (still supported via
-  `mm-tte residual-report`).
+1. **OS cannot license PFS/relapse claims** — claim gate, in code + CI.
+2. **No SOTA claim** — no comparison here establishes SOTA OS prediction.
+3. **No subtype-aware-biology claim** — Stage D + label-noise control show the
+   subtype heads capture regularization, not cytogenetic biology.
+4. **No FISH-subtype claim** — labels are sequencing-inferred; validated against FISH
+   only externally for del13/hyperdiploid; del1p and t(14;16) are most uncertain.
+5. **No synthetic data** — every value derives from real public data.
 
-## External validation (interface ready)
-```bash
-mm-tte external-validate \
-  --train-config configs/experiments/experiment0_open_gdc_os.yaml \
-  --external-config configs/experiments/external_geo_or_gmmg.yaml
-```
+## License
 
-## Expected outputs
-
-- `outputs/demo_audit.json` and `.md`: data usability gates.
-- `outputs/demo_run/leaderboard.csv`: model comparison on the same split.
-- `outputs/demo_run/per_subtype_metrics.csv`: cytogenetic subgroup results.
-- `outputs/demo_run/test_predictions.csv`: patient-level held-out predictions.
-- `outputs/demo_run/model_*.pt`: trained PyTorch checkpoints.
-- `outputs/demo_run/run_manifest.json`: split/event/feature manifest.
-
-## Required real-data schema
-
-Clinical survival table:
-
-```text
-patient_id,time_months,event,split,age,sex_M,iss_2,iss_3,riss_2,riss_3,line_of_therapy
-```
-
-Cytogenetic table:
-
-```text
-patient_id,amp1q,del1p,del13q,del17p,t_4_14,t_11_14,hyperdiploid
-```
-
-Omics/program table:
-
-```text
-patient_id,feature_1,feature_2,...
-```
-
-For mmSYGNAL/MINER, use program activities as the omics table, e.g. `program_0` through `program_140`.
-
-## Scientific guardrails
-
-1. **Do not call TT2L direct relapse**. It is a proxy endpoint unless independently validated against relapse/progression labels.
-2. **Do not call first-hitting-time models molecular trajectory models** unless repeated molecular states exist before event/censoring.
-3. **Do not claim SOTA from a demo run**. Use external validation, fixed splits, bootstrap CIs, leakage audit, and same-endpoint comparisons.
-4. **Do not compare incompatible metrics**. C-index, F1, MMD, enrichment p-values, and PFS hazard ratios answer different questions.
-
-## Real-data extension plan
-
-1. Pull CoMMpass/GDC open RNA + clinical tables where allowed.
-2. Add MMRF VLab/dbGaP controlled longitudinal molecular snapshots when authorized.
-3. Generate mmSYGNAL program activity or MOFA factors.
-4. Export single-cell pseudobulk features with `scripts/seurat/pseudobulk_mm.R` only after patient/time/event linkage is confirmed.
-5. Run this repo’s audit and then experiments.
-6. Promote a claim only if it passes patient-disjoint external validation.
+MIT — see [LICENSE](LICENSE).

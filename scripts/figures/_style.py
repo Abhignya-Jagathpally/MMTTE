@@ -28,11 +28,11 @@ def color_for(label: str) -> str:
     return COLORS["model"]
 
 
-def save(fig, stem: str):
+def save(fig, stem: str, dpi: int = 300):
     from pathlib import Path
     out = Path(__file__).resolve().parents[2] / "figures" / "final"
     out.mkdir(parents=True, exist_ok=True)
     for ext in ("pdf", "png"):
-        fig.savefig(out / f"{stem}.{ext}", dpi=200, bbox_inches="tight")
+        fig.savefig(out / f"{stem}.{ext}", dpi=dpi, bbox_inches="tight")
     plt.close(fig)
-    print(f"wrote figures/final/{stem}.pdf and .png")
+    print(f"wrote figures/final/{stem}.pdf and .png ({dpi} dpi)")

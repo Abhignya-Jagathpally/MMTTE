@@ -5,7 +5,7 @@
 - Primary biological claim allowed: **NO**
 - Relapse/PFS claim allowed: **NO**
 - External validation: **NO**
-- Omics increment: **SUGGESTIVE_NOT_CONFIRMED** (ΔC=+0.058, CI low -0.022)
+- Omics increment: **SUGGESTIVE_NOT_CONFIRMED** (ΔC=+0.069, CI low -0.033)
 - Evidence level: **technical_validation_only**
 - Clinical use: **no** · Research use: **yes**
 

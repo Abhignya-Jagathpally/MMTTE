@@ -30,3 +30,6 @@ data/real/gene_matrix.npz
 
 # Large external GEO series matrices (rebuildable via validation/external_geo.py fetch)
 data/external/
+
+# transient reproduction logs
+outputs/_repro_logs/

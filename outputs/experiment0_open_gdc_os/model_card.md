@@ -8,8 +8,8 @@ Research-only residual-risk estimation. Not validated for clinical deployment, p
 - Parallel experimental: MultiHeadSurvivalModel (encoder + Cox/AFT/FHT); OPSD optional & claim-gated.
 
 ## Performance (held-out, matched cohort)
-- clinical C=0.723; clinical+cyto+omics C=0.781
-- residual decomposition: clinical 0.723 / molecular_residual 0.655 / total 0.784
+- clinical C=0.658; clinical+cyto+omics C=0.727
+- residual decomposition: clinical 0.659 / molecular_residual 0.638 / total 0.737
 
 ## Limitations
 - Endpoint is OS, not PFS/relapse; wide CIs (small test); single cohort (no external validation).

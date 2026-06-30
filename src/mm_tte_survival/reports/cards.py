@@ -29,10 +29,11 @@ def write_data_card(outdir: Path, ep, df, groups, detail):
          f"- Matched cohort: **{len(df)}** patients (all modalities), test events {detail['test_events']}",
          f"- Endpoint: {ep.get('endpoint_type')} (OS — progression/PFS not in open GDC clinical)",
          f"- Clinical features: {len(groups['clinical'])} · cytogenetics: {len(groups['cyto'])} "
-         f"(CNV calls + RNA surrogates, see cytogenetics_provenance.csv) · omics PCs: {len(groups['omics'])} "
+         f"(SEQUENCING-INFERRED, NOT FISH; see cytogenetics_provenance.csv) · omics PCs: {len(groups['omics'])} "
          f"· programs: {len(groups['programs'])}",
-         "- Provenance: amp1q/del1p/del13q/del17p/hyperdiploid = WGS CNV; "
-         "t(4;14)/t(11;14)/t(14;16) = RNA expression surrogates (NOT FISH).",
+         "- Provenance (all sequencing-inferred, NOT FISH): amp1q/del1p/del13q/del17p/hyperdiploid = "
+         "GDC copy-number segments; t(4;14)/t(11;14)/t(14;16) = RNA expression surrogates. "
+         "Externally FISH-validated only for del13/hyperdiploid (GSE6477); see docs/subtype_label_validation.md.",
          "- Preprocessing: train-only impute/scale; omics PCA unsupervised on full RNA cohort.",
          "- Splits: stratified-by-event, patient-disjoint."]
     (outdir / "data_card.md").write_text("\n".join(L) + "\n")

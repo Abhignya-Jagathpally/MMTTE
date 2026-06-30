@@ -9,6 +9,6 @@
 | external_validation_available | **NO** |
 
 - evidence_level: **technical_validation_only**
-- omics paired ΔC: +0.058 (CI low -0.022)
+- omics paired ΔC: +0.069 (CI low -0.033)
 
 An OS endpoint cannot license a relapse/PFS or primary biological claim.

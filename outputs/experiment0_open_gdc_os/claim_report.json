@@ -14,10 +14,10 @@
     "matched_n": 726,
     "test_events": 38,
     "analysis_type": "scientific_matched_cohort",
-    "clinical_cindex": 0.723,
-    "full_cindex": 0.7807,
-    "omics_paired_delta": 0.0577,
-    "omics_paired_delta_ci_low": -0.022,
-    "molecular_residual_test_cindex": 0.6554
+    "clinical_cindex": 0.6585,
+    "full_cindex": 0.7274,
+    "omics_paired_delta": 0.0688,
+    "omics_paired_delta_ci_low": -0.0334,
+    "molecular_residual_test_cindex": 0.6382
   }
 }

@@ -1,7 +1,7 @@
 feature_set,n_features,test_cindex,ci_low,ci_high,n_patients,n_test,events_test,analysis_type
-clinical,7,0.723,0.6318,0.8139,726,182,38,scientific_matched_cohort
-clinical+cytogenetics,15,0.735,0.6569,0.8085,726,182,38,scientific_matched_cohort
-clinical+omics,23,0.7827,0.7116,0.8441,726,182,38,scientific_matched_cohort
-clinical+cytogenetics+omics,31,0.7807,0.7141,0.8357,726,182,38,scientific_matched_cohort
-clinical+programs,17,0.7696,0.6819,0.8446,726,182,38,scientific_matched_cohort
-clinical+cytogenetics+programs,25,0.766,0.6804,0.8402,726,182,38,scientific_matched_cohort
+clinical,7,0.6585,0.5687,0.7594,726,182,38,scientific_matched_cohort
+clinical+cytogenetics,15,0.6923,0.6099,0.7806,726,182,38,scientific_matched_cohort
+clinical+omics,23,0.7342,0.6424,0.8253,726,182,38,scientific_matched_cohort
+clinical+cytogenetics+omics,31,0.7274,0.6291,0.8207,726,182,38,scientific_matched_cohort
+clinical+programs,17,0.7221,0.6334,0.8154,726,182,38,scientific_matched_cohort
+clinical+cytogenetics+programs,25,0.723,0.6315,0.8187,726,182,38,scientific_matched_cohort

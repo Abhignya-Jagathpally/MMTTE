@@ -1,9 +1,9 @@
 {
-  "n_reclassified_by_omics": 284,
+  "n_reclassified_by_omics": 276,
   "n_reclassified_up": 135,
-  "n_reclassified_down": 149,
-  "n_clinical_standard_but_molecular_high": 156,
-  "n_cytogenetic_highrisk_but_molecular_lower": 122,
+  "n_reclassified_down": 141,
+  "n_clinical_standard_but_molecular_high": 161,
+  "n_cytogenetic_highrisk_but_molecular_lower": 120,
   "n_cytogenetic_highrisk_total": 364,
   "note": "Reclassification matters only if outcomes differ; see mmrf_reclassification_outcomes.csv."
 }

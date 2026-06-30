@@ -1,5 +1,5 @@
 feature_set,n_splits,mean_cindex,sd_cindex,ci_low,ci_high
-clinical+omics,50,0.7327,0.0382,0.6663,0.8021
-clinical+cytogenetics+omics,50,0.7297,0.037,0.6613,0.7942
-clinical+cytogenetics,50,0.6974,0.0335,0.6226,0.7475
-clinical,50,0.6732,0.0419,0.5873,0.7367
+clinical+omics,50,0.744,0.035,0.6862,0.814
+clinical+cytogenetics+omics,50,0.739,0.0343,0.6865,0.8064
+clinical+cytogenetics,50,0.7052,0.0353,0.6529,0.7681
+clinical,50,0.6892,0.0393,0.6267,0.7646
