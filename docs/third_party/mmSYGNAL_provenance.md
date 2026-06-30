@@ -32,6 +32,25 @@ Risk thresholds: <0.5 low, [0.5,0.6) high, >=0.6 extreme.
   distribution). Reproducibility is provided via the SHA256 manifest at
   outputs/benchmarks/mmSYGNAL/model_artifact_manifest.csv.
 
+## Program-activity generation is NOT reproducible from this repo (investigated)
+A source audit of the cloned repo (commit 6017dd8d) confirms the exact upstream
+program-activity construction is **not present here**:
+- `generateProgramActivity` is referenced only in `code/utilities.R` comments — it
+  is **not defined** anywhere in the repo.
+- `utilities.R` *reads* pre-computed program/regulon activity from an external
+  `MINER/` path (the miner3 Python pipeline output); it does not compute it.
+- `README.md` step 2 directs users to apply mmSYGNAL per *Wall et al., Precision
+  Oncology 2021* to generate program activity.
+- The canonical definitions ship here (`regulons.json` = 3203 regulons → ENSG
+  gene lists; `transcriptional_programs.json` = 141 programs → regulon-id lists),
+  but the sample-level over/under-expression membership + cohort "minernorm"
+  scoring the glmnet models were trained against is implemented upstream (miner3).
+
+Decision: `scripts/benchmarks/build_mmsygnal_program_activity.R` is a **fail-closed
+scaffold** that refuses to emit approximate activity. The direct mmSYGNAL
+comparison stays **BLOCKED** until upstream-compatible 141-program activity is
+generated via miner3/mmSYGNAL.
+
 ## IMPORTANT — program-activity prerequisite
 mmSYGNAL requires the 141-program activity matrix produced by the mmSYGNAL/MINER
 inference pipeline (Wall et al., Precision Oncology 2021) applied to the patient

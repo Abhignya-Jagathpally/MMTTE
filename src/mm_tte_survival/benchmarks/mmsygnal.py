@@ -49,12 +49,12 @@ def merge_mmsygnal_scores(cohort: pd.DataFrame, scores: pd.DataFrame) -> pd.Data
 
 
 def _has_real_program_activity(path: Path) -> bool:
-    """True only if the file carries the 141 mmSYGNAL program columns (0..140)."""
-    if not path.exists():
-        return False
-    cols = set(pd.read_csv(path, nrows=1).columns)
-    norm = {c.replace("program_", "").replace("X", "") for c in cols}
-    return set(PROGRAM_COLS).issubset(norm)
+    """True only if the file is a valid mmSYGNAL 141-program activity matrix.
+
+    Delegates to the strict schema validator so RNA PCs and the 10-signature
+    program_activity.csv are rejected (they lack columns 0..140)."""
+    from .mmsygnal_schema import is_valid_mmsygnal_program_activity
+    return is_valid_mmsygnal_program_activity(path)
 
 
 def run_mmsygnal_benchmark(cfg: dict, bench_cfg: dict) -> dict:
