@@ -63,6 +63,10 @@ def main(argv=None):
                                           "(real vs permuted vs random labels, lambda controls)")
     p_sd.add_argument("--config", default="configs/experiments/stageD_open_gdc_os.yaml")
 
+    p_reg = sub.add_parser("regularization", help="Direction-2: pooled neural vs pooled penalised Cox "
+                                                  "vs independent Cox (per-subtype IBS)")
+    p_reg.add_argument("--config", default="configs/experiments/regularization_open_gdc_os.yaml")
+
     args = parser.parse_args(argv)
     if args.cmd == "make-demo-data":
         make_demo_data(args.out, args.n, args.p, args.seed)
@@ -110,6 +114,13 @@ def main(argv=None):
         from .experiments_stageD import run_stage_d
         cfg = load_config(args.config)
         res = run_stage_d(cfg)
+        print(res["summary"].to_string(index=False))
+        print("\nDECISION:", res["decision"]["verdict"])
+        print(f"Outputs: {res['outdir']}")
+    elif args.cmd == "regularization":
+        from .experiments_regularization import run_regularization
+        cfg = load_config(args.config)
+        res = run_regularization(cfg)
         print(res["summary"].to_string(index=False))
         print("\nDECISION:", res["decision"]["verdict"])
         print(f"Outputs: {res['outdir']}")

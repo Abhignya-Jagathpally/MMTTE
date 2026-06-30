@@ -1,0 +1,16 @@
+subtype,model,n_folds,mean_test_n,mean_ibs,mean_cindex
+amp1q,independent_cox,5,67.0,0.1398,0.757
+amp1q,pooled_cox,5,67.0,0.1432,0.7694
+amp1q,pooled_neural,5,67.0,0.158,0.7316
+del13q,independent_cox,5,94.8,0.1524,0.7296
+del13q,pooled_cox,5,94.8,0.1429,0.7536
+del13q,pooled_neural,5,94.8,0.161,0.7294
+del17p,independent_cox,5,23.4,0.1677,0.6976
+del17p,pooled_cox,5,23.4,0.1504,0.7264
+del17p,pooled_neural,5,23.4,0.1687,0.6752
+del1p,independent_cox,4,27.5,0.1553,0.649
+del1p,pooled_cox,4,27.5,0.1663,0.6275
+del1p,pooled_neural,4,27.5,0.1756,0.6073
+hyperdiploid,independent_cox,5,113.4,0.1329,0.7174
+hyperdiploid,pooled_cox,5,113.4,0.1283,0.7402
+hyperdiploid,pooled_neural,5,113.4,0.1381,0.7022
