@@ -2,9 +2,20 @@
 from __future__ import annotations
 
 from pathlib import Path
+import numpy as np
 import pandas as pd
 
-MAX_OMICS_PCS = 16
+DEFAULT_MAX_OMICS_FEATURES = 16   # default only; override via features.max_omics_features (swept)
+
+
+def build_membership_matrix(df: pd.DataFrame, subtype_cols: list[str]) -> np.ndarray:
+    """Multi-label cytogenetic membership m in {0,1}^S (NaN/<=0 -> 0). A patient
+    may belong to several subtypes; none is forced. Rows with no called
+    abnormality are all-zero (pure-agnostic fallback in HSS)."""
+    if not subtype_cols:
+        return np.zeros((len(df), 0), dtype="float32")
+    M = df[subtype_cols].apply(pd.to_numeric, errors="coerce").fillna(0).values
+    return (M > 0).astype("float32")
 
 
 def _load_tables(cfg: dict):
@@ -25,6 +36,7 @@ def build_matched_cohort(cfg: dict):
     downstream model is compared on the same patients (scientific matched cohort)."""
     schema = cfg["schema"]
     time_col = schema["time_col"]
+    max_omics = int(cfg.get("features", {}).get("max_omics_features", DEFAULT_MAX_OMICS_FEATURES))
     clin, cyto, omics, prog = _load_tables(cfg)
     clinical_cols = [c for c in schema.get("clinical_cols", []) if c in clin.columns]
     df = clin.copy()
@@ -39,7 +51,7 @@ def build_matched_cohort(cfg: dict):
         pc_cols = [c for c in omics.columns if c.startswith("PC")]
         cand = pc_cols or [c for c in omics.columns
                            if c != "patient_id" and pd.api.types.is_numeric_dtype(omics[c])]
-        omics_cols = cand[:MAX_OMICS_PCS]
+        omics_cols = cand[:max_omics]
         df = df.merge(omics[["patient_id"] + omics_cols], on="patient_id", how="left")
 
     prog_cols = []

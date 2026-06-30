@@ -11,7 +11,7 @@ from torch import nn
 torch.set_num_threads(1)
 
 from .losses import cox_ph_loss, lognormal_aft_loss, first_hitting_time_loss, risk_from_output, soft_distillation_loss
-from ..metrics import harrell_c_index, integrated_brier_proxy
+from ..metrics import harrell_c_index, risk_event_proxy_at_horizon
 from ..models import SurvivalMLP, make_ema_teacher, update_ema_teacher
 
 
@@ -23,7 +23,7 @@ class FitResult:
     risk_val: np.ndarray
     cindex_val: float
     cindex_test: float
-    ibs_proxy_test: float
+    risk_event_proxy_at_horizon: float
     history: list[dict]
 
 
@@ -82,7 +82,7 @@ def fit_neural_survival(bundle, model_type: str, cfg: dict) -> FitResult:
                 if torch.std(teach_risk, unbiased=False) > 1e-6:
                     ramp = min(1.0, float(epoch - start + 1) / float(ramp_epochs))
                     w = float(tr.get("distill_weight", 0.05)) * ramp
-                    distill = soft_distillation_loss(stud_risk, teach_risk, float(tr.get("temperature", 2.0)))
+                    distill = soft_distillation_loss(stud_risk, teach_risk)  # temperature was a no-op; removed
                     loss = supervised + w * distill
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), 5.0)
@@ -90,19 +90,18 @@ def fit_neural_survival(bundle, model_type: str, cfg: dict) -> FitResult:
         if use_distill and teacher is not None:
             update_ema_teacher(model, teacher, float(tr.get("ema_decay", 0.97)))
 
+        # selection + logging on VALIDATION ONLY. The test set is scored exactly
+        # once, after the model is locked (below) — no per-epoch test peeking.
         model.eval()
         with torch.no_grad():
             rv = risk_from_output(base_type, model(xv)).cpu().numpy()
-            rt = risk_from_output(base_type, model(xt)).cpu().numpy()
         cv = harrell_c_index(bundle.t_val, bundle.e_val, rv)
-        ct = harrell_c_index(bundle.t_test, bundle.e_test, rt)
         history.append({
             "epoch": epoch,
             "loss": float(loss.detach().cpu()),
             "supervised_loss": float(supervised.detach().cpu()),
             "distill_loss": float(distill.detach().cpu()),
             "val_cindex": float(cv),
-            "test_cindex_shadow": float(ct),
         })
         if np.isfinite(cv) and cv > best_val:
             best_val = cv
@@ -124,7 +123,7 @@ def fit_neural_survival(bundle, model_type: str, cfg: dict) -> FitResult:
         risk_val=rv,
         cindex_val=harrell_c_index(bundle.t_val, bundle.e_val, rv),
         cindex_test=harrell_c_index(bundle.t_test, bundle.e_test, rt),
-        ibs_proxy_test=integrated_brier_proxy(bundle.t_test, bundle.e_test, rt),
+        risk_event_proxy_at_horizon=risk_event_proxy_at_horizon(bundle.t_test, bundle.e_test, rt),
         history=history,
     )
 
@@ -152,4 +151,4 @@ def subtype_event_rate_baseline(bundle) -> FitResult:
         model_type="subtype_event_rate", model=None, risk_val=rv, risk_test=rt,
         cindex_val=harrell_c_index(bundle.t_val, bundle.e_val, rv),
         cindex_test=harrell_c_index(bundle.t_test, bundle.e_test, rt),
-        ibs_proxy_test=integrated_brier_proxy(bundle.t_test, bundle.e_test, rt), history=[])
+        risk_event_proxy_at_horizon=risk_event_proxy_at_horizon(bundle.t_test, bundle.e_test, rt), history=[])

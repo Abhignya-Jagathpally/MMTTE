@@ -17,7 +17,7 @@ from ..metrics import fast_c_index as cidx
 from ..endpoints import resolve_endpoint
 from ..models.residual_risk import ResidualRiskModel
 from ..data.cohort import build_matched_cohort
-from ..data.splits import stratified_event_split
+from ..data.splits import stratified_event_split, assert_one_row_per_patient, assert_patient_disjoint
 from .stats import (paired_delta_cindex, calibration_metrics, decision_curve,
                     nri_idi, _km_event_prob)
 from .claim_gate import build_claim_report
@@ -254,6 +254,42 @@ def _usefulness_outcomes(df, groups, decomp, time_col, event_col, horizon):
     return summary, pd.DataFrame(rows), d2
 
 
+def _audit_leakage(df, tm, cfg: dict, groups: dict, time_col: str, event_col: str) -> dict:
+    """A REAL leakage check that FAILS LOUDLY (replaces the old hardcoded dict of
+    assertions that verified nothing). Each check below either holds or raises.
+    """
+    ids = df["patient_id"].astype(str).values
+    assert_one_row_per_patient(ids)                       # raises on duplicates
+    split = np.where(tm.values, "train", "test")
+    assert_patient_disjoint(ids, split)                   # raises on train/test overlap
+
+    # No endpoint (time/event) or id column may appear among the model features.
+    feature_cols = set(groups["clinical"]) | set(groups["cyto"]) | set(groups["omics"]) | set(groups["programs"])
+    leaked = feature_cols & {time_col, event_col, "patient_id", "split"}
+    if leaked:
+        raise AssertionError(f"LEAKAGE: endpoint/id column(s) {sorted(leaked)} present in feature matrix")
+
+    pc_like = any(str(c).upper().startswith("PC") for c in df.columns)
+    return {
+        "one_row_per_patient": True,                      # asserted above
+        "train_test_patient_disjoint": True,              # asserted above
+        "endpoint_columns_in_features": sorted(leaked),   # asserted empty above
+        "split_is_patient_aware": True,                   # stratified_event_split delegates to patient split
+        "imputer_fit_on": "train", "scaler_fit_on": "train",
+        "orthogonalizer_fit_on": "train", "cox_fit_on": "train",
+        "test_used_for_model_selection": False,
+        "omics_pca_in_fold": False,
+        "omics_pca_scope": ("full_cohort_precomputed_offline" if pc_like else "n/a"),
+        "omics_pca_known_limitation": (
+            "Omics PCs are precomputed on the full RNA cohort (build_omics.py) and passed "
+            "through; this is a mild unsupervised leak. The molecular C-index/IBS is "
+            "optimistically biased until the PCA-in-fold path lands (Stage A). NOT hidden." if pc_like else None),
+        "split_strategy": cfg.get("splitting", {}).get("strategy", "stratified_event"),
+        "checks_enforced": ["one_row_per_patient", "train_test_patient_disjoint",
+                            "no_endpoint_or_id_column_in_features"],
+    }
+
+
 def evaluate_model_suite(cfg: dict) -> dict:
     schema = cfg["schema"]
     time_col, event_col = schema["time_col"], schema["event_col"]
@@ -288,11 +324,7 @@ def evaluate_model_suite(cfg: dict) -> dict:
               "molecular_residual_test_cindex": round(diag["molecular_residual_risk"], 4)}
     claim = build_claim_report(endpoint_spec, omics_delta=kd, omics_delta_ci_low=kci,
                                external_validation_available=external_val, detail=detail)
-    leakage = {"imputer_fit_on": "train", "scaler_fit_on": "train", "pca_fit_on": "train_or_precomputed",
-               "orthogonalizer_fit_on": "train", "cox_fit_on": "train", "test_used_for_model_selection": False,
-               "split_strategy": cfg.get("splitting", {}).get("strategy", "stratified_event"),
-               "note": "Omics PCA fit once on full RNA cohort (unsupervised); all survival-model "
-                       "preprocessing is train-only. No test outcomes touch any coefficient."}
+    leakage = _audit_leakage(df, tm, cfg, groups, time_col, event_col)
 
     return {"endpoint_spec": endpoint_spec, "cohort_df": df, "groups": groups,
             "ablation": ablation, "paired_deltas": deltas, "decomposition": decomp,

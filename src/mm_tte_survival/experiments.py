@@ -30,7 +30,7 @@ def run_experiments(cfg: dict) -> dict:
             "test_cindex": res.cindex_test,
             "test_cindex_ci_low": lo,
             "test_cindex_ci_high": hi,
-            "ibs_proxy_test": res.ibs_proxy_test,
+            "risk_event_proxy_at_horizon": res.risk_event_proxy_at_horizon,
             "n_test": len(bundle.t_test),
             "events_test": int(np.sum(bundle.e_test)),
         })

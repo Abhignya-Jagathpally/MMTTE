@@ -51,6 +51,10 @@ def main(argv=None):
     p_bench.add_argument("--config", default="configs/experiments/experiment0_open_gdc_os.yaml")
     p_bench.add_argument("--benchmark-config", default="configs/benchmarks/mmsygnal.yaml")
 
+    p_hss = sub.add_parser("hss", help="Hierarchical Subtype Survival: {independent, pooled, HSS} "
+                                       "per-subtype IPCW-IBS on repeated patient-disjoint folds")
+    p_hss.add_argument("--config", default="configs/experiments/hss_open_gdc_os.yaml")
+
     args = parser.parse_args(argv)
     if args.cmd == "make-demo-data":
         make_demo_data(args.out, args.n, args.p, args.seed)
@@ -82,6 +86,12 @@ def main(argv=None):
         cfg = load_config(args.config)
         bench_cfg = load_config(args.benchmark_config)
         run_mmsygnal_benchmark(cfg, bench_cfg)
+    elif args.cmd == "hss":
+        from .experiments_hss import run_hss_experiment
+        cfg = load_config(args.config)
+        res = run_hss_experiment(cfg)
+        print(res["summary"].to_string(index=False))
+        print(f"\nOutputs: {res['outdir']}")
 
 
 if __name__ == "__main__":

@@ -62,12 +62,13 @@ def bootstrap_ci(time, event, risk, n_boot: int = 250, seed: int = 42, alpha: fl
     return (float(np.quantile(vals, alpha / 2)), float(np.quantile(vals, 1 - alpha / 2)))
 
 
-def integrated_brier_proxy(time, event, risk) -> float:
-    """A lightweight risk-ranking Brier proxy.
+def risk_event_proxy_at_horizon(time, event, risk) -> float:
+    """A lightweight risk-ranking proxy at the median horizon — NOT a Brier score.
 
-    This is not a full IPCW integrated Brier score; it is included only as a
-    smoke-test metric when scikit-survival is unavailable. Use scikit-survival
-    or riskRegression for publication-grade IBS.
+    It is sigmoid(standardized risk) vs event-by-median-horizon. The risk score is
+    not a probability, so this must never be labelled IBS. For a real (IPCW)
+    integrated Brier score use `mm_tte_survival.survival_curves.ipcw_ibs`
+    (scikit-survival). Retained only as a cheap smoke metric.
     """
     t = np.asarray(time, dtype=float)
     e = np.asarray(event, dtype=float)

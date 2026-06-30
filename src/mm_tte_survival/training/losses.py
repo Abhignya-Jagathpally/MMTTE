@@ -76,13 +76,39 @@ def risk_from_output(model_type: str, output: Tensor) -> Tensor:
     return -output[:, 0].reshape(-1)
 
 
-def soft_distillation_loss(student_risk: Tensor, teacher_risk: Tensor, temperature: float = 2.0) -> Tensor:
-    """MSE on standardized risk logits from an EMA on-policy teacher."""
-    s = student_risk / temperature
-    t = teacher_risk.detach() / temperature
-    s = (s - s.mean()) / (s.std(unbiased=False) + 1e-6)
+def soft_distillation_loss(student_risk: Tensor, teacher_risk: Tensor) -> Tensor:
+    """MSE on standardized risk logits from an on-policy teacher.
+
+    NOTE: a former `temperature` argument was a no-op — dividing by T and then
+    z-standardizing cancels T exactly. It has been removed. This loss transfers
+    only the risk *ranking*; prefer `survival_curve_distill` to transfer the
+    calibrated survival distribution.
+    """
+    s = (student_risk - student_risk.mean()) / (student_risk.std(unbiased=False) + 1e-6)
+    t = teacher_risk.detach()
     t = (t - t.mean()) / (t.std(unbiased=False) + 1e-6)
     return torch.mean((s - t) ** 2)
+
+
+def cox_survival_curve(eta: Tensor, H_grid: Tensor) -> Tensor:
+    """Differentiable S(tau|x) = exp(-H0(tau) exp(eta)) for a Cox head.
+
+    eta: (n,) linear predictor; H_grid: (T,) detached Breslow baseline at the grid
+    times. Returns (n, T). H_grid is treated as a constant (detached) so gradients
+    flow only through eta — this is the standard curve-distillation surrogate.
+    """
+    return torch.exp(-torch.exp(eta).unsqueeze(1) * H_grid.unsqueeze(0))
+
+
+def survival_curve_distill(s_student: Tensor, s_teacher: Tensor) -> Tensor:
+    """Distributional self-distillation for censored survival.
+
+    Squared difference between the student's and the (detached) teacher's
+    predicted survival curves S(tau). Unlike `soft_distillation_loss` (ranking
+    only), this transfers the calibrated risk — the under-explored target that
+    should move IBS / D-calibration where global discrimination is ceilinged.
+    """
+    return torch.mean((s_student - s_teacher.detach()) ** 2)
 
 
 def partial_multivariate_logrank_loss(group_probs: Tensor, time: Tensor, event: Tensor) -> Tensor:
