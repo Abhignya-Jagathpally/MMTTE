@@ -7,6 +7,12 @@ import pandas as pd
 
 DEFAULT_MAX_OMICS_FEATURES = 16   # default only; override via features.max_omics_features (swept)
 
+# Subtype labels. PRIMARY HSS membership uses CNV-derived calls only (leak-free).
+# The 3 translocation labels are RNA-expression surrogates thresholded on
+# full-cohort quantiles -> a mild label leak; they are sensitivity/diagnostic only.
+CNV_SUBTYPES = ["amp1q", "del1p", "del13q", "del17p", "hyperdiploid"]
+RNA_SURROGATE_SUBTYPES = ["t_4_14", "t_11_14", "t_14_16"]
+
 
 def build_membership_matrix(df: pd.DataFrame, subtype_cols: list[str]) -> np.ndarray:
     """Multi-label cytogenetic membership m in {0,1}^S (NaN/<=0 -> 0). A patient

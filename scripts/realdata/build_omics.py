@@ -2,6 +2,14 @@
 """Step 3b: build omics.csv (PC1..PC128) from real STAR gene-counts, and add
 expression-surrogate IGH-translocation calls to cytogenetics.csv.
 
+LEGACY / DIAGNOSTIC ONLY (leakage-risk): the PCA below is fit on the FULL cohort,
+so omics.csv PCs leak test information. They are retained only as a labeled
+diagnostic comparison. The leak-free path is data/gene_expression.build_gene_matrix
+(scripts/realdata/build_gene_matrix.py) + data/omics_pca.OmicsInFoldPCA, which fits
+gene-selection + scaling + PCA INSIDE each train fold. Likewise the t(*) surrogates
+here are thresholded on full-cohort quantiles -> excluded from primary HSS membership
+(see cohort.CNV_SUBTYPES).
+
 Pipeline:
   1. Parse each STAR tsv -> protein-coding tpm_unstranded vector.
   2. Assemble patient x gene log2(TPM+1) matrix.

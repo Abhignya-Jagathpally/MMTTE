@@ -55,6 +55,10 @@ def main(argv=None):
                                        "per-subtype IPCW-IBS on repeated patient-disjoint folds")
     p_hss.add_argument("--config", default="configs/experiments/hss_open_gdc_os.yaml")
 
+    p_reb = sub.add_parser("rebaseline", help="Stage-A leak-proof Experiment-0 re-baseline "
+                                              "(in-fold PCA vs precomputed-PCA leak delta)")
+    p_reb.add_argument("--config", default="configs/experiments/rebaseline_open_gdc_os.yaml")
+
     args = parser.parse_args(argv)
     if args.cmd == "make-demo-data":
         make_demo_data(args.out, args.n, args.p, args.seed)
@@ -91,6 +95,12 @@ def main(argv=None):
         cfg = load_config(args.config)
         res = run_hss_experiment(cfg)
         print(res["summary"].to_string(index=False))
+        print(f"\nOutputs: {res['outdir']}")
+    elif args.cmd == "rebaseline":
+        from .experiments_rebaseline import run_rebaseline
+        cfg = load_config(args.config)
+        res = run_rebaseline(cfg)
+        print(res["leak_delta"].to_string(index=False))
         print(f"\nOutputs: {res['outdir']}")
 
 

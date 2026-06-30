@@ -24,3 +24,6 @@ outputs/benchmarks/mmSYGNAL/
 # mmSYGNAL-network-derived program activity (do not redistribute)
 data/real/mmsygnal_program_activity_0_140.csv
 external/miner3/
+
+# Large fold-agnostic gene-expression cache (rebuildable via build_gene_matrix.py)
+data/real/gene_matrix.npz
