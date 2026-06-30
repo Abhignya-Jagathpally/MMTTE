@@ -46,6 +46,11 @@ def main(argv=None):
     p_ext.add_argument("--train-config", required=True)
     p_ext.add_argument("--external-config", required=True)
 
+    p_bench = sub.add_parser("benchmark-mmsygnal",
+                             help="Score the cohort with the external mmSYGNAL models (research benchmark)")
+    p_bench.add_argument("--config", default="configs/experiments/experiment0_open_gdc_os.yaml")
+    p_bench.add_argument("--benchmark-config", default="configs/benchmarks/mmsygnal.yaml")
+
     args = parser.parse_args(argv)
     if args.cmd == "make-demo-data":
         make_demo_data(args.out, args.n, args.p, args.seed)
@@ -72,6 +77,11 @@ def main(argv=None):
     elif args.cmd == "external-validate":
         from .evaluation.external import run_external_validation
         run_external_validation(args.train_config, args.external_config)
+    elif args.cmd == "benchmark-mmsygnal":
+        from .benchmarks.mmsygnal import run_mmsygnal_benchmark
+        cfg = load_config(args.config)
+        bench_cfg = load_config(args.benchmark_config)
+        run_mmsygnal_benchmark(cfg, bench_cfg)
 
 
 if __name__ == "__main__":

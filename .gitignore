@@ -16,3 +16,7 @@ dist/
 
 # OS
 .DS_Store
+
+# Third-party model (GPL-3.0): cloned, not vendored
+external/mmSYGNAL-risk-prediction-models/
+outputs/benchmarks/mmSYGNAL/
