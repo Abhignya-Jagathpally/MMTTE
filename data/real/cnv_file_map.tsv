@@ -1,0 +1,909 @@
+patient_id	file_id	file_name	sample_type	sample_id
+MMRF_1016	1f490fb6-b4b9-4266-aa18-5be3bc93e023	59318ba6-382a-432a-9130-0a0193017d3d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1016_1_PB_WBC
+MMRF_1020	0735e7e1-b502-4393-984f-46166614ed0b	eafe6cee-1a92-45db-ba4a-06cff86434db_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1020_3_BM_CD138pos
+MMRF_1021	5a916af5-6b43-4716-83a6-0141cce56378	f343b702-b5b5-4147-bb47-e3b710b79836_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1021_1_BM_CD138pos
+MMRF_1029	4d001563-77ff-4907-bd51-fa19e6f99b96	bee1eb0d-a4ba-4191-90ad-2b3396edf72e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1029_1_BM_CD138pos
+MMRF_1030	13aa43ef-9da2-4ac6-9b9e-c19b06c9a6d2	d6da6b03-5c47-4406-8256-d08cf1bfc433_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1030_1_BM_CD138pos
+MMRF_1031	6fa1e3a3-f8a8-40a8-984d-cbed5de71986	7d805c2a-c099-4a5a-bc5f-3532c7d35a2b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1031_1_BM_CD138pos
+MMRF_1032	9bb82592-efe0-49b1-992f-bd3ce433ad3a	45f1f866-a694-456c-a540-3443ab8d3b4d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1032_1_BM_CD138pos
+MMRF_1033	dd99656c-e6a8-460e-816e-9e6bac9c0abd	a16328d5-2e23-4c84-8c9c-06ac3591cd29_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1033_1_PB_Whole
+MMRF_1037	bbb2863b-e5d9-4c88-bb28-8c7535ac2ed2	b52b67e9-7caa-4033-a8ee-1b3eb177f3a4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1037_1_BM_CD138pos
+MMRF_1038	686e088b-2fbf-4016-8ba8-ebc50eace5f5	5ed15b47-d684-40df-8f7e-0a4562973fb1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1038_1_BM_CD138pos
+MMRF_1045	bc0c29d0-cef6-4e2f-a9fc-0a58e0873605	0974daa9-23b1-4895-86ae-c934773d8f48_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1045_1_BM_CD138pos
+MMRF_1048	446e1a3e-7585-4a7f-aec7-898866dea401	044b69d6-58b9-4533-933c-2badf175bab4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1048_1_BM_CD138pos
+MMRF_1049	78396ca5-0e6f-4a24-925d-aa49fb233471	35eefb39-e3e9-4951-a32c-3e02261b9bcf_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1049_1_BM_CD138pos
+MMRF_1054	7de9617a-8d41-4cb1-b7f8-f225a1df2e02	5d3f90de-d6cc-4c0f-826f-0468f9300a5e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1054_1_BM_CD138pos
+MMRF_1055	17860e34-70c3-49e3-bb92-de4aba9f95ab	1fadab13-4248-48f7-ab05-705b69551d0b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1055_1_BM_CD138pos
+MMRF_1061	f391589c-9637-441f-9538-f9b500b940b4	7c694c55-05bb-4491-a78d-8505ba361170_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1061_1_BM_CD138pos
+MMRF_1068	f24ce95b-21be-4b18-a82d-45c999f1879f	eec18d4e-7846-4152-ab4b-c862f89db692_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1068_1_PB_Whole
+MMRF_1071	1cb04d52-0633-4a89-aa39-e45fb4468686	238b777f-b84c-4e48-a01e-1d0a2ca8cc4f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1071_2_BM_CD138pos
+MMRF_1073	1a485fc6-f306-46b4-8ece-a6ea0e4f8f7c	dd5113a4-4f7f-4106-a169-017d76b359b4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1073_2_PB_WBC
+MMRF_1077	52dce570-2c1f-4909-b897-803e2838f38f	394aeb79-72aa-43c5-ad48-6bc595e498c2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1077_1_PB_Whole
+MMRF_1078	7499af24-914a-4803-857d-ed37aa74e4c1	9d37fc16-991a-4a12-bade-8e09cd46b463_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1078_1_PB_Whole
+MMRF_1079	e4b7fef3-b239-4473-9ec8-3eb1019e0b74	062801c9-15e9-46f1-8386-db6062abc9a7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1079_2_PB_WBC
+MMRF_1082	3350409d-5580-4450-b3a0-bffb7b8151dd	eba8832b-ca81-43a1-a336-aa64b3c42d7f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1082_1_BM_CD138pos
+MMRF_1086	0119df8f-f560-409f-88fe-3cd7f83714c9	66e404fd-bb97-4cd8-9fcc-1d3caf97bc96_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1086_1_PB_Whole
+MMRF_1089	3febec11-2cd3-4e47-b52e-76fed4240bad	9fec570c-8172-4261-b7d8-490a91baa7c4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1089_1_PB_Whole
+MMRF_1090	36697ad0-94e0-44c9-b97a-c2bc47a41dd2	9bdc4127-e147-4e61-9de0-9dc30a7280a7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1090_1_PB_Whole
+MMRF_1092	b1fbce20-2cd9-4326-ad51-8c7694e9bd51	2a8bd2d8-0a0f-4d34-be66-054bbf3dd802_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1092_1_PB_Whole
+MMRF_1098	7e615134-ef7d-4ac8-b65b-beceb93111b1	28884303-bf6e-4ed4-8439-e8a27f1546a0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1098_1_BM_CD138pos
+MMRF_1100	3f65f1f6-d19f-4f8d-8d42-9c5327166703	1fa4d20b-1e2f-48f4-afd1-dc06dc1314de_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1100_1_PB_Whole
+MMRF_1107	af35deb5-764f-45b7-8fd9-3c4399ea5569	ba678f26-a87d-4da0-bcee-d3a6caffae53_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1107_1_PB_Whole
+MMRF_1108	ab74ffc7-886d-4655-a5da-2edf0b30d2af	7633394a-cfab-4c7c-a50a-ead814f4d14f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1108_1_BM_CD138pos
+MMRF_1110	1178797e-aac0-4d31-a570-b967af1a58d5	53a20908-33e5-4b00-83e3-a88b7f0218d9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1110_2_PB_WBC
+MMRF_1112	ff1561e4-6807-4f3c-968f-ed9abe5738c9	99f02f5f-ae88-4446-936f-6f47b057bc25_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1112_3_BM_CD138pos
+MMRF_1128	4fff0918-1864-432c-8887-83f93f1e95a8	66c84095-0023-43e9-bb7e-f0a62973a927_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1128_1_BM_CD138pos
+MMRF_1129	2153f633-34c3-4790-8254-16ae2849c97b	01504a14-6311-48b2-9e46-0ccfc7157aae_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1129_1_BM_CD138pos
+MMRF_1137	3bef0130-2a8b-401d-ac63-ccc180100837	a2120ad3-a5da-4b0a-946f-909e3f9089c3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1137_4_BM_CD138pos
+MMRF_1148	a384c731-605a-48fb-aa59-f7440af8098d	476b5ff0-ce71-456c-908b-8c4fa30b95ad_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1148_1_BM_CD138pos
+MMRF_1151	ae623f39-9973-417a-bdb9-59cbd30ae3b5	f18ba353-4ce1-453e-a07c-278872d9905c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1151_1_PB_Whole
+MMRF_1153	101a4edd-afa4-4492-9873-bb08c90f4fad	4b611cdc-f4aa-4719-8ec6-7334431b6dca_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1153_1_BM_CD138pos
+MMRF_1155	ecff884c-7f12-4d12-b378-d0c208ddbe2e	a31fcffa-63f0-4c42-ac0a-5f02e34cecb1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1155_2_BM_CD138pos
+MMRF_1157	e5d066e3-7024-4a5a-a660-b44294c07b49	28201a29-ee08-4446-a758-fa9279f5cf2d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1157_1_BM_CD138pos
+MMRF_1164	ab4be23f-2cb9-46b5-a01b-c11065e069ff	9587a240-7fb1-4bf5-9add-bf812f566c61_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1164_1_BM_CD138pos
+MMRF_1167	e7c701ad-8406-4d22-8097-522398c0d724	4ea79ad7-7ee7-4ff9-b06c-73c2a03cb60b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1167_1_PB_WBC
+MMRF_1169	27a7c955-847f-46c1-b2ab-66463de9bfe0	5deb07ac-bc0f-4280-8bd4-3660c25053de_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1169_1_BM_CD138pos
+MMRF_1171	e4d266f5-5b40-4923-9c44-d115024e43e5	0925dd30-54c5-4af5-8de7-748337ebc5b4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1171_1_BM_CD138pos
+MMRF_1178	436bd183-0b66-4f55-bf15-2cb0e51d2245	fe51f5de-e69b-4ede-8f84-9ee4b8660195_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1178_1_BM_CD138pos
+MMRF_1179	dded43ab-f35a-4484-b51c-a60b22177fd1	b7f1872a-ddcf-4fcb-80c5-19dcea5a3f4f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1179_1_PB_Whole
+MMRF_1180	eb2677b0-448e-4548-944e-bc2c1521db1d	7c7ba705-cf7a-43b3-973a-f18c660fc19d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1180_1_PB_Whole
+MMRF_1185	1ea30819-62ee-470b-9131-bc648bb243d2	712bdc9c-c057-43c7-82b3-812fe25e798b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1185_1_PB_Whole
+MMRF_1186	93cc187a-12f4-456f-8de8-7d77cb43f4ff	87cf1a7a-2579-412d-a721-299609f03db5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1186_2_BM_CD138pos
+MMRF_1188	3b76a2b3-eb3c-4ca4-a728-df8032d23b19	f4a99dc9-8995-4c17-83c0-0f3c4025d889_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1188_1_BM_CD138pos
+MMRF_1189	3d5b01cd-8d6b-4881-b68b-027699ebb3b4	85e8913f-e841-4c6d-a7c4-9a2df2431967_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1189_1_PB_Whole
+MMRF_1193	3155bd66-dc4d-48d1-8638-7b9a4490d97b	8d5fd774-32a6-4372-a713-a6774f8ea4e7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1193_3_PB_Whole
+MMRF_1195	4fc3b365-dc78-4d0c-95ed-ace8ebdb7f08	1148aecf-25a0-4577-a8e4-8a7ec8da3a0b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1195_1_PB_Whole
+MMRF_1201	e068a050-6471-498c-b3e6-2a695913f42d	f9286cd4-ed8f-47aa-94e6-2ac82fb5cf84_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1201_4_BM_CD138pos
+MMRF_1202	0e0c2f73-1648-4dd6-9f3e-0f85752d251f	29cd2c6a-74bb-43b9-8fe4-aaab413a3851_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1202_1_BM_CD138pos
+MMRF_1205	7689c996-b4b3-4ce0-a396-8596d7be6a77	7224858a-2b99-4438-b8ae-4a9bb6e06108_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1205_2_BM_CD138pos
+MMRF_1210	3f9a5878-19dd-474e-91af-38cece79d51b	a962f977-df49-4b05-b8c3-3c92f30370b4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1210_1_PB_Whole
+MMRF_1212	e7c598a8-1eb4-4c53-9e55-a25ca76048f7	fc662cec-9f8f-4019-80c1-103e776f7345_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1212_1_BM_CD138pos
+MMRF_1216	5caf7785-f282-4ccb-b97a-41cdf8437883	85c356e4-e868-4407-bc08-1c649a7fc43c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1216_1_BM_CD138pos
+MMRF_1223	1bbce518-af75-4f0b-b450-b6c801f39128	5f68c9c0-a85a-4b2b-9a91-7771748acc11_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1223_3_BM_CD138pos
+MMRF_1231	86876d18-68c1-491d-8277-0ed073b053b8	667c723a-ff04-497d-a614-2f85720ff0fe_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1231_1_PB_Whole
+MMRF_1232	a852c72d-8e0f-419c-b930-3541f218b542	c7cb6798-9490-4619-888f-c4c9fbaa272a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1232_2_PB_Whole
+MMRF_1235	d690564a-9f4e-42bb-9113-7f215af02c42	4e3dbb4d-686e-44af-94bc-04f5baf78fca_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1235_1_PB_Whole
+MMRF_1242	38c6542f-521e-451b-b9e6-f327167d3eb0	3a8ce234-e34a-4c49-90a6-3ecca1045a04_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1242_4_BM_CD138pos
+MMRF_1250	ce486d98-e416-40bb-868c-1324d629d971	b1e66be0-42f2-4820-9173-cc2215dacd2e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1250_1_BM_CD138pos
+MMRF_1251	7fa5d627-4007-44d3-818e-00dc95719f7b	f7d44ada-169e-4a86-bc5d-330f12c76ccf_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1251_1_BM_CD138pos
+MMRF_1252	e372802f-7f1d-457b-8bee-9987832c61c7	bab4cb06-3b14-484d-b9ba-41c49f183160_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1252_1_BM_CD138pos
+MMRF_1260	3d8fa96e-9efd-4884-a30f-d85ed67e3bea	c0ca9855-3213-498c-af07-b0f040c7aa4c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1260_1_PB_Whole
+MMRF_1261	f5fd45db-4814-4c6a-ae3c-01625e76f008	ca8ee982-d430-48fc-a2d2-1053d5e2b185_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1261_1_BM_CD138pos
+MMRF_1266	24a29ccd-5b72-4e0e-8e06-4f939e6e9c31	6f4463bd-5de2-411f-ae57-7aea57848e7e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1266_1_PB_Whole
+MMRF_1267	25012a81-9cbd-4b37-ba3b-53ea121a4ba4	d9fd6aab-f23b-4a2a-8d46-17532b46596c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1267_1_BM_CD138pos
+MMRF_1269	531f1f2e-f61c-4b9a-9b33-520aa58f4a79	dead2b40-795b-4bc7-9856-9fcddaa7ea33_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1269_1_BM_CD138pos
+MMRF_1270	3a31539b-555d-43c0-8830-accb7f1110bd	1baa0615-54f6-4106-b98c-bd1e166052f4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1270_1_PB_Whole
+MMRF_1274	f00e3240-e65f-4920-9b80-6ed60265c6de	01b4c71b-cd27-4539-950e-9fc650c06dbb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1274_1_BM_CD138pos
+MMRF_1277	f7dc9575-f9bd-4f97-b0d2-b322abe28813	f6af551b-530b-4483-a257-ff86e401c54e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1277_1_PB_Whole
+MMRF_1283	3549af0a-52f9-45b2-9f40-f0b9c5f24ba0	4a9f29b3-0ed9-4481-82c8-fe78b01e9546_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1283_1_PB_Whole
+MMRF_1284	251ee121-4f58-4df1-ae8e-6f648fbca152	3610d0f0-af2f-4864-9b66-e885dd1a0754_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1284_1_BM_CD138pos
+MMRF_1285	402ebc7b-5a73-467c-bc47-192945817178	b45a3178-5c56-4514-b2bb-4c785f7b54da_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1285_1_BM_CD138pos
+MMRF_1286	f149bee3-0308-431d-9bc9-0011c86a7618	d813fc32-cf99-4fe9-ade2-feb4dddbd382_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1286_1_PB_Whole
+MMRF_1290	7c202b24-d2b1-4206-ab73-b73c2fdb55a5	4cb56753-5796-4ee3-aba1-88e5219c1d4e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1290_1_PB_Whole
+MMRF_1293	6f13981c-dfff-43cd-bf06-4a26a3df661d	b53e42d4-579a-418e-be01-fe3de076604d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1293_2_PB_WBC
+MMRF_1300	4930d1ca-64b2-4fe4-96a0-36730e2c9dd2	e3519b8a-dd4e-48b1-a7ad-9df7fed55427_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1300_1_PB_Whole
+MMRF_1304	1abead7d-124f-4cab-ac80-5388a70f38cc	d73ba53b-56c9-4cba-9573-05d12c63741c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1304_1_PB_Whole
+MMRF_1307	29144100-25c7-4de0-940b-488ab1430bce	69e06e7f-2add-4360-ba4e-9b3330f42536_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1307_1_PB_Whole
+MMRF_1308	36e09f81-2acf-4ab8-b2c5-dd584d74cfd7	80ae68c6-9112-4d9b-85d2-2a848055a3ab_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1308_1_BM_CD138pos
+MMRF_1309	98c5657e-552c-48bf-86f8-dff1298f1284	f1e5767d-8212-4f84-a19e-bd50b74ca2a9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1309_1_PB_Whole
+MMRF_1311	75c00587-9729-4504-8fb9-f1fff81e55f6	b7455a40-7adc-4cb4-b96f-a66ac14d8cbd_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1311_1_BM_CD138pos
+MMRF_1312	e73fce51-f5b0-454c-bde5-6e4f0d1fbe30	4f88a0ff-181d-4477-bf34-166d922f3345_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1312_1_PB_Whole
+MMRF_1318	f4bee714-c838-4b43-aed0-d42e84dd77a4	4f01bd06-63fd-4662-ac4a-4407d2b1595e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1318_1_BM_CD138pos
+MMRF_1320	8240bce9-9fec-426a-916e-64f44ccb7dd4	c680cba9-6c28-4f6d-9760-4cf6a046231d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1320_1_PB_Whole
+MMRF_1323	1e12635f-a775-4b14-b2d5-fea8c1bf21e9	b14bd3ec-6afd-4390-8b0b-8dbdd5af1c91_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1323_1_PB_Whole
+MMRF_1324	b2a17b20-6764-4b01-82d1-65c07ee5efd5	f9a73a06-add0-49ec-b545-799921ee9cba_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1324_1_PB_Whole
+MMRF_1325	9535f8b7-2a5a-4690-b149-b9bbe98b9c1f	e08df290-5c29-4359-b731-b9ff65e9c844_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1325_1_PB_Whole
+MMRF_1327	cd428c25-cd9a-4554-a7cd-5e9321a47335	01ea7a3e-1fe7-41f2-a607-f0caa2b24657_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1327_1_PB_Whole
+MMRF_1328	e707acb8-4e9e-475b-8cf7-c146544b0b11	c110e448-bca4-460c-b9a1-dce7986305cc_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1328_1_PB_CD3pos
+MMRF_1331	9859620c-6911-4b1d-b164-e2dbbb39034d	8d83f724-c5c1-43a0-a944-e2bb44b27064_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1331_1_BM_CD138pos
+MMRF_1332	a41b2eaf-062a-455b-a5ac-2325447b5b01	bb8452ea-99d8-4d6a-8e81-233c9d9ead2f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1332_1_BM_CD138pos
+MMRF_1338	69a85386-9c08-490b-b51e-a27935c323d3	462496c9-1cd1-49fd-a85b-33696dec46ee_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1338_1_BM_CD138pos
+MMRF_1339	9f012a3e-b682-4b98-9eca-3f17896ca167	d1b6f9e5-d63f-4ede-9580-a6110c9d7e8e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1339_1_PB_CD3pos
+MMRF_1342	dc008c6a-75eb-4609-b481-f3a0d8454438	5c187b36-26f5-43ec-8988-ee6de821f8bb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1342_1_BM_CD138pos
+MMRF_1344	a0ec00d6-4104-4409-9db1-d4bd542c08f2	dbf589c3-d99a-4337-98ed-7b30d33b7db1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1344_1_BM_CD138pos
+MMRF_1345	a232ba98-0a9a-4708-903a-812e300f71bd	e46546b2-277d-4ab0-9c57-6008e3859e0f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1345_3_BM_CD138pos
+MMRF_1348	f514e05a-9b38-479c-8c24-70262f7cc55d	2d487b08-fcb8-46e3-ab08-33dbd9652e1d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1348_1_BM_CD138pos
+MMRF_1349	d4605a54-e661-4be3-a25a-7d90866869cc	59202104-e483-4f22-8bd5-32afcdce3766_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1349_1_BM_CD138pos
+MMRF_1352	79755f36-8f5f-412a-ac8f-23838056f310	06179884-a32b-4e1d-a30c-eea167883de5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1352_1_BM_CD138pos
+MMRF_1354	17b12c35-9e45-4812-998c-7fb240c6a07c	16f6eef0-f9c7-4a3f-95d2-41d485d0dc64_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1354_1_BM_CD138pos
+MMRF_1355	e3138033-3535-45f6-8d82-626775262660	6ab69552-2a50-4c82-81d0-8c792a0d3f9f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1355_4_PB_Whole
+MMRF_1356	d66e90fc-c8bf-4914-be67-31e7121237e9	89fe89e4-82b5-47c1-95fe-2809668cee72_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1356_1_BM_CD138pos
+MMRF_1358	d06989ac-8662-444e-bf8f-d4df8fd39a55	6c97e6aa-b777-4de2-8285-bdd9da022ce1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1358_1_BM_CD138pos
+MMRF_1359	23cc8d95-096f-42b9-a53f-ea16ad7766b8	085bae64-4791-4631-8fb8-d0fe41356bb4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1359_1_PB_Whole
+MMRF_1360	3e9a1cf3-300d-4d64-b54c-8b43a3a15f3a	cbcecc1e-a15c-4abe-b8f8-0777cf47d86f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1360_1_PB_Whole
+MMRF_1361	141c8533-52d5-4f9f-b850-b0201ea85f9d	5d77096b-c6ec-4835-953b-f3cdfa9574af_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1361_1_BM_CD138pos
+MMRF_1364	2c3e6a39-f84a-4ff6-b31a-5173120c351c	42576240-c8e1-47a5-921c-d1a8c4f775e4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1364_1_BM_CD138pos
+MMRF_1365	23d67056-31ff-43a1-a3e7-8774f4c89fd2	f1398c66-0bd3-4ffc-a214-d9a823cffe4a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1365_1_BM_CD138pos
+MMRF_1371	20902790-879c-482f-99e8-825e86dacab7	09d4d8b2-2ccd-4342-8a37-3ea72a2037d8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1371_1_BM_CD138pos
+MMRF_1377	15b6be47-1f8d-4848-ad36-c2410ef85d3d	99b0e772-2fc4-41e4-803c-a8d34d786e93_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1377_1_PB_Whole
+MMRF_1380	c8b63576-3e80-409f-8048-6e3fe586c296	cfed23b8-e1a0-47bb-bda1-2bbea301e523_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1380_2_PB_Whole
+MMRF_1383	42071bac-0f84-432c-a821-f45050889bca	b30a2eb2-cbc0-40ef-b0eb-b6ba8664ae64_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1383_1_PB_Whole
+MMRF_1386	e63e8607-b86d-4804-b0af-54cfc2ac302c	3a803a78-54b6-4801-b3cb-01ff377c8c46_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1386_1_PB_Whole
+MMRF_1388	3eb1ddbc-316d-456e-8880-88b57858c370	893ca059-c0e2-469c-a825-7dc23230d108_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1388_1_PB_Whole
+MMRF_1389	f228da46-f8cd-4370-bf8f-cc7d5fccf45c	69864c26-e9f0-4c2a-81b2-22deca751b6e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1389_1_BM_CD138pos
+MMRF_1391	9c7592c2-a0bb-4222-84a6-1ef505e5903a	383879ff-d386-4487-8bf3-888d728aaa31_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1391_1_PB_Whole
+MMRF_1392	d60d7f7a-c8e6-49c3-9846-a89157346d96	315ef3fc-166f-4eea-bb3b-7ec37a9be18c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1392_1_BM_CD138pos
+MMRF_1393	023bb913-a3e7-4d08-85df-6fd655c73fbb	409a81b5-7b1a-4446-b788-8926233dee46_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1393_1_BM_CD138pos
+MMRF_1395	de11013f-d343-496e-a27a-f3c0da617c5d	6a7f2620-deb7-4475-92ec-8fd57eaf55e7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1395_1_BM_CD138pos
+MMRF_1401	d71a6c58-744b-41e1-be7c-838f979c21bb	b12e5129-521c-4dff-aef6-3fc2e01d499e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1401_1_PB_Whole
+MMRF_1403	78f1035f-cb69-458f-bb94-498dc4b2f69f	d242fa23-a4f9-46a5-9717-ae7514975768_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1403_1_PB_CD3pos
+MMRF_1407	a499eb86-b2ae-40ab-b360-5cd56c3e8e06	2dd509d8-dc9b-44f6-8c07-c01628a6e7ec_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1407_1_PB_Whole
+MMRF_1408	45e4aa96-ac05-4099-9f0b-0b222f99ae8e	e81b2e57-7124-4e23-9814-d3fbb6c00c09_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1408_1_BM_CD138pos
+MMRF_1413	a8f3af06-94cb-4258-aa35-808e79fec479	d6816602-ba68-4d83-adf1-c2a8a4703edf_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1413_1_BM_CD138pos
+MMRF_1423	d0aa24d4-a291-466e-88d1-1e5190551641	1792d49f-e588-4cec-aa5d-f804a9add72f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1423_1_PB_Whole
+MMRF_1424	f32d4797-a7d5-4f8c-a2ef-c04b8888520e	2ed75117-3eb7-4123-a2b4-b22414e6b539_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1424_1_BM_CD138pos
+MMRF_1425	a625a191-c338-4765-a162-0992a79c7145	68ed65b7-317c-4175-86d2-42aa1ed963b9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1425_1_BM_CD138pos
+MMRF_1426	c2d69d94-7474-4c50-95ba-c714da01785b	e34f7b72-4a74-4725-8694-30343d3d4ab2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1426_1_BM_CD138pos
+MMRF_1431	7ae8bb94-a7f3-46a2-8abb-310c65901e99	2bff42b7-90b1-4942-a26c-d4d9b1adea1a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1431_1_PB_Whole
+MMRF_1432	4b56b47a-01f7-4e40-9a8e-be0e8f1c3a6b	a94bbf65-e12a-49f1-bb6c-abc9f9739c00_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1432_1_BM_CD138pos
+MMRF_1433	383dc8e7-a39e-4803-96e4-72aa19be3c06	196daa51-a046-4a94-881c-677f3e63e697_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1433_1_BM_CD138pos
+MMRF_1434	0f725ba4-b632-4d97-9111-f83bf1614690	5fd57fc3-7893-447b-a4e0-3772075d0ff0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1434_1_BM_CD138pos
+MMRF_1436	5dfad3d5-d129-4b61-8cca-8bf97c780685	dda6232b-c655-4377-86ba-84d383ba0492_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1436_1_BM_CD138pos
+MMRF_1439	68c29b41-dde2-4163-8cf8-092c9d0ad094	4730c970-0f9d-4af2-92ec-90654e3e8abb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1439_1_PB_Whole
+MMRF_1445	0e8d7bd4-9aa7-4909-af44-acf0e34eae6c	64184630-13c9-48ee-a8c7-79e93708f713_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1445_1_BM_CD138pos
+MMRF_1446	f18f0397-708f-4a56-8afd-65d35de5e899	adea6076-b76c-402d-a3f3-f7ba3e37252f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1446_1_BM_CD138pos
+MMRF_1447	c0792bac-80c6-49f6-856e-e45e73751622	44c4fd19-dc7d-4d46-8b30-6c71f8785a35_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1447_1_PB_Whole
+MMRF_1450	4841eca3-3217-4a24-bf72-531f8e2d1983	83ab1dec-e386-46a2-ac85-d4d58c200be0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1450_1_BM_CD138pos
+MMRF_1451	afd9a168-ff10-4567-8156-90f41b12c66f	5671527c-281c-450e-b61d-94fb7f73c9c0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1451_1_PB_Whole
+MMRF_1453	44925df4-8c12-4942-a462-4c3ddafb527c	d364f610-4fea-4f3a-875b-d0de9b274882_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1453_1_PB_Whole
+MMRF_1454	ee15e7fb-6a83-4bd1-8556-5973c8f88bc3	a7a62522-5ed0-43a0-817a-e04ad0bbe4a3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1454_1_PB_Whole
+MMRF_1460	1a159029-3af1-4fd8-a0a3-853d7bd69947	7912706e-c0a9-447d-89c0-c749467a6428_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1460_1_PB_Whole
+MMRF_1461	dd60a252-e002-4186-9986-cd47fb724a87	0d9c8e85-2d02-4b57-838d-80250510e281_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1461_1_BM_CD138pos
+MMRF_1462	d5366d54-5d1a-4698-af51-bbf5089a6193	6799a55c-dd15-42b2-b0c8-8192bef169d7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1462_1_BM_CD138pos
+MMRF_1466	de25d21a-5178-4a1b-92cd-9adcab23eef5	638ecaa7-6423-4e7b-b32b-7ec9fea3e614_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1466_1_PB_Whole
+MMRF_1474	6192d7d8-8857-4bb0-8531-0c3e24cb46fa	747dbc8b-c28f-41dc-bf28-2e22cd6868ef_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1474_1_PB_Whole
+MMRF_1478	5b60f303-3f17-4779-9946-64adac183a07	eed01daa-3a0e-488b-99e9-1cbf6bb79ab8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1478_1_BM_CD138pos
+MMRF_1484	592b6e1c-6aa3-4f33-bc21-4bbc66adb9e6	539ff4e0-ba76-4e7e-a109-7b16a5ca96cb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1484_1_PB_Whole
+MMRF_1485	280f3531-8379-4f68-9477-44745a361324	63bddede-782a-41a8-8840-60034e30ba9e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1485_1_BM_CD138pos
+MMRF_1486	5071b1c3-e093-4bad-8340-153b15712421	7b2c5333-ebcb-490b-a604-0741fea86f28_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1486_1_BM_CD138pos
+MMRF_1489	f60baedf-9b76-4bbf-9acc-33ff9e7757a7	7cb86130-4c78-4749-a44f-c572db9b4f69_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1489_1_BM_CD138pos
+MMRF_1491	26bed7aa-bcc0-43f5-83b1-de6fd340274f	7b1bdf9d-a995-4dcb-b5e7-2e78b31b3f94_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1491_1_PB_Whole
+MMRF_1496	dafb1435-62ea-4661-b912-7fd53186908a	09092c41-0523-43d2-9cea-1e6a494dd976_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1496_3_BM_CD138pos
+MMRF_1497	1bb9ad38-0a47-4c8b-affb-f24c17a45a76	59c07c86-fcd0-47fd-b47b-c491f4e87775_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1497_1_PB_Whole
+MMRF_1499	e11776c8-91ff-416e-961c-dc07befcc532	c1aaafe7-2668-413c-8d09-b7681e2a2eea_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1499_2_PB_Whole
+MMRF_1500	712bae93-4b9e-4273-b229-0bb91c25697d	4653d421-4be3-4439-8d91-a64a786498f2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1500_2_BM_CD138pos
+MMRF_1501	4486cf80-4ea4-4bbc-846b-4960d83fd809	e976dadb-e93c-4669-a0ba-e7fac5d685e3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1501_1_PB_Whole
+MMRF_1502	1bcb8e3f-0e10-41d7-a9b9-4e18924bfba0	06297232-65ab-4263-8499-d233852769ec_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1502_1_BM_CD138pos
+MMRF_1505	e5576af7-5c52-47ba-99a6-61c4f145c158	018e2046-ada0-4763-94cf-058bcebfcab4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1505_1_BM_CD138pos
+MMRF_1506	a1f950e8-7486-4eab-877c-86419f05a7a4	dcfa8d5b-e05b-49bd-b289-8a7da9cf004c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1506_1_BM_CD138pos
+MMRF_1510	24e1696e-1d40-457b-aade-10273bc6f694	a42a0e8c-678f-4abe-a672-31a6b8ee6d0a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1510_1_PB_Whole
+MMRF_1511	5358733b-d927-4021-9d05-a18e23245d12	f8f78b8b-772a-48a9-94e2-a1545d1ded75_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1511_1_BM_CD138pos
+MMRF_1512	28540752-3754-421a-908b-f6bd422304d6	b0661336-a2e7-4902-b91d-d0c22c98ef0a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1512_1_BM_CD138pos
+MMRF_1516	1835a3f8-69d2-4bce-b48b-66639b45ba45	b6f7061c-fc08-4e65-908f-cbc658012d70_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1516_1_PB_Whole
+MMRF_1518	0c66f39d-a61b-4c64-b796-9c8414cc8dc9	33a057e3-261d-46a5-be07-70520731d635_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1518_2_BM_CD138pos
+MMRF_1519	d1edd18f-abd4-44e3-994e-ecdac5af8bfd	8f0cbc76-9339-4406-8d40-f8276c0f0033_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1519_1_BM_CD138pos
+MMRF_1522	8690c12f-04ad-40d1-a0bd-5f7e420decec	3d02d9e1-fb06-4219-ad7a-736a6c69b956_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1522_1_BM_CD138pos
+MMRF_1523	c5bf89f2-3131-4251-bc4f-8cb1ce78967c	ed9a18e6-2851-47e4-ad36-309175c551ba_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1523_1_PB_Whole
+MMRF_1525	b9ca164d-c982-40d6-9793-a8b07399a605	37a84175-2508-4b5a-ae30-c74c4d628238_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1525_1_BM_CD138pos
+MMRF_1531	ee29ac62-2e1a-46c6-aa97-eb0914ee8b5c	8caf8142-37b9-464c-ab78-3d5102fa7c60_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1531_1_PB_Whole
+MMRF_1533	46fa819f-8e19-43b9-b90b-26ab8f8c592b	5c4bd53d-cb86-4dbd-b077-02203c7c0067_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1533_1_PB_Whole
+MMRF_1534	c32a1b8a-a653-4d3a-bdef-6c6a596703ea	3b2fbe05-4cfa-4db4-a65f-f1a9734dee39_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1534_1_PB_CD3pos
+MMRF_1535	ec2a5b43-4b78-435e-89f0-1df5b24de4bd	96aa8455-9810-4453-82ba-ba6b1b39057d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1535_1_PB_Whole
+MMRF_1537	09fbc5a8-28d0-4b3a-99ab-6fe680338175	805afc65-22ac-4362-87b0-2bbf6b14eedc_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1537_1_PB_Whole
+MMRF_1538	1bbaf362-213c-4102-b2f1-a1e50351f8d1	e8836019-7b50-4814-9fef-c7c859b81783_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1538_1_PB_Whole
+MMRF_1539	4dfbc35b-5d9f-4247-9636-a0db0c47b77b	0e464ae0-f398-44fe-a3a4-3fe08764b5ff_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1539_1_PB_Whole
+MMRF_1540	3a65375d-326b-42ef-8f73-7aa2183f101f	364fdf93-8028-4555-b877-1cd9681390da_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1540_1_BM_CD138pos
+MMRF_1541	b02b1dd1-12b2-4e16-b403-3321cc4338f9	b2f982b9-b9f0-4e9c-8895-054bfb56fedf_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1541_1_BM_CD138pos
+MMRF_1542	a889ee66-a3fb-4eb5-8eed-4eee157857e3	10ec1bd5-6c6a-4eb7-97cf-72facc16ae90_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1542_1_BM_CD138pos
+MMRF_1543	e5b42509-2d0b-4ede-b5e0-e4085e41acd4	1407a18c-6b36-47fa-ace9-8ead8e6e7a09_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1543_1_BM_CD138pos
+MMRF_1546	ab82f632-23c7-4ac0-9bad-38ead6618cef	e453ad1f-838c-44ec-b51c-8696573b8195_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1546_1_PB_Whole
+MMRF_1547	3ef8dc24-c1ae-45b7-8ae9-b673ba6de272	be672aa9-ab78-40ff-bb6f-e0bad44e0a27_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1547_1_PB_Whole
+MMRF_1550	e953953f-2d6c-42e6-b1ab-d8769ecdb694	100e04cd-c535-4772-9242-2366b8595843_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1550_1_BM_CD138pos
+MMRF_1555	7f186732-6409-4fb4-835f-1e24e803c4c9	519e168d-585b-4520-9f4c-205de1a8d1fe_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1555_1_PB_Whole
+MMRF_1556	49a3ee66-c535-40bf-896d-f7f6882e6430	90ebcaa3-dce3-4a7b-890e-b5bd9513128b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1556_1_PB_Whole
+MMRF_1560	03e50e53-ed8e-4e8c-be16-dd53db477c13	0b73f1f5-be5d-438f-83d6-9a52c8b12e6c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1560_1_PB_Whole
+MMRF_1564	0b4bd692-1035-4184-a792-db9dcc5f3f2d	8264dba9-09cf-487a-a5ef-5c9aad251ff1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1564_1_PB_Whole
+MMRF_1565	b2594b4b-a18b-4f39-b8c3-68dc6d485440	fc5842a8-670f-47d7-94af-61319543c3fd_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1565_1_PB_Whole
+MMRF_1568	36e16447-bf91-4b8f-b9ae-efbf5370e3e4	a05ec860-3f20-43ba-ad05-4d552c44f990_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1568_1_PB_Whole
+MMRF_1570	edb10c12-c89b-482b-bb46-2df37b64dfd9	331c957d-3b59-47df-a3d7-ed960b6ef9b7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1570_1_PB_Whole
+MMRF_1572	04655df2-9ef7-4f68-858d-9a11e054f1d3	37a03985-01c3-4893-9b05-d354f171eb6f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1572_1_BM_CD138pos
+MMRF_1573	d3441aa6-5df6-4431-a039-0a3795acb0a9	b2dc9997-968d-47ba-81a1-0c78073572c6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1573_1_PB_Whole
+MMRF_1574	e391ee7a-ab28-4a88-82a1-1bb838b8b2d5	7c37723b-2279-4c35-a8e8-64d1d16bf9ef_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1574_1_BM_CD138pos
+MMRF_1576	0e1d8a4e-eac0-4b9b-a37b-edc9e39ca58c	88ed0df5-96f8-43fe-aa8c-54e3bbae04b3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1576_1_BM_CD138pos
+MMRF_1577	7ce41446-ad4a-4742-b80d-45db6505883a	f52c6842-9779-4c7d-877e-e7a91cb77cca_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1577_1_BM_CD138pos
+MMRF_1579	43027da6-5739-4dfd-b4b1-99f33803bb08	67b6473a-c1ea-4714-8de3-82c8ae71df4c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1579_1_PB_Whole
+MMRF_1580	74850f79-c0a0-423d-94be-2793df2aac0a	81325a2a-a355-4853-ad8a-8c986a2374d5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1580_1_PB_CD3pos
+MMRF_1583	56330d74-0ed4-42fa-977e-29033bb9cb8c	85fbc32d-3a47-4f2d-89fc-358cb7f7afbb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1583_1_BM_CD138pos
+MMRF_1587	ad24c569-8dc6-4690-a1c3-18825e88a828	f46e6cd5-dd25-4e24-8bd8-b610f32c99c3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1587_1_PB_CD3pos
+MMRF_1588	a8d18567-ebf8-4bb5-b832-88fccd665dec	dd8e5110-6e9e-4b41-8816-f550e4b0c285_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1588_1_BM_CD138pos
+MMRF_1589	a8058b35-3618-43aa-a574-5ffcf0291681	b44a4533-3aec-407d-b9e5-7b3e4426f935_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1589_1_PB_Whole
+MMRF_1593	53384d7c-e081-4440-ae27-b07d0a056ef5	9ba6067d-f8fc-4ac1-81b1-9ddf2e44b58b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1593_1_PB_Whole
+MMRF_1595	07c6300d-0a48-4181-a315-0c822e0c2f89	3f655c84-46c2-4a3a-bfe2-9acd365b889a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1595_1_PB_Whole
+MMRF_1596	b98dabad-5609-462f-a6cf-8e4df7ec1ce0	58bbc4a2-d768-4e44-9fd9-4145b4903fa4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1596_1_PB_Whole
+MMRF_1597	f20cd49c-a0a0-429b-88e8-636ae16a877a	888306b5-0e50-47dc-88a1-9384d2a9b016_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1597_1_PB_Whole
+MMRF_1598	d9eeabaa-9953-4562-b071-d95a33942b23	ba95fa1e-728a-4ac7-adbc-88b104670705_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1598_1_PB_CD3pos
+MMRF_1601	97beb88a-a717-49b3-a25e-aedcdea2ddfe	20648bfa-9718-4aaf-868d-b2d22a4d8e20_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1601_1_PB_Whole
+MMRF_1602	250aef99-0cd9-456e-a099-02bb2b0867db	5d3c3bd4-68ec-4363-8397-76684b541ffe_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1602_1_PB_Whole
+MMRF_1603	e0d18c90-21f8-4bb3-bfa5-4ba90a94eb56	cf9c277c-2d7e-405f-ae63-ec53dfab09e0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1603_1_PB_Whole
+MMRF_1605	c01191a4-7afc-4f42-b024-c487dc017321	29932495-9804-483a-ae6c-42d2d5a3cf45_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1605_1_BM_CD138pos
+MMRF_1607	65b2063f-32b1-4fa9-bc3b-2848fbd938f8	9974ae21-5813-43a1-89e0-60775e89bd4b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1607_1_BM_CD138pos
+MMRF_1608	544a14a2-efd6-4e54-9de9-329c37d2208a	998bd646-93b2-432d-958e-c9b5c8d0261f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1608_1_PB_Whole
+MMRF_1610	2abd1fd3-07f1-4d2d-8073-60ee21c303fb	ace041c4-e4b1-4713-8377-b209accf24b4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1610_1_PB_Whole
+MMRF_1613	7242c2ed-9268-4add-bb04-4af765a922a2	fee4ccf5-178e-441a-93db-d48aabee71e4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1613_1_PB_Whole
+MMRF_1614	b25974e8-534b-46ba-b6b5-06da7b0be328	b4a39229-1018-4c75-8c5d-6825b45f2a22_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1614_1_BM_CD138pos
+MMRF_1617	4088ade1-f2d5-498b-ab22-a992fb12b028	7dbd79a9-2f9d-469e-b43d-2d85ba8a260b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1617_1_PB_Whole
+MMRF_1618	23cac246-f7c5-4780-aa7e-a4d0b5431306	45906cb3-d65c-474b-ac79-01c217ec44b1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1618_1_BM_CD138pos
+MMRF_1621	9c8c9949-a039-4d28-9536-a22dbdb1d5b7	e4b39321-4953-4ad5-8478-5790fad1a96c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1621_1_PB_Whole
+MMRF_1622	239f054f-06c8-4ad4-a78c-950f20926298	4a7d0d30-7178-4652-8fd6-55d6b0e38dbc_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1622_1_BM_CD138pos
+MMRF_1624	d93d2267-725d-449f-b073-10a62f8c10d8	fc6ca07b-bdb1-4e46-9613-48ee2298c119_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1624_1_PB_CD3pos
+MMRF_1625	121f4ee6-77ad-458e-9826-60a187566f45	0993bb1d-212f-49a0-bc3c-88f35fb2ea9e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1625_1_PB_Whole
+MMRF_1627	0ce41b80-4b84-4cc4-a095-ae21f76cd554	70f5f286-830c-4567-8deb-b354c1d42941_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1627_1_PB_Whole
+MMRF_1628	284067ca-5565-4388-81e7-13669a688ef0	f748b089-e7c9-4abf-a2ef-a7f10b718acb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1628_1_PB_Whole
+MMRF_1629	e4d56e45-008e-4c61-adfb-904e968354b6	291bfb69-bcba-4fae-9eed-2f4864593f37_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1629_1_BM_CD138pos
+MMRF_1630	ba1ba041-c397-4441-aa50-f0d62c3dceb3	09b60cf7-2592-4163-84a8-490a1f6c53cd_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1630_1_BM_CD138pos
+MMRF_1633	feb659d8-347b-4a3f-ade7-fbba90a07dfd	e3b3b0c5-1691-468b-9809-1daaea3baa85_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1633_1_BM_CD138pos
+MMRF_1634	68186cec-db84-4e15-a5ce-c34db9b0cf9e	87c1fef2-31c1-4286-9a78-795efc4bde16_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1634_1_BM_CD138pos
+MMRF_1637	17b4b496-4323-4791-9c29-8a0e3b84060e	cc6361f6-230f-46a6-8569-7b2e75d3a1d7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1637_1_PB_Whole
+MMRF_1639	264db950-0bbc-4653-b53a-a285cb0503a8	36e92c7c-6220-426e-a31f-d12c4837301f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1639_1_BM_CD138pos
+MMRF_1640	1343d875-6972-4aa9-8704-cd347721b465	ceccf315-0855-4bea-a071-0a29f422dee7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1640_1_PB_Whole
+MMRF_1641	903a6b5c-0fa3-462a-be10-48e2b7e7c222	ea7a97e5-fa1e-4f4d-a199-d3755ff161d1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1641_1_PB_Whole
+MMRF_1642	da970cb5-0672-4608-a12c-899deb409e03	553cd0cc-5285-4f42-a50f-d783a5e6f3ad_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1642_1_PB_Whole
+MMRF_1643	bc396c24-81c4-47d9-8ea8-f53a62267315	56d74bf6-effb-4e8c-b06a-700d51b486cf_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1643_1_BM_CD138pos
+MMRF_1644	d35c6a47-a275-416d-9499-2067b6516350	80c8652f-0b80-4d76-83f8-364e11294697_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1644_1_BM_CD138pos
+MMRF_1645	4f4759b2-a4d6-4320-9c7c-06a4abc80603	4ea63005-078a-477a-b282-11b439ce0cb3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1645_1_BM_CD138pos
+MMRF_1646	6475d494-e772-4db6-ac86-a75c5eab6cb2	7b5c3c06-34b4-4052-954f-6ba660228c27_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1646_1_BM_CD138pos
+MMRF_1647	01ef8317-bf8f-474b-9652-11efb621f568	2eec4a14-d65c-4b16-89d7-04603574383b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1647_1_BM_CD138pos
+MMRF_1648	ea317bba-965c-41fd-9dba-e54fbb68a85a	5ecb3981-f965-4581-8843-f39e988de390_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1648_1_PB_Whole
+MMRF_1650	c4d9f976-dd40-4afb-98be-606bd61ebe99	fb715097-2d68-4719-aa5c-5fc721c414f0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1650_1_PB_Whole
+MMRF_1651	7e7238cb-b25a-4f38-afd8-9a8d18180579	bf3b098a-a5f1-459e-94f1-5fd472ddaaf3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1651_1_PB_Whole
+MMRF_1652	1397291e-9a42-48fb-9cd4-94bb3cc4d49e	2400f415-3386-4d21-88d3-a60cfd5b1a6c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1652_2_PB_Whole
+MMRF_1654	38f4f1ce-380b-41b1-967c-c6d92d383851	8f710bb7-2e51-4302-8eb9-a3fc24d4fa0d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1654_1_BM_CD138pos
+MMRF_1655	7720585d-01a3-426f-8bc3-42b4621388d1	ad39e612-c0c7-44dd-ad3a-e841d0f586db_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1655_1_BM_CD138pos
+MMRF_1656	d90a25cc-7506-4c12-9269-d6fcc73dafc2	c55d59a5-b205-47d1-aedc-f0903c5096ca_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1656_1_BM_CD138pos
+MMRF_1659	af3b1b42-c01a-42f9-85bd-77858f64b042	624f1f12-5eda-4ee9-b75f-9a555993f536_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1659_1_BM_CD138pos
+MMRF_1664	7858b835-d249-4c96-a352-062619e2ebc0	488a5ddd-69ae-44d2-97fa-932eaaa19387_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1664_1_BM_CD138pos
+MMRF_1665	53053511-1ed1-485e-89c7-ac59058df781	4068b85c-e01d-4214-b1bc-3bfead163bff_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1665_1_PB_Whole
+MMRF_1667	bb667a4c-a6a8-4761-bd3c-3a5e9128fd4d	7b867a3f-fbc7-4f70-89b7-adcdd805139f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1667_1_BM_CD138pos
+MMRF_1668	b609effc-a8d6-4a79-8c8d-1aa4cd085ceb	a67b3be0-60b8-4961-842b-b0e3eea17b6e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1668_1_BM_CD138pos
+MMRF_1671	4145bde6-7788-4e6a-a3f9-4ff447570a23	fd63da98-2708-4898-a26d-da844934ac19_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_1671_2_BM_CD138pos
+MMRF_1672	594b14cb-1296-4222-91d2-581d15cb3246	4eda175f-0853-4eb3-be8b-54343e1a2faa_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1672_1_BM_CD138pos
+MMRF_1674	84299194-0740-476c-b899-f0320061a3c6	5e004445-a4c6-4c9c-80a1-0d8ea7143a40_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1674_1_PB_Whole
+MMRF_1676	1978a0a0-04eb-4c34-9978-132b80249bfb	fa4e5525-0ecb-451d-a9a1-5647237270b0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1676_1_BM_CD138pos
+MMRF_1677	3fa3970a-9dd3-46b3-92a1-051ebd97fd64	918684f5-d56c-4c71-ab3a-1ebcb72ffca2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1677_1_BM_CD138pos
+MMRF_1678	df19f9c9-9779-4de1-bbf8-9f0dc7aeae36	9a6b5c0c-06ff-460f-bb45-0887927fe3f5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1678_1_PB_WBC
+MMRF_1680	4f346b48-56b3-4731-9773-bd5ec5c3ddaa	c69e1a49-7e18-4abf-8f82-32dd46ecaf5f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1680_1_BM_CD138pos
+MMRF_1682	e76ac763-618d-4c9b-81eb-12f86076a253	9e044e34-2f27-430f-bac9-8e52e39a9451_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1682_1_PB_WBC
+MMRF_1683	34f4cec5-4455-465f-9636-40dd98de0e5b	ba78bf62-759a-4f06-9010-4756d4790015_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1683_1_BM_CD138pos
+MMRF_1686	6b65aaee-d562-4fc2-adf0-d5fe6ab5379f	a4c6cff5-ef52-4a1f-bed3-3a1c8eef22b4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1686_1_BM_CD138pos
+MMRF_1687	f6942a77-18d8-4c75-a8d2-6b18595ec2aa	1278ed95-0a20-4bef-98f5-3632f3cd5b76_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1687_1_BM_CD138pos
+MMRF_1690	61cb2b2c-057d-4fcd-8060-4aa4cfbbb92c	c836ed55-7c4d-4442-a2d1-acb98399a51d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1690_3_PB_Whole
+MMRF_1694	df117921-49e3-49ef-9a55-ff1799dd1dcf	1216962c-2c76-4f39-b7a1-ea96a1cc8b2f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1694_1_BM_CD138pos
+MMRF_1695	80cd0e8d-9e9f-4992-886c-4d7a015ee804	058ad5eb-ad7c-49d1-9372-35445c22d105_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1695_1_BM_CD138pos
+MMRF_1698	2a8b6a24-2b85-4350-ad6f-812f2fb36c5a	4b00ddb2-d9ed-4dee-9106-a960d9fb6f40_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1698_1_BM_CD138pos
+MMRF_1700	1285a288-d794-4279-bbd2-c768533f4071	36a674da-2e88-4807-8463-bd21debc5222_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1700_1_PB_Whole
+MMRF_1705	be1a36b4-2b8d-46ac-b391-d9a3b7ad85de	879160d1-6f6f-4c63-810b-5f4f30b0bfb1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1705_1_BM_CD138pos
+MMRF_1706	94471066-a345-4c4d-875c-fa523facbd4d	a9e73e45-358f-4e7c-89b7-afde5a87c99c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1706_1_PB_Whole
+MMRF_1710	39f0bb6d-ce9a-4f87-87e3-c0fa6ec0e388	f9ca6f2f-d104-4cb4-bb47-e2cf239d0612_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1710_1_BM_CD138pos
+MMRF_1713	38a578a6-39a2-4d42-af67-9bd4797eea5a	8aebf09d-ec02-4581-bd91-4b8ebc3dba9a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1713_1_BM_CD138pos
+MMRF_1714	a8816dae-53c4-4a99-8c13-f086f05fc856	82c6bc6c-9173-4a01-92ca-724ef6fd7d00_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1714_1_BM_CD138pos
+MMRF_1715	5e08231b-a0cc-44d6-accd-7e814d2c3864	c3dbbc95-6896-4f61-9321-584366ef53bc_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1715_1_BM_CD138pos
+MMRF_1716	5cd3f859-2c7a-488c-a40c-883bf3f3aba9	e07479cb-b94c-4872-b80f-1ab53f6850df_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1716_1_PB_WBC
+MMRF_1718	379dcd4d-cf2a-4283-897b-fa0a77b77e25	0255f17e-5f71-4217-bfbb-a52daf8475a7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1718_1_BM_CD138pos
+MMRF_1719	b4392891-2d72-4418-90f8-05e8f4fef726	a08cd7ad-f4b9-4d9a-a3c0-8b9041d36cf8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1719_1_BM_CD138pos
+MMRF_1720	26cb9fc2-136f-4793-95ed-47ccb6367377	5be8fa40-6977-43fb-9e40-5baa40c4c493_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1720_1_PB_Whole
+MMRF_1721	301e91bc-9e9b-4a6d-8a58-b99dee5f7120	7e4bc490-0f00-4f52-8b07-467bc6ca3710_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1721_1_BM_CD138pos
+MMRF_1722	1396340f-22ed-4a1a-815f-b4eba988b049	030eead7-ae6e-42c9-bb9c-eff23856c18a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1722_1_PB_Whole
+MMRF_1723	49637f6c-c5bb-43dd-8cae-775ea879ce2b	885f202b-9812-488d-8907-a7a14952b19f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1723_1_PB_Whole
+MMRF_1725	7dbdc035-19a0-4758-a852-afcc86f24ebe	51d66ff3-9ed0-4bd2-8da1-bc66bbaee883_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1725_1_BM_CD138pos
+MMRF_1726	64f47691-6077-4c9e-925a-521ffd20615f	35980b8f-c903-47b2-a439-d6e32cb8d5d2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1726_2_PB_Whole
+MMRF_1727	ec26b9bb-c089-48cc-a746-91d83c9d4d06	25e73e96-7e23-4369-9e56-be48c6bb52e5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1727_1_BM_CD138pos
+MMRF_1730	8fcaa484-5679-42ef-8da5-9727ceb3a597	4e17d2b6-4353-4489-8174-1fa2ff8ea173_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1730_1_BM_CD138pos
+MMRF_1733	329d8b4a-c710-47b3-9476-6b9dbe6ce49c	b82a6a15-0049-438e-af6c-8beddd30ebc6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1733_1_PB_Whole
+MMRF_1735	f56a5a63-e76c-4e84-90e4-30ab608eea40	4a4340d6-fd97-4b3b-978e-a484f0601e17_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1735_1_PB_Whole
+MMRF_1736	54977086-a17f-416d-b68f-d7664fbf7a12	0d4fc34e-c09c-466a-b473-dc6d61ca5c93_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1736_1_PB_CD3pos
+MMRF_1738	013a93cb-937c-43bf-ac66-b81e27147007	0c200b45-cf9b-4b34-8a7d-ed686051cd1e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1738_1_BM_CD138pos
+MMRF_1739	4524c39a-3843-4223-9e7d-665df676017c	c8d5f5a5-3387-4f97-9e13-615547260f84_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1739_1_BM_CD138pos
+MMRF_1740	c550d02e-e4b2-4a2a-abd7-e2923c8fe8a2	6ff1fd96-2853-45b3-82f9-7a98f07d27e9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1740_1_BM_CD138pos
+MMRF_1744	1b85e5e4-71ed-4f06-8e69-ee08221f8231	64143838-2837-46ec-847c-87407aa68ccb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1744_1_PB_Whole
+MMRF_1746	e7b3fe20-f8b4-47e8-b42d-390fa034ac8e	5f5067d6-fae1-400e-a717-3867c3d6fc12_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1746_1_PB_Whole
+MMRF_1750	dc833640-6c81-475a-950c-96d229161aad	b7c21ed4-63ee-4cc3-b368-be80b5eae72d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1750_1_PB_Whole
+MMRF_1753	f6d3ae20-2976-4225-a99e-36c223c5cc56	d9ea85d3-8093-49e3-9e01-4fd6bda971af_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1753_1_BM_CD138pos
+MMRF_1755	cf94d383-fb55-4e5b-b1b6-7cfa9b0fc6e2	cda18c6c-ec61-407a-9e6a-d97657d80d2a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1755_1_BM_CD138pos
+MMRF_1758	1893d075-a6e7-4402-827c-6e0909356127	7926a262-0c05-45dc-bfe5-b48942b1e14e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1758_1_BM_CD138pos
+MMRF_1759	8cd7b069-85f7-47ee-ab2f-13309ca9d089	475e9062-3f1d-4796-9153-f96d3680a95b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1759_1_BM_CD138pos
+MMRF_1760	34d2797a-b913-42bc-a676-da16c1fd5d85	e3e7a48c-8828-4175-94fc-7da36489517b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1760_1_PB_WBC
+MMRF_1761	f5cbf68b-6c05-4f5d-bb61-82f1bbedd5e5	7d9d6f14-d2f7-4bdf-bf56-d54db3249908_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1761_1_PB_Whole
+MMRF_1763	7095b099-d953-4296-923f-6d07ea4a61d9	6e678153-f338-4a5a-97ec-61f5e3719de0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1763_1_BM_CD138pos
+MMRF_1766	af858c9a-e029-486e-818e-f6aedefc0e23	757243b4-24be-413a-8e50-dfaca5b61f83_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1766_1_BM_CD138pos
+MMRF_1768	829717a2-881f-4747-a61e-0ddd26fd4df4	6ff28352-7516-41c2-acaf-70a9c470e58e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1768_1_BM_CD138pos
+MMRF_1771	7602a4f2-3045-42fb-b44f-9db274b964c1	3508ea6f-f0a8-4ddc-b26b-ad325694464f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1771_1_PB_CD3pos
+MMRF_1772	66e01d8c-a20c-4cc0-a63e-efaa2c12d292	2cedc0f1-856a-4ea6-b755-ac091a1db6ec_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1772_1_BM_CD138pos
+MMRF_1773	3dcc0cfc-7eef-4dd1-9e06-265c68a80a5c	3594b051-d069-4a14-8113-d2bd1bff6140_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1773_1_BM_CD138pos
+MMRF_1774	a158cfc6-ba80-4d1a-b7fd-2ec1cc238d4e	5cfd4749-736a-4e53-8010-85e7d0e27362_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1774_1_BM_CD138pos
+MMRF_1775	a4aec642-cf5f-4e54-95d7-a28c30dffa35	bf3734c4-afcd-45ba-a4ab-b312bf03a433_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1775_1_BM_CD138pos
+MMRF_1777	8a0607b5-efb8-4865-9bc1-4b1d7f6ef8f6	8a38d6c9-8be4-4597-878c-e000ed25ef6c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1777_1_PB_Whole
+MMRF_1778	9be3a06f-bb64-427c-8faf-fe43ecdbb3ce	c5303d7a-01e0-40cf-a811-a7dee8bea50e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1778_1_BM_CD138pos
+MMRF_1780	c83b5992-1117-444b-9b9a-0ded9dce06fd	eed734bd-c747-46cb-9108-a43a8dd1b5cd_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1780_1_BM_CD138pos
+MMRF_1781	148c5082-2788-4d94-832a-f68619a367a8	86208b45-eda7-4f27-8dff-251155211221_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1781_1_BM_CD138pos
+MMRF_1782	bab8324f-4987-4c6d-8f67-b2989368268d	e2ed5eaf-9386-4e16-8857-fed20050332b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1782_1_PB_Whole
+MMRF_1783	d5109426-d76d-4dc7-85c8-da3319ca1148	c8f055df-3893-49f7-a38b-6bf61eb2e011_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1783_1_BM_CD138pos
+MMRF_1784	aea09ef7-5db7-4ec6-8737-fa2c1927d12f	fedfc580-0ead-4b8e-8a05-f351ac8e9ddb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1784_1_PB_Whole
+MMRF_1785	2959bba6-0305-4614-8231-5f32d2a454a7	55b31b69-bc4f-44a6-9175-b271a80d7515_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1785_1_PB_Whole
+MMRF_1786	57cfb269-d374-430f-a56f-04031492c1f3	f14e3fd9-e5a7-45bf-a275-1deb52e33427_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1786_1_PB_Whole
+MMRF_1787	e1563257-32a4-474e-a10d-ba69baaa61dc	4ceb5950-f5dd-491c-8365-95af48b1af12_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1787_1_BM_CD138pos
+MMRF_1790	901b7cef-7354-4b38-8629-887e7f049766	3c7133ef-1da6-4d5f-8d84-62d246c08ff3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1790_1_BM_CD138pos
+MMRF_1792	1281eb68-2b10-4a7e-b5d2-c86cba934dca	5bdcb2a9-7298-4ee2-8f8f-0a3791bdeb09_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1792_1_PB_Whole
+MMRF_1793	35ac79f9-7e78-42e8-8d8d-9e07f8558267	f59e69de-3dad-4238-8acd-b49bf2e138c4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1793_1_BM_CD138pos
+MMRF_1794	dd974212-07a5-4700-81f8-07f22db6ab76	68de7c41-9043-42f5-bc36-7a712d08226d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1794_1_PB_Whole
+MMRF_1795	6fef08a3-7b6a-4c8a-bc27-c14054e55953	addb7373-eb84-48f4-96f9-c3d136590d67_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1795_1_PB_Whole
+MMRF_1796	dc38c5b1-c09d-4fbd-8839-6e1b246ff36c	82a616c8-891d-4946-9c38-2d0a9674708d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1796_1_BM_CD138pos
+MMRF_1797	3e043391-a22d-45d1-9009-089b904f9b05	c4f114cc-56d1-49b3-af95-b25368e6e25c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1797_1_PB_WBC
+MMRF_1801	4d8864b8-ca01-4f44-a3bb-fe3177da43bd	fdc9fcf5-38a0-4be0-ad53-46b80143f07b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1801_1_PB_Whole
+MMRF_1802	66758fba-9f06-4b04-bfb7-80b55ab3f674	1063b41a-2086-4c68-9b6a-879a5f81c24e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1802_1_PB_Whole
+MMRF_1803	92aea221-9332-4349-9faf-29adee419fb1	755e598a-61b8-46ea-9aaa-05f7f565d4f2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1803_1_PB_Whole
+MMRF_1805	7b89621e-564c-44d5-9695-75c4c645ff3f	38878df2-d5f5-495d-b713-b6854376e1bd_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1805_1_BM_CD138pos
+MMRF_1807	f2cf2d9f-1b55-4c6b-8e5e-8717a77fb924	9da79214-425c-405b-ae38-393f270bc8d5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1807_1_PB_Whole
+MMRF_1808	1d99db9d-c176-4900-9b8f-c3a15e00413d	ae47303b-6852-46e9-9627-077c2b292c96_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1808_1_BM_CD138pos
+MMRF_1810	6724edb5-20a5-415f-9483-d72b9d487a40	d3c96ebd-8518-4b1d-a8db-dfe594b40ecb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1810_1_PB_Whole
+MMRF_1814	159d278c-c626-4374-b4c5-8d0b60826e6a	d015b17d-3c66-44a0-8773-4e0cb95e0849_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1814_2_PB_WBC
+MMRF_1815	395b9a6d-5cca-4b14-b504-5577bbf2ce5e	80c1dd72-a656-4a40-b1d0-4b208eeb0884_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1815_1_PB_CD3pos
+MMRF_1816	afba5d74-e57a-4038-8c50-03c372145774	a0398b33-e111-4cb6-887c-138e3c810b01_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1816_1_PB_Whole
+MMRF_1817	1221c3f0-f43a-45d7-9972-4b9b6934073b	2d84f3c4-43a8-4f41-89c1-129f094f3a01_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1817_1_BM_CD138pos
+MMRF_1819	f0a55b7c-2a3f-467f-a4d8-67d4c4be6846	3b047b28-10e3-413c-a6a6-59fea18b31b2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1819_1_BM_CD138pos
+MMRF_1820	5459d058-f84c-4519-b97e-8c8ba22efd66	9ef50b60-58b4-4cc6-a6b1-4a784d19b3c7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1820_1_PB_Whole
+MMRF_1822	2fc7e10d-77d9-47ec-9865-3384269f4be3	066e479c-8135-45a5-8037-f6b72c23e3c5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1822_1_PB_Whole
+MMRF_1823	e53b65d7-3869-400b-9212-999de7ff01db	7ba3c93c-2a6e-45a0-9f54-397eb1fb2577_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1823_1_BM_CD138pos
+MMRF_1824	e00e6d96-7b05-46d6-8c38-5d2e3414b399	8b840583-6bbe-4e8a-968a-24ed223d3d42_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1824_2_PB_Whole
+MMRF_1825	6e024aca-3f0c-44a7-9f05-1ba1c0375cb9	fb1e9c3f-f755-4a3f-bdb2-7d69cd7b7da5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1825_1_PB_Whole
+MMRF_1830	974f1504-ebd9-405a-99b5-d851ceaa4a80	08f401a7-4399-47a6-ad5f-5b63c7735713_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1830_1_PB_CD3pos
+MMRF_1831	c94ce11b-3fa3-48af-9685-c1c3255dc28a	1c5ac003-c4c2-45f9-893b-4fd41dc80ef2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1831_1_BM_CD138pos
+MMRF_1832	1c972785-ff51-49ea-b461-bd575e21f41f	6a2a2e26-5b14-4545-b398-11dbf6281f71_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1832_1_PB_Whole
+MMRF_1833	a6c1d82d-e9bd-4b3b-8de7-4074163280e0	df3eaf39-5e3f-4af8-9970-7e2c99d299f1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1833_1_BM_CD138pos
+MMRF_1834	0526e2cd-d429-43ee-a4c9-2f91fd303a95	a9e35ddb-1b8a-4e08-9b48-69764bfe168a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1834_1_BM_CD138pos
+MMRF_1835	fcabc3f7-f412-4952-a0b6-79a49bc39d35	97679b4f-1646-44c6-ad1a-a594bf6897fc_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1835_1_PB_Whole
+MMRF_1837	4b34d13d-5aa7-4453-ad29-732aa4a1a443	c1b6b447-3f34-4db3-863d-3be623134de6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1837_1_PB_Whole
+MMRF_1838	f410570f-62cc-468d-ac4d-eaf9bb96744a	6bdd1372-c264-41b5-8d02-244e1b8e1108_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1838_1_BM_CD138pos
+MMRF_1839	649e8cf2-cef6-4019-a1dd-8148aee1d093	540a7d5b-4534-4e7f-8348-57e4adcc5d64_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1839_1_PB_Whole
+MMRF_1841	6a0f22fd-0e73-40b5-830e-59f641efb79a	aaeee2fd-0bd1-40d1-b44c-a28a48fbe8b4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1841_1_BM_CD138pos
+MMRF_1842	8ecca797-2cf3-46f8-8cce-d4d4c89acd2c	7e6f486b-878e-4b4d-869f-73e63107eeb0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1842_1_BM_CD138pos
+MMRF_1845	8f417094-b008-4aa7-8b8e-b46c9d558567	2aa91482-b40b-4285-bea8-3ab4849c7dfa_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1845_1_BM_CD138pos
+MMRF_1846	b19a53ab-2f24-4632-8eae-4da122e38652	758515b2-e32e-43a9-a8ac-90dce164b233_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1846_1_PB_Whole
+MMRF_1847	45f61025-9309-44dd-a830-e4ee002cf156	a40f6ab4-39e1-4b09-858a-658b37beadf7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1847_1_BM_CD138pos
+MMRF_1850	2a475cac-4923-4097-bec6-29bace876a15	58245bf3-6c62-4d90-b2e2-0421577d0bc2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1850_1_BM_CD138pos
+MMRF_1851	26215e48-46f0-4be7-84e4-1ab8009a511c	5863360f-bdd9-45dc-aad1-ff32dae3c412_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1851_1_PB_CD3pos
+MMRF_1854	78611f63-291e-40ad-a535-94b8089a2969	f10979b5-50be-4997-a344-adddfbbcc5bb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1854_1_BM_CD138pos
+MMRF_1855	8627531a-4315-4926-8eb1-afa029927908	c9586d62-0cc0-4a04-91de-6e7b2595f2eb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1855_1_PB_Whole
+MMRF_1856	49440b3b-d9d0-4b42-b96e-bd74864a6cc4	6b6e9a66-01c6-4c54-a129-e24eaf00ca78_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1856_1_PB_Whole
+MMRF_1858	a08f0d6f-dd9c-44a5-871a-9beddf300c39	c4dc746e-33ea-447c-8118-df553e3c8076_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1858_1_BM_CD138pos
+MMRF_1859	55c1ffa4-2940-4221-8d22-f070e67ae031	ef4f94f1-6f26-4c76-b107-01f132e9b3b6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1859_1_PB_Whole
+MMRF_1860	8aa972ae-07f0-41c7-b21a-57a180002a24	e464c6fd-91d9-4047-b05a-da875b98b962_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1860_1_PB_Whole
+MMRF_1861	c7214a06-a669-4fc2-89e4-1fcc879dfc93	fe08b1db-1856-445b-a9d9-1e98ede0b89c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1861_1_BM_CD138pos
+MMRF_1862	ab847950-f79d-40f3-927f-ff9c9d825074	fdd69742-b94f-49bc-afd0-615109666906_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1862_1_BM_CD138pos
+MMRF_1865	a3d71d6b-be6f-4083-aa91-663546bc8c29	944b4488-c4b1-47f5-850b-907abf247b1c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1865_1_BM_CD138pos
+MMRF_1866	14acebca-10dc-4c57-9448-37bc25bda26e	a0fc5168-b199-495b-abc7-7c29bc007647_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1866_1_PB_Whole
+MMRF_1867	a6c035ee-5892-4527-afa3-9358e01d917d	24e0879c-c7a4-4f90-aa5f-03b728e4eeb4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1867_1_PB_Whole
+MMRF_1871	adc5699d-cec4-40e5-8147-18eec1e64e00	94d9ced4-2a19-440a-a66e-b9f9809924d6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1871_1_PB_Whole
+MMRF_1876	bc6e13f5-7357-46cc-9e7b-7f6c949934f4	c5c2cdc3-c8b3-489b-ae56-de0a1a061e55_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1876_1_BM_CD138pos
+MMRF_1879	720d4f0b-bcfa-468e-8d4d-93035cfa55c3	ec23543a-31fc-42ba-a878-523b39a74a76_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1879_1_BM_CD138pos
+MMRF_1880	e6f880a4-fde6-4183-abf7-8c71c814a968	12cc5cb3-394c-47ff-944e-2baf626f65db_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1880_1_PB_Whole
+MMRF_1881	066f699b-a98c-41b8-bc83-35b642e2e907	e46fd1f3-69cc-472b-ac50-7467d380f75f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1881_1_BM_CD138pos
+MMRF_1882	69f1b92a-5bb7-4f46-aeb7-28253f53cfa1	9b572d2d-66fd-4aec-95d6-5349b3495773_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1882_1_BM_CD138pos
+MMRF_1886	92d6ab41-764c-44bf-9a56-9739b6596341	dd35cca8-715c-4d48-bfe8-00b9166712d4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1886_1_PB_Whole
+MMRF_1888	41a23e28-1668-477b-8b40-40bad094c2a5	fbe74813-90b4-4524-9248-e229fe5dbb27_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1888_1_BM_CD138pos
+MMRF_1889	cfef93f7-5daa-448d-8449-d9d8396bee78	873739bb-89b2-435a-b00b-b2d1a4281b29_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1889_2_PB_Whole
+MMRF_1890	58748154-f9ba-4b29-8f55-6f29bb9be14d	0e458d69-69ce-4e48-81f0-e91417e81067_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1890_1_BM_CD138pos
+MMRF_1891	5c290d4f-e0df-4e96-8949-c963eb8e78f5	4d38ca56-893b-4e59-9ed0-6f596cb3cf04_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1891_1_BM_CD138pos
+MMRF_1893	03cb2523-ee44-42b8-800f-3fc720a5bfac	b424edf2-f671-49c3-ab82-70bd018a5262_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1893_1_PB_Whole
+MMRF_1895	a31c0133-1329-424e-b6a7-c2bae296176b	59a7645e-db74-41fd-82e9-78935af50de0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1895_1_BM_CD138pos
+MMRF_1897	dd1210a5-fe95-461b-99ad-fa1591ae05c2	f47a5f8b-75a1-4ffb-be6d-49a6ec4363a2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Peripheral Blood	MMRF_1897_1_PB_CD138pos
+MMRF_1900	77c88ef2-6d03-4eb5-973d-4bf22e040819	e30cd468-0768-4f2f-8f4a-7ea585db3386_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1900_1_PB_Whole
+MMRF_1906	7071edee-6086-49e8-9260-89bea39cc25e	f5f8a6c7-e52d-4be3-a048-7ddb85fefe19_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1906_1_BM_CD138pos
+MMRF_1908	79031f4b-054e-4e57-a9e7-acbca0bd533c	8d0f9c70-1e7b-47f7-a177-823624220576_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1908_1_PB_WBC
+MMRF_1911	2ae9da8f-d868-40c6-bf3b-59aafd6365ef	70e37fda-b84b-40b9-a7b1-14846f7114f7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1911_1_PB_Whole
+MMRF_1912	449de096-dfdb-4875-afd2-32cdf6a06758	c9b7668e-7c45-4fee-bdeb-f2deaae5af15_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Peripheral Blood	MMRF_1912_1_PB_CD138pos
+MMRF_1913	5d80dd57-fc0a-424c-b571-61103472aab6	58412aca-dc84-484a-92f4-3cf2b33519ea_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1913_2_PB_WBC
+MMRF_1915	151c75f3-c6e5-478e-804c-bd64dc4fbf23	14fcfc0f-9813-4064-8240-9c743fa4fc64_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1915_1_PB_Whole
+MMRF_1916	61096c41-e659-4e1d-9c9b-a8e2cbd86828	f540b867-fd64-42af-b16c-4fdd2e3d6e57_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1916_1_BM_CD138pos
+MMRF_1917	34d5e3dc-470c-4288-960f-ddc18c710272	f574e4e7-a2c7-4792-b84b-ccc97b3f8892_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1917_1_PB_Whole
+MMRF_1918	ca1fabce-626b-45b6-a1bf-8e62adb94db1	181b8070-983c-45ec-881f-4e8e00fac4b4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1918_1_PB_Whole
+MMRF_1921	9dd679fa-ab68-4b87-a9fd-4ed2da0394c2	a94857c2-3916-435a-9741-f52de95d50c5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1921_1_PB_Whole
+MMRF_1922	4da5d859-07a8-4bf7-b10e-52a83e3720f5	af59f8d9-c55a-40d9-b832-c73cafa60472_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1922_1_BM_CD138pos
+MMRF_1927	93773bdf-61cd-4552-9905-d8575e0fb921	f87345d2-692a-44f5-9d57-30a45427b60a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1927_1_BM_CD138pos
+MMRF_1928	91aed30e-f200-4cd6-ae42-69fc4774c053	9fad29a3-64db-4440-bd8f-f8279c5511ba_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1928_1_BM_CD138pos
+MMRF_1929	e926702a-174a-47da-b42d-eebb9a96c492	5240824e-c19c-47ba-8a34-b0a994dbcecd_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1929_1_PB_Whole
+MMRF_1930	b7c7791f-d36f-4686-8f30-d257f218ad02	bd95ace1-7ce6-4214-ae77-c80924c9cefc_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1930_1_PB_WBC
+MMRF_1931	6fb8748e-c86b-44a6-bee9-151ea1db45db	b415033a-c9dd-47d9-b9ea-214200b38db2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1931_1_BM_CD138pos
+MMRF_1932	0941df11-5407-4770-b5dc-993ddf1024e1	1e8ea54e-07c2-4654-bd78-ec34a761d2f4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1932_1_BM_CD138pos
+MMRF_1935	eeb3471e-ffba-424c-891a-7ee8d6eb67b3	7a80ef8b-62c5-4db7-843a-4a565d0fbe1c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1935_1_PB_Whole
+MMRF_1940	027c94fe-56d1-4ed3-8675-bae8d88f7fb7	7ba961cb-a9ba-4bd9-884a-ec793783beb4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1940_1_PB_Whole
+MMRF_1955	b203c4f7-2b2c-413f-a47f-efe43ae018ed	be9c423b-2608-4aff-9499-54669cc1e01c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1955_1_BM_CD138pos
+MMRF_1957	88605792-f99b-4ef2-abf4-29dae962ddd0	c65f5bd0-521a-46ba-8bc8-6bec8387370a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1957_1_BM_CD138pos
+MMRF_1960	a28ed9df-9ff0-47ba-8577-ac44b12bce81	72991ffe-98c5-4c59-b36e-f47c2f92bdae_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1960_1_PB_Whole
+MMRF_1963	c2fb48fe-c314-43c4-99be-429fe27c27f7	e09b2bef-2da7-424a-84f4-64d780b4d0a3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1963_1_BM_CD138pos
+MMRF_1965	b5cfd95f-f396-4f6d-a8de-0ed930af5fa6	bfdb3812-5bb5-41dd-91ab-eb65de59da04_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1965_1_BM_CD138pos
+MMRF_1967	589beb46-7a19-4eab-af48-bc007e5acfb4	56f2085e-750e-4329-a54e-9671f044292e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1967_1_BM_CD138pos
+MMRF_1970	98420dad-32c6-479b-9215-361ee2be0f09	ac7fa8f2-4fec-4ff1-acf7-0b79d0c00d06_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1970_1_BM_CD138pos
+MMRF_1971	2f520702-1d57-4150-89e5-0b684693a09e	c420a1d0-8a64-4668-8de9-9e8fa37bfd3c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1971_1_BM_CD138pos
+MMRF_1972	201d7638-38b5-46d1-9a93-c9e2aa217f5e	6f260cfb-5458-4dee-9201-db69968c1582_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1972_1_PB_Whole
+MMRF_1977	eca3c897-7d44-4709-9c25-def905d69a1c	e46f720a-dcd2-4174-baa5-7e17f3b38981_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1977_1_BM_CD138pos
+MMRF_1978	6f94f702-62f6-4029-86e5-03a48b0f2cc4	822db666-3c76-48fd-b812-e57ed8653d63_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1978_1_BM_CD138pos
+MMRF_1981	e66a9d60-ec59-4bb3-99fb-4656b2795a78	457e69de-5f45-4efc-bf7b-29c23e64f974_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1981_1_PB_Whole
+MMRF_1982	08549b57-b8e9-4787-87d2-0e773d54ee80	f0ca52ab-68d5-411c-8018-b4b6ec2efabf_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1982_1_BM_CD138pos
+MMRF_1985	920cd923-9c87-47b4-b605-d0b58838e3d5	3ddb8dd1-6f9d-466a-b7c5-abd1301e9c33_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1985_1_PB_Whole
+MMRF_1986	39c9f365-705c-48d6-aa2c-c864f27c6783	863d5698-ae9a-4f8d-944c-8669e3f0f640_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1986_1_PB_CD3pos
+MMRF_1988	ed5ebe14-a4e8-4ee7-9357-0ea13dfd291c	9428b094-fca8-4730-b61a-1afbaeb923c3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1988_1_PB_WBC
+MMRF_1991	206103b4-e592-47ae-86dd-b97a72eb1f53	05e934ba-331e-4945-8bf5-8e2c6e73ba45_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1991_1_PB_Whole
+MMRF_1992	25cf3b39-bfe4-4d42-8f1d-b20ce06c374f	a7c3cbd3-f3d8-4b47-810b-2059a1d4e4d5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1992_1_PB_CD3pos
+MMRF_1994	e35af31b-5c22-4db9-b3be-8ce9f9a932a1	1a51fdd8-ec8f-42b4-a942-06538511afee_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1994_1_BM_CD138pos
+MMRF_1995	75a52deb-fe07-4e1b-a7af-a68f4a5b6c63	95fa60eb-ac0b-47d3-8e80-7fd1d033b416_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1995_1_PB_WBC
+MMRF_1997	18f2740b-92bf-4828-b654-6cef9da8fe57	b1904f34-b1fe-4577-9230-620f0ffdda5c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_1997_1_BM_CD138pos
+MMRF_1998	b3b6e15f-9ffd-4926-86e5-ec9c78a7fc82	b560f9e1-b16d-4d51-a0af-07ab86ffbaef_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1998_1_PB_Whole
+MMRF_1999	00cf4198-4947-4816-a855-9aac8011f071	24c5a372-02f5-4b68-8f98-eead4f0028db_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_1999_1_PB_Whole
+MMRF_2000	006f1b31-911d-4c75-bb3d-db6b0d016dfd	cfa362a2-476f-43d8-9c47-ff1e9d8c48cb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2000_1_BM_CD138pos
+MMRF_2001	b5ed2666-e4b9-453f-8d2d-11b91286c844	1f0fae50-de18-41b4-a451-0e6a0113a83a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2001_1_PB_Whole
+MMRF_2002	d538dcae-63b8-4ea7-8f08-0bb2a0bcb7dc	79a4b469-11e4-412b-a2a4-42ee7192abb7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2002_1_PB_Whole
+MMRF_2005	7b9d0f1c-53af-4382-904e-438060df99fb	ad6f94e1-94ca-4685-9c3d-03f3030f4c80_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2005_1_BM_CD138pos
+MMRF_2006	55e92d67-4eb3-4e33-8312-b49489fe7411	4121f435-f02b-4a26-a0e3-7e7a07d3a605_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2006_1_PB_Whole
+MMRF_2007	2d51fe38-883f-4e0c-b379-6bc111e107db	ee7d3b16-3a3e-4aa9-ade6-548a2367508d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2007_1_PB_Whole
+MMRF_2011	579df899-536e-4c85-b998-7afd18e1f961	406924e6-d299-4628-8439-ec2403a6e5be_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2011_2_PB_WBC
+MMRF_2012	cf8a4a68-fdd1-4b46-b8c8-74a99b7ae119	03ab54dd-0795-4ff5-a3f2-a5f294fcdd66_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2012_1_PB_Whole
+MMRF_2013	9c851a88-bd11-48fb-91f7-8f4140a617a3	2e2f4b98-5a5c-4c45-9fab-ebf25e85895c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2013_1_PB_WBC
+MMRF_2014	90b4635c-1408-4cd2-97e8-b7463deaad96	db7c711f-53e0-412b-a78f-6c3e2295942e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2014_1_BM_CD138pos
+MMRF_2015	abbc4b07-c5ff-4100-bcd7-8cefe07ea29e	b40a7100-d1af-454b-96ca-1efeceba1e63_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2015_1_PB_CD3pos
+MMRF_2016	4b531787-0e2c-47b3-85b9-1c1304b0c9b0	44cf7010-6583-420a-9481-5bbf7eba6962_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2016_1_BM_CD138pos
+MMRF_2017	22a117bd-1cae-49bf-8f3e-2ed1de0421ce	7a9cfe23-95a6-4249-83f5-222ca2084484_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2017_1_BM_CD138pos
+MMRF_2018	b1459102-6dd6-4da1-bdb0-9697beb6ab2e	1a5da038-437f-47fc-8006-3510e7903f6f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2018_1_PB_Whole
+MMRF_2024	e26fb6a9-2b3f-4eb2-a1f9-608058feea94	291b271b-81e9-41d3-91ca-3827a066cecf_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2024_1_BM_CD138pos
+MMRF_2026	096ee24e-cdad-432c-93d9-48413748350f	12e5fef2-023b-4117-a0f9-6f6a1d60de2d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2026_1_PB_Whole
+MMRF_2035	e466b725-0326-4e14-870f-ccac4e1386fc	cd35d97a-0288-468f-88e2-e72b5171dfbd_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2035_1_PB_Whole
+MMRF_2038	f16f1df5-43e2-4efe-9614-93203aeb58c0	513f2c2f-cce6-435f-bc8d-d05262c1f57d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2038_1_BM_CD138pos
+MMRF_2039	4ae4eec4-df22-4407-a363-d407f3eb4d58	0e99d00a-2943-4a0f-b4ca-0bb536f1868e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2039_1_PB_CD3pos
+MMRF_2041	348d4d19-0469-46f5-94ca-18499a159f41	f58d58a9-311f-4cfd-91f3-7cbaf448533a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2041_1_PB_Whole
+MMRF_2043	a6a692c1-b765-4b1f-b483-97084afc29c6	9e97be10-f2d5-4ab3-bfc5-394f27556abb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2043_1_PB_Whole
+MMRF_2047	cf437fb5-ac83-4be6-87a7-6cc75b6d59ee	b16e81c9-85d7-455c-94b8-d175ba92f261_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2047_1_PB_Whole
+MMRF_2050	b763ccf1-6624-401c-be19-96ab509e76dc	8ff7939b-c63b-43a6-bc5b-581a4d306313_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2050_1_BM_CD138pos
+MMRF_2054	606d0d8f-5f5c-4b4f-b338-b2cf34fe5a7a	96f363dd-4888-47db-8cf4-345478677fce_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2054_1_BM_CD138pos
+MMRF_2055	7cc70b2c-60ab-4eac-9f7d-0b834296a667	2aec549b-a73d-441e-9a51-375b2beba50b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2055_1_BM_CD138pos
+MMRF_2056	7a661282-f6e9-498e-8216-60c2468e7529	1aacfe9d-30df-4f4c-81e8-09933b333039_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2056_1_PB_Whole
+MMRF_2058	3adf2ace-10b8-4ca8-a7dd-f9335ac41a84	00326193-6f9f-4bef-9702-57545607245b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2058_1_BM_CD138pos
+MMRF_2059	668f883a-7d37-4e11-b0dd-c4a612f9a2e5	0d20eeec-1e30-41a5-9a6e-9b69df37600b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2059_1_BM_CD138pos
+MMRF_2061	7372ff43-a5c0-4a36-98aa-1929178f77c0	b54b633d-96f5-4f42-9492-c0de7bf0b449_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2061_1_BM_CD138pos
+MMRF_2062	73e17376-468b-45cf-a16c-932161d2338c	a40099f9-072f-481e-bdef-3f9fd816d354_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2062_1_PB_Whole
+MMRF_2063	bd8a1e68-2abb-4b10-ba85-262b8d333d39	5c12680b-b87b-494b-85e4-b588bcf019e1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2063_1_BM_CD138pos
+MMRF_2068	2c782699-f354-43b7-a9c6-805a0982b4eb	d6a6b6f8-4be3-4de5-b224-2aade6598f6b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2068_1_BM_CD138pos
+MMRF_2072	59293ff0-5cb0-44ec-8719-8a7b5316139e	c032403f-638a-4307-9c1b-24fd834cb574_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2072_1_BM_CD138pos
+MMRF_2074	c8cb683f-edf1-4f91-822f-9f835f909aaa	9b823c5b-d7bd-4a7a-84e7-f3e3d0427853_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2074_1_BM_CD138pos
+MMRF_2076	61614289-522a-4b73-bb14-7e2ba1b3a65b	94a75254-1136-49fb-8911-400080a6ed82_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2076_1_BM_CD138pos
+MMRF_2079	4524a12c-a608-461e-8e50-90e6f80f3105	38e2655c-63eb-4519-b65d-5168de98eb29_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2079_1_BM_CD138pos
+MMRF_2080	185a8b0f-0eb9-4400-ab15-433c4439388d	4fc7bf0c-b5ff-4a89-b59e-52b50ec3007c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2080_1_PB_Whole
+MMRF_2081	d419d35d-21e1-4181-9da3-b1f10b6c69dd	60cf60dc-e764-4c27-9045-b823bb8c5061_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2081_1_PB_Whole
+MMRF_2082	e241d8de-3823-4ec7-953d-b69422688310	b58133ff-272e-49ae-a1d1-e2fe9d4b15e2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2082_1_PB_Whole
+MMRF_2083	0708031e-051c-454f-85a7-bb261d127a01	39c60c62-0a31-4c14-ab76-1429b708f71e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2083_1_BM_CD138pos
+MMRF_2085	02b88a82-f654-4415-beb9-a00ca0ec8313	d6c2b79e-9817-4ec2-9bce-cbcb459165b5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Recurrent Blood Derived Cancer - Bone Marrow	MMRF_2085_2_BM_CD138pos
+MMRF_2087	7e29fe26-3c28-4cb9-a45d-ed8c40ecb972	aaf28ce8-8c86-4276-b511-3342e82e03ef_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2087_1_PB_Whole
+MMRF_2089	0495322f-8eeb-4c17-a36e-fa5e7ec02bbe	222920ee-b6c2-4b4b-abbd-79b053c7975d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2089_1_PB_WBC
+MMRF_2090	9850070a-be65-4938-abac-ee80ec1654d3	70eeee7e-df11-4df6-8aba-b78f3c962ea4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2090_1_PB_Whole
+MMRF_2091	713a3c32-e16f-4fb0-95b7-aa15f60b1459	02e1c875-329b-43d8-96c4-53b5f99abea3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2091_1_PB_Whole
+MMRF_2093	418fc58a-14b6-4da7-9b2e-0af7f59a353d	e9be3078-ac94-4bfd-bc05-d4d06992aea9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2093_1_BM_CD138pos
+MMRF_2095	7ae36d8b-69bd-4cb0-bea1-20629154db5f	54daaa04-9dd3-49a5-8950-10b9b437d1c8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2095_1_BM_CD138pos
+MMRF_2097	c6d42e82-3149-4f12-b7df-3f3c6238783a	1f9ec95e-fa3d-4a89-8a40-0238f32c96e4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2097_2_PB_Whole
+MMRF_2098	f9a07a96-7ad4-4643-b000-3b9f94979e6a	98caf291-0810-4262-9fb2-d05504cd9c10_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2098_1_PB_Whole
+MMRF_2101	6ab702d4-d4f6-4114-b8de-a26e5de1927d	b50c3907-424c-43a9-ba72-a51b35d11d86_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2101_1_BM_CD138pos
+MMRF_2102	cb96679a-a39c-4599-9122-3f1810756352	2170998c-21a1-4fbe-adc4-e0ae383d81f3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2102_1_PB_WBC
+MMRF_2106	1a0ceb60-fd99-4ec9-8756-064398e3d502	a4c684f5-a813-4a14-a773-c0722d56cb4f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2106_1_PB_CD3pos
+MMRF_2107	8ee8f058-23eb-4d89-be5d-5c2e9a9f7d57	e91399d9-d65e-4e39-99d5-86eb634bf500_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2107_1_BM_CD138pos
+MMRF_2111	ade1c036-d154-4414-b5ac-420d78a6a59c	b0dffbf2-5e3a-425b-bf11-8f7c2a1b2302_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2111_1_BM_CD138pos
+MMRF_2112	21d17e3d-1104-49c2-811c-95dfe60a19f5	b714c265-2bc1-486e-ad9f-769b7e844a6c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2112_1_BM_CD138pos
+MMRF_2113	575ff360-25b9-412e-8cb1-7e86e33e29ab	315baa8b-139a-4306-9195-073aa872ce80_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2113_1_BM_CD138pos
+MMRF_2115	f49a16b8-a2b5-4a0e-8b36-25f809700a53	f9c54456-8209-4e9f-add8-5ac45829e248_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2115_1_PB_Whole
+MMRF_2116	2d650058-dcf1-45af-85b9-b8c5c1b59b35	c3f1dd42-24db-4251-8fa6-06f04b15f754_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2116_1_PB_Whole
+MMRF_2118	60a1981b-6944-4b6c-a7a2-839291833105	a3e1a107-aba0-4899-b601-92c88147d15a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2118_1_PB_Whole
+MMRF_2119	a67e476b-de29-4a92-b333-6ca965070316	a05112ad-c7bf-435b-99be-0a06acca4ad9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2119_1_PB_Whole
+MMRF_2122	02f1a693-415a-43ff-81bd-27ecffccb429	616ab7fc-3b2f-4c96-975b-25259eb0d1f4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2122_1_BM_CD138pos
+MMRF_2124	590c55c2-b097-475c-a74f-c423512035cf	2d58a9de-c02c-4d58-83b4-f1da22226a18_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2124_1_BM_CD138pos
+MMRF_2125	eb5fa8c9-1f01-40a2-9f4e-fb5f26fc79eb	885d4622-734f-4a79-9f58-e2fc06f1d154_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2125_1_BM_CD138pos
+MMRF_2126	ec184dfb-cced-4174-b4be-e6fd484a423e	1934cc01-acde-41ad-90fd-ec96c51cb4a8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2126_1_PB_Whole
+MMRF_2128	22f9f08d-7d9a-4887-aa6c-55a044738b90	4951f21c-f051-426d-ba3a-c275c4b39a6f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2128_1_BM_CD138pos
+MMRF_2129	ab604b35-9ae1-43ad-ba93-2f4436300f74	6b67106c-039e-41a1-a8e0-b7aac1d98f85_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2129_1_BM_CD138pos
+MMRF_2132	69c487a2-6e8a-4f8b-9ecb-ef368251a791	7ae0f773-1b0b-49ce-a2c1-98a6413cf7c2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2132_1_BM_CD138pos
+MMRF_2137	6c58d309-1d44-4fe7-ab7d-d185501f11db	28a1ff3c-6192-4fc6-8bfd-eeff6e2a8b49_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2137_1_PB_Whole
+MMRF_2138	8aa06926-bae8-4bc9-b4a1-ddd662c47bcd	e0958a19-3a97-43c9-a904-5dc5bbc60350_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2138_1_PB_Whole
+MMRF_2140	54e22625-3512-424f-b32d-65b1d8ff9fc6	9ac7c512-12ce-4002-bf31-5901b9db4c3f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2140_1_BM_CD138pos
+MMRF_2141	e68250e8-171a-480f-aee6-2e497eea5df4	f6d638a1-6bc0-4f24-bf80-ff1989649180_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2141_1_BM_CD138pos
+MMRF_2143	46e0d515-7056-4d7b-86e0-a0e3bd4bf674	bc4c81ef-9481-496e-a126-8ad70a7da725_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2143_1_BM_CD138pos
+MMRF_2144	0b92705b-c988-406b-b8c2-7c22d46c85ce	0cdb7db5-cd4e-42bf-8784-9bf5e8b981ed_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2144_1_BM_CD138pos
+MMRF_2149	77d3c56b-725b-40bd-acf9-bfc1eae130f7	f0c7fe06-9dd3-48ab-ac62-0701f77d9b8a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2149_1_BM_CD138pos
+MMRF_2150	bd341d13-2a9e-494f-a95e-dc8753fd7973	1b698fa5-6bf7-45b4-ad0e-63408593d19e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2150_1_PB_Whole
+MMRF_2151	6d01adc0-a103-4307-98aa-9fd566e5193b	5f66e751-e790-448b-9c37-e60b94c826f2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2151_1_PB_Whole
+MMRF_2152	5e253465-1755-442d-9f09-2a2616042c6b	7e763826-f8aa-4ec7-a95e-ec10dd69ce01_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2152_1_BM_CD138pos
+MMRF_2153	ab2b9cb5-1414-4759-bd9e-4c6b484800dc	f562eef6-11ce-475d-a66a-ba676935ec7c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2153_1_BM_CD138pos
+MMRF_2159	7f33aea8-814e-4529-80c5-ad8baa8b1689	4abe76f5-7c8b-4a76-a19f-11306403d96f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2159_1_BM_CD138pos
+MMRF_2167	d688fbe8-5e4d-4e02-aba0-d33c89a94f35	3dee01dd-7d10-496c-b079-b56ee90e65d9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2167_1_PB_Whole
+MMRF_2168	1097c6bd-c8b9-4890-b0f6-49d094ea44c9	2a22dde4-771c-45f6-87be-0a27d0a8f6ae_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2168_1_BM_CD138pos
+MMRF_2170	105fe92b-defb-4981-b031-07e76447ebaf	16de250d-f0fa-4637-8bd2-9283dadd14f4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2170_1_PB_Whole
+MMRF_2172	9a91380c-124d-4577-b881-e3fb068ee86f	b5d321c1-beac-4189-adad-68542052667b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2172_1_PB_CD3pos
+MMRF_2173	3b5c9144-d017-4279-ba0c-b907047bdea5	19f2a4ff-ae82-4223-b656-848ea1f61974_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2173_1_PB_Whole
+MMRF_2174	e7256733-cba9-49f2-b9d1-a561f934bfe9	653c2bc4-1102-44c0-b13d-3e13a128472a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2174_1_PB_Whole
+MMRF_2176	41ca3cf4-d061-4593-950f-255695dd7f55	036a4a46-3abf-4e64-99ab-a691e8842ee7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2176_1_PB_Whole
+MMRF_2180	988015b0-da6b-411a-ad7f-74f0eea925e3	04199fd6-e06b-4bfe-8051-114eb30e91de_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2180_1_BM_CD138pos
+MMRF_2181	a9ab6cc3-f8c0-48a8-8ae9-879dd8ad4809	3165ffc0-952e-4ad4-ab7f-0f6dad1e5004_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2181_1_BM_CD138pos
+MMRF_2183	ade078b1-d358-411a-b7e4-8adc4acde7a4	a8541166-3370-440c-b253-ca4b54a9190d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2183_2_PB_Whole
+MMRF_2185	4509531e-afb2-41f6-8118-46b78cf85762	c0e9f2a0-40c7-48b8-a3bb-95f5c968b8b8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2185_1_BM_CD138pos
+MMRF_2186	2ce787b6-2263-4e44-b879-77b821df76c4	9e4fdb87-2b71-4cc9-b98d-2785fc938852_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2186_1_PB_Whole
+MMRF_2187	4fe9115f-506f-42e0-a08e-25617e4ff5b3	93120d5e-c952-4f63-ad5b-71473c96e9e3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2187_1_PB_CD3pos
+MMRF_2190	45cf9a81-1221-4fa1-b345-bd9eb006aea0	e38432a2-d470-4d1b-a753-67b69b0b6d6a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2190_1_PB_Whole
+MMRF_2191	869c2706-5d28-4a28-9710-08a840ce0471	48355bbf-ce2d-43b6-89d6-c69cd2392c38_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2191_1_PB_Whole
+MMRF_2194	8bc3745d-9a87-41f5-80b0-9ddadb4fee7a	4f76383a-d9b8-4aea-b3ce-11a31d7ff85b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2194_1_BM_CD138pos
+MMRF_2195	fb9dc3a8-47cd-41ab-9b02-e348a86edea2	660b8eb5-e12a-47b3-a529-19c24ca380e2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2195_1_PB_WBC
+MMRF_2197	ad8ddf94-5728-40e6-aadf-1d7dcf4f3662	87fe6d73-4f51-40f9-934a-648bf1aaf1b7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2197_1_BM_CD138pos
+MMRF_2198	c3d53ef4-4383-4b88-9152-724665d50e40	4920834d-5679-4be1-843c-42fb9ace924d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2198_1_BM_CD138pos
+MMRF_2199	fb7e9fa0-d2ea-4b25-9b8a-a5e75d623105	d735ab00-1c43-42c2-b19e-451f0d6de47f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2199_1_BM_CD138pos
+MMRF_2200	76aa605f-d396-40a4-90aa-9ee01abd7be3	f7ac08e7-f18e-44b6-82fa-2ffe8a969e36_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2200_1_PB_WBC
+MMRF_2201	04b8457f-0343-4cd1-a670-90b392afdd1f	207b53ff-4820-4ffc-8481-b0049eb3c59c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2201_1_PB_Whole
+MMRF_2203	f322fb07-8ef3-4d2f-aab7-5d3b3af236e2	2cf04c28-8f69-45d1-a7dd-9612a3268c85_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2203_1_PB_Whole
+MMRF_2204	622b4584-8f9c-4175-9121-911f52535d87	ab0643f4-7d28-44b9-8625-b85309cea236_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2204_1_BM_CD138pos
+MMRF_2207	35f3e9a4-da67-4af4-b361-880302b5195c	46c81a4e-f03c-447f-a469-9b1beb884cd9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2207_1_BM_CD138pos
+MMRF_2209	de4e4e41-3491-4c60-83e3-8fdef4348f4c	76add505-1080-403d-9038-ceb0529e977a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2209_1_PB_Whole
+MMRF_2211	53c43dc7-1e4b-4df4-b1e9-7b6b0fd5b37d	ef2381bf-e72e-445a-9918-be69b98b8b13_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2211_1_BM_CD138pos
+MMRF_2213	ab10d0fe-c493-4650-942d-fcf83613fcf5	810b7446-9fc4-4118-81d9-82c24ed46b1b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2213_1_PB_Whole
+MMRF_2214	fa23a154-f96f-493b-9048-0eb54f8df335	c6e5359d-156c-4974-81c2-e24102ca542c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2214_1_BM_CD138pos
+MMRF_2215	059128f9-a7c7-4cc5-8f1e-9bfcd3aa4acf	4738acb8-5237-479c-ac2a-e42966859561_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2215_1_PB_Whole
+MMRF_2216	25981636-5d3d-45e5-b9e7-ac0988f5a842	e1ea8af1-ba04-4e9e-8a4a-da5f907f9b04_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2216_1_PB_WBC
+MMRF_2217	f6fb9561-dee4-48c3-be61-1e4a43b99737	a1d6b29e-a267-43c8-aa29-13b18673966e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2217_1_BM_CD138pos
+MMRF_2220	fda0ca12-4b87-4dff-b9d0-efe188c647a8	a6e3ec6e-0c95-4131-8a2a-3e1f0564c67b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2220_1_BM_CD138pos
+MMRF_2222	d35f2273-e6d7-47cd-b393-906daa6a4fc1	6071ba08-02d9-48cd-b1d7-68299aae6346_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2222_1_PB_Whole
+MMRF_2223	3cc6f7de-28b6-4ffd-a708-85ccec56432f	bcde709c-60f4-424b-8a75-5a335c658af8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2223_1_BM_CD138pos
+MMRF_2224	784462a4-e1c5-4c3e-ae5d-95177b997945	6e5f6058-ec79-4212-83f0-16316f93904a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2224_1_PB_WBC
+MMRF_2225	3d34fbeb-b102-4324-b2a7-1050fdd9d48e	3efa2426-c312-4763-b658-2f54beeb59a4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2225_1_BM_CD138pos
+MMRF_2226	0813f431-afae-4f91-a338-fcda0ca5c9e9	cade0ea0-d909-4fa1-9440-8cffbfb158fd_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2226_1_PB_Whole
+MMRF_2228	a2b5b1c4-b3c2-4dc1-abf4-4a7f24a1e5f9	5d1135fa-1e0d-45e0-93bc-e23e85cd9eea_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2228_1_PB_Whole
+MMRF_2229	50fca63a-ec46-4b16-91a4-750e37b29ac1	35b19823-82a6-4db3-af52-c22f19b142a0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2229_1_BM_CD138pos
+MMRF_2230	fe0cd1fc-3485-4c28-a968-d3d45849e478	19d20179-bb06-4e79-87a2-a1f7858004e3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2230_1_PB_Whole
+MMRF_2231	e1533952-8ef4-4eb0-84bb-a225502e6f28	244526f0-070c-45c4-84cc-548e742b7319_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2231_1_BM_CD138pos
+MMRF_2232	8696c952-c7eb-449c-9878-9f8de49310c2	afd09d3c-e4ac-4f40-9225-a9ff6ac8e718_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2232_1_PB_Whole
+MMRF_2236	b6cab599-0d5b-4691-b43e-d666ed84d4de	a35caec7-88af-47e8-b641-9770c0d1deaa_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2236_1_BM_CD138pos
+MMRF_2237	bc2412b8-68b4-4cb8-9b27-bf21769e6914	25cc3010-aff7-4214-b274-b34bb84201ba_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2237_1_PB_Whole
+MMRF_2238	95e50fba-bb36-4768-a8ca-acf561a20f8c	a5df8c05-5bc0-4fd7-8aba-81cd52d3041c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2238_1_PB_Whole
+MMRF_2240	fb75a482-d866-428a-8c37-92d2611cc0ec	5fd4817a-e963-48a7-a9c2-d27c50d16c0d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2240_1_BM_CD138pos
+MMRF_2244	c56947dd-0fc0-4079-aa2a-60089e9a7aec	8122cf9a-edaa-47a2-813e-57f254221080_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2244_1_PB_Whole
+MMRF_2245	d6e4ca18-5cc4-4494-9098-5ed50d7a285d	cc4fb62c-473b-4dad-8e42-18d34ffea691_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2245_1_PB_WBC
+MMRF_2246	cd703d38-898f-431b-8a32-bc91b28e2f91	6b54bb6d-1af6-4f1f-add4-69a24cc2608f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2246_1_BM_CD138pos
+MMRF_2250	34e5e035-0719-4817-9113-549cdbc0f946	88324543-95b1-4c71-9122-770bd0cdd374_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2250_1_BM_CD138pos
+MMRF_2251	0e44ab9a-46b9-4135-bd86-5172f1ed9443	c19cd112-f051-43c3-9cde-9125aab21c4c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2251_1_PB_CD3pos
+MMRF_2253	cd05307c-290a-401c-941c-bc614a5e73e6	4040e684-fe3c-4583-9574-807b20c07b9f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2253_1_PB_Whole
+MMRF_2257	67c930c8-55d8-4b5e-9e74-f18c331c6f28	666fc33a-12fb-42a1-bdce-16986676f3d4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2257_1_BM_CD138pos
+MMRF_2258	f74d5839-d492-4fea-b989-824ab4351ff7	a6eb99cf-0a00-462c-b750-e9bc1899d02f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2258_1_BM_CD138pos
+MMRF_2265	4543f3ef-8370-4c16-815f-f8b9c3b5cf56	56eeed5e-11fc-485f-8e0b-afc1e3f86af0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2265_1_BM_CD138pos
+MMRF_2266	b13fb12f-6f57-428f-8273-ae6c8571872a	b1b2a7b0-224e-4ad7-95e4-3a840b3998a1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2266_1_PB_Whole
+MMRF_2267	3b894819-f6d9-42b2-b652-6468623d8920	678717f0-a37e-48ea-98a8-197b83846e3e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2267_1_BM_CD138pos
+MMRF_2268	ec061d38-adf9-4a34-98f0-cf1a6999015e	ee11a825-67fe-43f8-8a65-77b171b26d12_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2268_1_PB_WBC
+MMRF_2269	7f06cd0f-d298-4fd7-8ba9-1c29aac1459b	2ec3ac58-3193-4167-bb54-025de66e287d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2269_1_PB_Whole
+MMRF_2270	570c3c44-14f1-4625-9b8f-ce4bf36fefe2	b8ce13be-4ab2-481f-b600-db1d6cd509b1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2270_1_BM_CD138pos
+MMRF_2271	e92239fc-43f9-4710-8bd8-8ffff34cc3b8	abd34a63-daf6-4a95-9e0e-de53380e06e6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2271_1_BM_CD138pos
+MMRF_2272	2d4dce37-a0d1-4f5f-a83e-bf13a2d21698	e986f867-01c7-49d3-aa4d-3ec018351281_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2272_1_BM_CD138pos
+MMRF_2273	23e3c53d-9df8-4ce2-83ec-f0bdd40df9e6	ca03c6b5-e270-4b51-99f9-c3cec426b1ea_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2273_1_BM_CD138pos
+MMRF_2279	b29b8ddf-e2c1-494a-8858-0400d873050d	b67d79dc-164e-4252-978e-23d705f65177_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2279_2_PB_Whole
+MMRF_2281	8f7de39f-68b0-4bd6-8265-730100aa22f0	89725ceb-ce1b-410f-93ee-f947a762a999_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2281_1_PB_Whole
+MMRF_2284	0aff4968-a626-4ae3-99ef-679417008c2b	5c9141b4-4d04-4f3c-9a62-b713ac3c677f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2284_1_BM_CD138pos
+MMRF_2286	0b892a21-c146-4b95-8de3-b64193d61798	94626f14-6adf-49fb-a0fe-76f59f3c9def_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2286_1_PB_Whole
+MMRF_2288	777dea2e-53af-4ba2-a43c-5a21b09435aa	6fbaf2b2-bdfd-429d-a45a-45418aa6fda3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2288_1_PB_Whole
+MMRF_2289	5f12da16-d727-4dd0-907d-ecc24edb421e	c8648713-8f0b-4150-b140-420e60739a87_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2289_1_PB_Whole
+MMRF_2290	8fb73b7c-e6d2-452d-9ae1-4e58d325b938	6610bad2-df6e-4068-84ee-892a4cf08dc6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2290_1_PB_Whole
+MMRF_2291	5dda798b-e3b0-445b-ba20-f39f5ffdbaca	9a808144-cbe5-462e-9733-d13034fa8e75_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2291_1_BM_CD138pos
+MMRF_2292	43555e6b-fe9f-4fc6-8c22-144141f4d312	97790b01-b9a7-4f54-80ab-d7aaddb3874b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2292_1_PB_Whole
+MMRF_2293	2a99ae83-62b4-489e-9bc9-ce2050632297	f6e916b6-2ff8-41e1-b1d5-93ebf6a2e14d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2293_1_PB_WBC
+MMRF_2297	13f8fabf-37ba-4c51-85aa-812c417dd771	39e65129-be45-4f8a-ac06-e7c43c495901_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2297_1_BM_CD138pos
+MMRF_2300	65ef0fd1-28a8-4c32-8855-f8c1bc895277	64f0fa63-9029-4a53-a972-7d2681169c37_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2300_1_BM_CD138pos
+MMRF_2301	5c60a256-616f-4793-9f4e-b13c2e28a0fc	aff78193-8d7d-499a-8090-24e13c24334c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2301_1_PB_Whole
+MMRF_2302	b2d0e412-4beb-400b-8190-cccb3e69d41c	982f39ff-16bb-4247-ab79-8b84faf16f8e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2302_1_PB_Whole
+MMRF_2305	6ad9f020-ebe4-4b96-830b-8937b7adf210	2a37ed14-2da7-4ee5-b0c6-0d21d1a38321_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2305_1_BM_CD138pos
+MMRF_2306	d1a653a2-f11a-4874-ac05-8c60a0b64ceb	3113f2af-c921-49d3-83a4-d97541baf805_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2306_1_BM_CD138pos
+MMRF_2307	cfd327a3-b109-403e-866d-c8c3ee5f9e91	2544ddc4-28be-4012-b108-d2fc68e8faeb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2307_1_BM_CD138pos
+MMRF_2308	59710ec5-41e0-4abc-97af-ac6f610e2140	5419efbe-14d4-4f95-b46a-88410c22ce8a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2308_1_PB_CD3pos
+MMRF_2310	3f02f499-7d3a-4771-b228-434d7f5e7b3d	f54fb76a-308c-4d91-957b-5bc921adcab5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2310_1_BM_CD138pos
+MMRF_2313	95f3cf12-283c-4080-90e2-06a9ae3cbfbd	7b38b10e-b059-4a5b-98c8-320ca8af52ef_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2313_1_BM_CD138pos
+MMRF_2314	97276fc8-950e-425a-b189-6a752b37f66d	bc5e1eff-0cf7-4444-a542-5d867f390e31_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2314_1_PB_WBC
+MMRF_2316	c927339b-332c-4401-9f87-518246597092	1be1d75d-758f-4f4c-b0bb-57a275366f96_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2316_1_PB_Whole
+MMRF_2317	386e424f-8762-46e5-8701-51aabc06d146	a4c55fba-f4c5-4d49-86c6-7ddfc6a4c407_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2317_1_BM_CD138pos
+MMRF_2324	42bdd46a-e4ef-4602-aca6-9ca6ade8a208	18d8c8a1-b484-495b-9c0a-06c04f380748_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2324_1_PB_Whole
+MMRF_2325	ca3e68d9-563c-49e8-8940-0c8b05133b86	a1d1f350-4699-4d87-805c-f45972af614a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2325_1_PB_Whole
+MMRF_2326	059b9cff-d1f5-4e60-b7c4-1b0dcf582b36	87c86cea-14f2-497f-8d8e-25d2297ef4d2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2326_1_BM_CD138pos
+MMRF_2327	7feb5f63-4991-4a1d-b6a2-dd507b10b6fd	84ebe94e-d37d-464b-abe0-2199506c095e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2327_1_BM_CD138pos
+MMRF_2328	43d2c5d8-c8e5-4139-834a-48ebc9874faa	9bfa285a-a015-42de-83c4-72c088a19951_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2328_1_BM_CD138pos
+MMRF_2329	c3920686-a39b-4196-9f35-44120c344141	a1b614e3-cea2-4240-a4e1-6ca9811aec7a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2329_1_BM_CD138pos
+MMRF_2330	7beabdda-6bfd-42dc-ba20-dbda2d21db38	2ddc3c68-1b81-4737-954d-d44fa30e4971_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2330_1_PB_Whole
+MMRF_2331	882912f3-9ba0-453d-9137-926f1be34f79	d05e8ade-63eb-4a02-b4a8-779ec1767c4a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2331_1_BM_CD138pos
+MMRF_2333	b9c54e42-cd41-49a0-9edf-d64f7db5db10	30bf8415-9fe7-4a0b-bea1-ddb66e120218_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2333_1_PB_Whole
+MMRF_2335	e06b4300-c89d-4a5a-9abd-a99d5506ee0a	5ad13665-1acd-4e54-ba50-331bb87f0722_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2335_1_PB_WBC
+MMRF_2336	9ac489a8-87b1-4d4c-8ca7-7d1cbcfc8965	d7fa4df1-97f3-4254-bad9-5284278ecba2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2336_1_BM_CD138pos
+MMRF_2339	3e34888e-6329-4496-bea5-e27ee299f74c	190331a2-fb3b-4018-abb3-b9da29939c77_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2339_1_BM_CD138pos
+MMRF_2341	d3de64cf-5e13-4fec-9e7b-6bc88ba8b700	8fae8627-6931-4e7f-bcef-4a7d219598e1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2341_1_BM_CD138pos
+MMRF_2344	109f3ab8-a02c-44ab-9c9a-ce1253fefa59	3fff9020-d0fb-493a-9707-576774b086d5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2344_1_PB_Whole
+MMRF_2352	ceab90d8-7c60-45f8-9eb4-a1599a423e8f	16a912af-c6f1-4afb-9d2a-8d565a0346ed_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2352_1_PB_Whole
+MMRF_2353	6713abd5-dd57-4e10-8785-6ce0fb7f4531	a2bb4d54-2917-4b58-9733-a202191cf5ce_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2353_1_BM_CD138pos
+MMRF_2362	d0cbb6c2-295b-4e2c-9e70-3a8c918c2ef1	679324e3-ec35-4e20-8fc7-6740ca1d2772_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2362_1_PB_Whole
+MMRF_2363	c0620f99-ea21-4004-ad44-0c99a8b16e9d	bc48ebb2-6671-4406-924a-1fa00d16d08f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2363_2_BM_CD138pos
+MMRF_2364	8978b904-53d9-4ee5-af01-57b7060c3623	5bd943f6-047b-49d6-9871-646c90054964_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2364_1_BM_CD138pos
+MMRF_2365	c47154e8-91a5-4699-90e8-769a19e035d8	c1a3e710-636e-44ca-b5bb-cd0d1d96b86a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2365_1_PB_WBC
+MMRF_2366	607f3857-f674-4600-b51c-ac18b09ce1d7	be1fb917-e997-4bcc-9233-997a764a5788_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2366_1_BM_CD138pos
+MMRF_2367	8d6bc428-830a-4652-80f6-56aba1c008dc	7b149796-6de3-4bc0-a761-7e7fbd80fd0c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2367_1_PB_Whole
+MMRF_2368	c5fa6eae-a8b4-440e-b640-05de9c64c610	aab673d5-b049-47f3-9646-61297fb71b1d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2368_1_BM_CD138pos
+MMRF_2373	717c3642-17b1-4474-aa01-405ebc571647	693a947f-13e1-46d8-af9a-41d649bd8248_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2373_1_BM_CD138pos
+MMRF_2377	1db0908a-805e-4507-85b2-a1db432b3667	ac310589-9c80-4b36-bccb-eedf77489713_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2377_1_PB_Whole
+MMRF_2378	61e7b29c-494c-4370-bbc2-2e66b8db5463	9b3f00a9-2f9a-4633-8e74-8816266cfb6a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2378_1_PB_Whole
+MMRF_2379	231b6d03-3f33-4802-950f-8654b781099f	7db3cace-4bf0-435d-a8bc-3ac99bd0f7f8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2379_1_PB_Whole
+MMRF_2380	af426d08-00dd-4460-aed6-9740340c32d8	9f269036-38fe-4f4f-81ad-e8dbcb7ea86d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2380_1_BM_CD138pos
+MMRF_2383	7a02624f-7aeb-4115-a71a-448f13396315	b2d747cd-e544-4e19-afed-a13d27cd5f4a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2383_1_BM_CD138pos
+MMRF_2384	de5d7e89-8b1f-4d9c-a185-af56c7cff7a9	0626f9d3-7587-43b0-b9ab-a47e02840cf6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2384_1_PB_WBC
+MMRF_2386	983a3cba-168f-4887-8cd8-18b4d9e4b915	90ddf510-2d4d-4cf0-9d77-980f736a2053_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2386_1_PB_Whole
+MMRF_2388	d12ef9f6-a324-4551-9ba9-7b6534a31a59	7a230979-5a3f-4dcc-a0a8-243365dc68e0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2388_1_BM_CD138pos
+MMRF_2394	d4485d0b-96f6-401b-8d24-a8d34319e0a1	771c43ab-3311-4176-9f94-40e05e653a14_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2394_1_PB_Whole
+MMRF_2397	0e2048d3-b906-493b-aca4-5fd1938715af	c8c5601d-dfb4-473a-99db-eb32b63c6572_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2397_1_BM_CD138pos
+MMRF_2399	48e47804-16c2-42f3-b1a1-b899377a605b	819b12cb-a4b1-4dbc-ada0-dd68cc54aa3e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2399_1_BM_CD138pos
+MMRF_2400	d39cb79b-50c3-4be6-ac98-a5a28518ab1c	616605c2-873c-496b-99c6-c54781e637fb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2400_1_PB_Whole
+MMRF_2401	5c839e04-ab6e-4416-89e3-713fbc4f0b15	c7065f02-1ab2-49cc-bb9c-87068efc3d76_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2401_1_PB_CD3pos
+MMRF_2404	490603e7-99ac-433e-997f-0b0012f1ab9c	fb3080d9-f9f7-45c7-9c34-28c8adc0592a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2404_1_PB_Whole
+MMRF_2407	51ff2757-ff9c-4aba-a296-1b68ae23f717	68e35571-f15f-4400-bdbc-36b572a581e8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2407_1_PB_Whole
+MMRF_2409	c7f3c0e5-0502-4bd5-a47c-09060ca86e38	35f6b26f-9846-4909-ac2c-0da716f3f423_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2409_1_PB_Whole
+MMRF_2410	0f0f5b8a-29da-4847-b29c-0ddb4ab37f15	d2c7019a-5023-4ae1-98af-6042c5edd435_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2410_1_PB_Whole
+MMRF_2411	045a8d26-afbc-424b-aed9-736265ddd4d8	6897a9ba-b0dc-4c3b-a814-5c4967dea659_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2411_1_BM_CD138pos
+MMRF_2412	3ae5e2aa-ac25-4698-bbd8-98007d18f8b4	9762a040-61dd-49e4-ba78-2545d6462637_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2412_1_BM_CD138pos
+MMRF_2413	8ebeb15d-1fe4-4ba3-b1dc-4c6a091e22ee	c0d24836-b9bc-4ed3-983f-b7e6573104be_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2413_1_BM_CD138pos
+MMRF_2419	056668a7-e6ec-4ba0-adb3-9248ec1e246e	cc56f520-10cb-4ac6-9744-17e691e3cce8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2419_1_PB_Whole
+MMRF_2422	7a6f6ffc-c83b-4de8-a6cb-f466a3da2cbe	6e59a2a9-2382-4899-bfbd-8586eff9dc5a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2422_1_BM_CD138pos
+MMRF_2425	ab7790a7-b762-4d41-ab8f-ed4c7592049f	139c50bf-9a5d-468a-a3bf-c73a523c7c31_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2425_1_BM_CD138pos
+MMRF_2426	541a9941-9a10-4fe2-bbeb-35828882f636	b76e91e1-2bc1-49e4-b8e4-382d3e50eee2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2426_1_BM_CD138pos
+MMRF_2427	ce7acfd7-a02c-4699-82bd-20983c06bd20	81596758-6002-4c4d-8940-a1cabab223ba_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2427_1_PB_CD3pos
+MMRF_2428	a21bc44a-d8f3-4aa9-a87b-db8708e22851	9f8863ad-ab1a-4c93-b157-b5082f7d2774_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2428_1_PB_Whole
+MMRF_2429	fd8d5034-d882-4dbb-822d-01ebb339981b	e7c1c80f-95c8-4303-9bec-419335e14e98_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2429_1_PB_Whole
+MMRF_2433	cb297d1f-0313-4d68-8ddd-b7b765c27fb4	3b106883-3d57-4524-b52d-8c03c1c741e0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2433_1_PB_Whole
+MMRF_2436	dc6c7a1b-0a9d-4631-ae9f-dae1bc04b207	af0d275f-b01c-4be3-902f-24288960aa01_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2436_1_PB_Whole
+MMRF_2437	505f975f-9cf9-44c4-a1b2-a2cd4a346ec4	f409154a-e07d-44b4-9f51-8bc686c661c9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2437_1_PB_Whole
+MMRF_2438	64303855-8007-4b4c-9478-df9f3c95852e	5b0d64d5-3295-40f3-8e00-f8063e9261e0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2438_1_PB_Whole
+MMRF_2440	7e2f4bc6-09bf-4738-abf8-33472756d07e	04ac1482-03d4-4262-9cce-6d872d80d74d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2440_1_PB_Whole
+MMRF_2442	14ff785b-8a6b-4c45-8d2a-f832b672236b	d090982b-bd74-45d6-87b3-58345b27c460_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2442_1_PB_Whole
+MMRF_2444	066fd0b7-db8a-4d9b-bd5f-59eac873b3bc	4fd637ad-f0af-43bb-a466-91191df45047_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2444_1_BM_CD138pos
+MMRF_2445	a9e946f4-f83f-490d-befc-23a696a69094	4cd4d7ab-19a9-4709-a239-d5ef13299a07_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2445_1_PB_Whole
+MMRF_2446	cef4a194-7d25-4310-bbc6-fbefca06023e	7c94c2b2-b9fa-48c3-aa6a-953164597037_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2446_1_PB_Whole
+MMRF_2449	eba14633-cf3f-4d70-b443-60a55eef39f9	719628ae-8956-43f8-a500-561f2c3af518_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2449_1_PB_Whole
+MMRF_2452	257f0ef3-e5ba-4f8f-aab0-603eb17a024b	d5aec679-665a-4a5d-91ab-7b39ccbf4b3b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2452_1_BM_CD138pos
+MMRF_2453	93e395d1-9dac-452d-ba95-5812730a0263	a04aaa0f-6fa1-49ae-af68-b17cf95e6bd0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2453_1_PB_Whole
+MMRF_2455	d352f97f-ce0b-4acd-add4-21636ecb0f09	17973efb-0552-415a-acd1-85c71c0c86c9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2455_1_BM_CD138pos
+MMRF_2456	190c1ed2-d353-4926-a271-bb5f45e1cda3	7f7ba3db-e294-4ee2-9bd6-d67ca2324a43_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2456_1_BM_CD138pos
+MMRF_2457	86d18917-33b4-41e7-a01b-6a18339271d2	718c6d26-25e3-4dd3-b588-de58bb383083_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2457_1_BM_CD138pos
+MMRF_2458	457a0a0d-8223-48fa-9290-a6bcae887c38	c18157ab-40b9-497d-aa44-33ef3a1b85df_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2458_1_PB_Whole
+MMRF_2459	9cd86b10-98bd-42fc-9b8b-39d5e8ab4282	69a00789-37f3-4d53-b054-082d5850c38a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2459_1_PB_Whole
+MMRF_2461	0153ce30-699f-443c-a687-643a4ddaa560	93c20ef6-fbd7-4675-8446-5c1c32f6b475_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2461_1_BM_CD138pos
+MMRF_2464	ec34a870-b339-4bb4-8bad-9ea5a2b22dbc	5e4bccca-72e5-4d03-9db3-8f46555e8a86_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2464_1_BM_CD138pos
+MMRF_2465	cda3f5ba-038a-4c6b-9b2c-58cc185c4622	13c3bd38-819b-4e22-ac00-fedcfdea0f60_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2465_1_PB_WBC
+MMRF_2468	cd9d8891-c5e4-4cc0-bfc1-35988c3d9a60	10699827-3ae7-4165-ac06-21987bd0a794_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2468_1_PB_WBC
+MMRF_2469	da15560e-9afc-411d-9bd2-db38249eab1e	96d6b4bc-1abc-4efb-9c39-dc0ab45c6c5f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2469_1_BM_CD138pos
+MMRF_2471	014e9c96-2b97-40e9-8837-c223ac5a1aba	d47f40a9-b390-48f5-abdc-dced2797ce4d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2471_1_BM_CD138pos
+MMRF_2472	a7161e4a-cea9-474e-adf2-e375a7c054fd	e86312cd-e270-46d6-8686-1912e8a0283a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2472_1_PB_Whole
+MMRF_2473	3b2117f3-d122-46d0-b7ec-dc62c8b53a96	e823f521-13a9-4024-ba35-397037b98b18_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2473_1_BM_CD138pos
+MMRF_2475	156b53c5-72be-4b1f-9ed7-91786e749770	8d049230-1213-4f3d-80d8-ac6a3bd804f9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2475_1_BM_CD138pos
+MMRF_2476	800e9b49-2e9c-4f4b-94cf-c773492931d0	7256d8e3-ce53-434c-a73c-71236219b5f7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2476_1_BM_CD138pos
+MMRF_2477	65e2a789-30c0-4ba8-a49f-782b0277ac5d	c15d28b2-8f52-41ed-a79a-8240171672c9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2477_1_PB_Whole
+MMRF_2478	e39207ab-9b32-4b42-8d48-b25ef0704887	355fa885-73e1-4a06-ad1a-50411e845566_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2478_1_PB_Whole
+MMRF_2480	6050674b-8a43-4143-8f9a-49ae8e452430	4fb4d333-1b81-4f69-a3be-e0ed6246b37c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2480_1_PB_Whole
+MMRF_2485	47031cd5-5a06-42a3-a6f9-ea509548847a	ed662831-c13a-4495-a991-3c7d49badce3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2485_2_PB_Whole
+MMRF_2486	48a7daf6-68df-4035-8330-5969f9876b67	275740f6-98c5-4555-8a69-39dc9ceae16e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2486_1_BM_CD138pos
+MMRF_2487	22b662ee-dddc-47f1-9767-06e578a142b9	684f0969-180f-4a17-b043-4fb2364340a5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2487_1_PB_Whole
+MMRF_2488	485af98f-07ec-4f31-a8fa-5b4e0e4bbe01	fbe3fb4d-0f45-4aee-8c77-b54aca90858a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2488_1_PB_WBC
+MMRF_2489	bb1f371e-0270-41ae-80c7-dfecce13f33a	1f73bccc-870f-493c-96e7-0f759fc01b14_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2489_1_BM_CD138pos
+MMRF_2490	5689baaf-d066-4568-bc80-c4a7823641c7	7b4e92eb-3652-47c9-9093-5141f9f90939_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2490_1_BM_CD138pos
+MMRF_2493	24b37198-fd22-416c-b187-51dd71d4baab	ed15aacf-6302-4273-8191-30a58f3e7e12_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2493_1_PB_Whole
+MMRF_2497	4bcf2be1-d6e3-4300-9732-de298198f6fb	2ff60e49-60ff-4774-a72b-5cee7edc9fe5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2497_1_PB_Whole
+MMRF_2498	c8c3a011-bb68-4a10-9682-0b2eff7ef89a	13fd98ca-1fa2-41d9-a6f2-4ecfaacf6e3e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2498_1_PB_Whole
+MMRF_2499	b53a5eff-64df-405d-8f5e-62578ff63a00	680e5e46-a847-46f2-ae93-95832e89690c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2499_1_PB_Whole
+MMRF_2501	8add83ba-abdc-42d7-a782-56a88442a930	9c2fd770-dbc0-485a-926c-3dbc580ca103_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2501_1_BM_CD138pos
+MMRF_2503	ce26b154-0f5e-482d-ab7e-399681a0d3ae	312d6e50-8232-4303-883e-c775de7fd763_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2503_1_BM_CD138pos
+MMRF_2504	a0716dd2-ecb1-40f5-abe1-3af277869d1e	ae879e9f-4280-437b-bbf6-fccaab9801bf_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2504_1_PB_Whole
+MMRF_2505	db69f659-47c3-46c4-8b4a-f8aaa7b641fa	d7c432bf-493d-4c58-be67-4a96bb6c567d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2505_1_BM_CD138pos
+MMRF_2506	04686f3a-5468-41b0-a95f-87379485a672	7e3752c7-4b21-4ee8-ad8d-944317f65e3a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2506_1_BM_CD138pos
+MMRF_2507	d00ba159-107f-42d8-a3b7-102d9e957cdf	577047f0-0496-43bf-aed6-9d19bf17a61c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2507_1_PB_Whole
+MMRF_2511	0a9d6cbd-d39f-4ba8-abf9-672190ec6b63	d134bf4f-1b57-491e-9ed8-f42df3a22b27_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2511_1_BM_CD138pos
+MMRF_2514	d9fc805a-b685-468f-a64b-0253b3308620	796639f1-4c19-4060-a0ec-661cf48f7932_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2514_1_PB_Whole
+MMRF_2515	2b21a1b2-c635-4f58-80fe-efc7efc5c7a2	4f5e1aeb-ff81-42ad-a86c-bde7eb6a94cd_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2515_1_BM_CD138pos
+MMRF_2516	066ea6b9-1a1f-4133-a4a7-16a8f70445fd	b36dee8c-73ed-45d5-8afd-6ae405ddb38e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2516_1_BM_CD138pos
+MMRF_2517	e71650a9-3895-4b23-972a-2bef95dd297a	c29309d2-c8bc-4abd-9910-a705b5a59883_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2517_1_PB_Whole
+MMRF_2518	a131846e-0d90-44cd-be09-f198355468c9	3212f64c-7835-4d02-bbcd-66468f296d68_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2518_1_BM_CD138pos
+MMRF_2519	a8b2c035-96a2-4c34-ba57-5ee337ec38ba	8720f543-79e1-48c8-bba7-14e84e757687_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2519_1_BM_CD138pos
+MMRF_2522	958b0631-0b26-44ea-8be9-9281eeaa356b	862816ed-c5cd-4c30-9251-795bb3ba68b2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2522_1_BM_CD138pos
+MMRF_2523	76d12ff6-ad4c-4fe4-8d5b-b6cc15ce7ad7	d0b4bdc1-0b3b-4fb2-aa11-2c734e28a757_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2523_1_BM_CD138pos
+MMRF_2524	aac5093a-13fa-4001-b6ba-c349bad210c0	50ce43c2-0502-42b6-82c6-5b40ea2a8ab6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2524_1_PB_Whole
+MMRF_2525	d6ce2e4e-768f-4d6d-a4e3-5a95637b4d0c	f38341d3-ea52-4848-9bcd-4566b7a5c16e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2525_1_PB_Whole
+MMRF_2526	2f9cd033-243d-402b-9fb0-95a3a92f6d1f	cdac0373-9e33-429e-88ae-fd00a0a9d81b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2526_1_BM_CD138pos
+MMRF_2531	66424daa-f6a0-4824-8258-e64fa23dd11f	edf42f05-a030-49c6-80a0-61a80e26b5ab_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Peripheral Blood	MMRF_2531_1_PB_CD138pos
+MMRF_2532	302fd46f-a47c-4c64-bede-3e2768377317	e68a7b13-9f05-4a2d-bf15-fa6cf2fb3449_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2532_1_PB_Whole
+MMRF_2535	de78ef7c-f9de-4cbf-abc6-de44722e083d	a485f21c-7e49-4fb3-abb3-f3eca61a24b3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2535_1_PB_WBC
+MMRF_2538	78018edf-e522-4646-be6b-ec63b2ecfbc9	e772f1eb-d8c3-4e6a-a2b6-124f5d7f38e8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2538_1_BM_CD138pos
+MMRF_2539	b24fd2da-d3e0-47e8-afec-2d4139e21fe6	c35877ba-21fc-43fb-bcb5-c1066e29bf9f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2539_1_PB_Whole
+MMRF_2541	ff5f6910-8715-444d-a148-b3cfbb47c653	fe32aeb0-83b7-4e36-b9fd-4a5e056a90e2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2541_1_BM_CD138pos
+MMRF_2543	cb097ec8-cfb7-40b2-bda5-89dc01178b0d	a881bd30-4f5f-42dd-8050-bc9dbbd0f445_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2543_1_BM_CD138pos
+MMRF_2545	b09d984c-6f04-42e7-adf2-d405abff49c2	4a2115c1-8459-4a43-b304-ac82edcdadda_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2545_1_BM_CD138pos
+MMRF_2546	79c88503-fef4-4c00-828a-09849ac94d84	273ad583-8578-40d9-9447-2ba5c604e82a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2546_1_PB_Whole
+MMRF_2548	d28d9960-c7a8-4337-9aab-1d0945046847	dd42503d-e720-49d4-a67e-6e7deb789fde_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2548_1_BM_CD138pos
+MMRF_2549	ad2f50c8-cd97-4409-9243-f1f33e430f7d	28b4a832-d632-4ee7-83af-02b24149f13c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2549_1_PB_Whole
+MMRF_2550	8f3f4431-bb4e-4193-bb3d-fce6088b6fc7	f1038353-66e3-4ede-8371-927b21973515_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2550_1_BM_CD138pos
+MMRF_2554	e97ec011-d4fd-4b17-acff-e30e0b4daac0	dc659eb1-09fc-4c0c-bb0e-44c31d81386d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2554_1_BM_CD138pos
+MMRF_2557	d066bbce-98ca-45d7-9ac2-9f5d5210388a	0f2063f8-23c1-442c-9fb9-9830f9b0d9c7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2557_1_PB_Whole
+MMRF_2559	2f81d8d7-3c0f-43af-8cee-941b9b27d828	ccbfe846-7974-4f45-9549-c2ed0724ba06_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2559_2_PB_Whole
+MMRF_2560	2e052fbc-8c2d-4ef5-be37-88569d9bac7a	b2a37a40-904f-4179-8b60-62452b497b2a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2560_1_PB_Whole
+MMRF_2562	32517a05-240d-450d-b933-82a5e911e692	c673bc64-707c-4c65-9ed1-c9275539495a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2562_1_BM_CD138pos
+MMRF_2563	752b4c5c-d7b2-4d22-9a32-2e9dd3516813	df137d57-bccd-4704-8c20-b7aff3f5361d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2563_1_PB_Whole
+MMRF_2564	8a65ee7b-248e-4500-87b3-f37c444a119b	02b7c19e-450b-434e-8320-bb3f37373c27_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2564_1_PB_Whole
+MMRF_2566	66f47c39-74d3-45f5-bf44-49c438f5ddef	a77df0c1-e53a-4a21-b193-15c8b60dc53c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2566_1_BM_CD138pos
+MMRF_2567	eb79bd95-7853-41d5-b403-a80df591e40d	908a2150-3c83-4a83-9488-2280f1225aec_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2567_1_BM_CD138pos
+MMRF_2568	e6e47139-ddc9-46af-b565-5566f3c187e4	30237dac-5c2e-4edb-9258-cd7c7e36eed9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2568_2_PB_Whole
+MMRF_2570	3d283ffe-1396-44e8-8a6b-00e595214efc	10d9c2ab-f850-4eda-b570-73651a975c06_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2570_1_BM_CD138pos
+MMRF_2572	856b7f6e-6510-4b52-8a12-ff4a5095fb8a	4055d6c8-6d79-4684-a3cc-1f64cf130bf3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2572_1_BM_CD138pos
+MMRF_2573	87557cea-1413-4fc7-a235-1ed36095cfdd	3d8ca53d-5346-47ce-9622-58ce248be920_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2573_1_PB_Whole
+MMRF_2574	eea87851-bdc7-4178-a6f9-a326b2854a29	b5aa4dfd-bc7c-4c23-8c8e-c2e79ebb0541_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2574_1_BM_CD138pos
+MMRF_2577	c3f41492-cc31-469b-93b3-2a1de0841097	b1ffce10-6c91-4593-9e71-512739451f54_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2577_1_BM_CD138pos
+MMRF_2579	7221f2f4-c6c5-42db-857e-e6fa32af7617	eae49c19-a98d-492b-8a27-59221a2ca14b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2579_1_BM_CD138pos
+MMRF_2580	73703fb0-c39b-4c44-a5c4-f4c71f74538d	c2f253d4-8d42-494a-8ed8-20ebcccc502d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2580_1_PB_WBC
+MMRF_2581	cdd82e7c-c229-4590-bb85-817c6c0f0f8a	002f9f2e-b164-42cd-9f05-0e31521e4760_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2581_1_BM_CD138pos
+MMRF_2583	b4a6ce92-7b3f-4549-8509-ae81bb0bfb00	29cd4670-ecd9-49d7-9d46-06487ce98e07_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2583_1_BM_CD138pos
+MMRF_2584	d621ee9d-ca7d-4a44-b342-27a35c096c68	9caf33b6-047e-4eca-9eac-4723927645f5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2584_1_PB_WBC
+MMRF_2587	8354d9ce-2445-4d4d-b17a-8815651ab4fe	2a5611c5-47a8-40e5-b331-ffa8dc1fa69d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2587_1_BM_CD138pos
+MMRF_2590	5fcd16db-f0a8-41c2-9fa0-b6af2f5d97a2	62a8615e-2201-4bdf-a3cc-67c163b25910_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2590_1_PB_Whole
+MMRF_2592	abf6405d-3fe0-4fdc-99a2-860031f0143b	835ec527-3d4c-47ff-bccb-5eb24f153481_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2592_1_PB_Whole
+MMRF_2593	87e3ff9a-0dda-4225-a016-e0ed6cf750e1	7ab032ad-6952-43fe-9e07-3458c1818ce1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2593_1_BM_CD138pos
+MMRF_2595	7f0be933-f55d-4b4a-9624-7c2e9b4dc9b6	b8346a97-fda5-4972-a1f5-6385bf1bfeea_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2595_1_BM_CD138pos
+MMRF_2596	14f0c112-2fda-45b0-b23d-9c0e8347e973	20f65207-f057-4349-8f39-cb0ac517edbe_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2596_1_BM_CD138pos
+MMRF_2597	67bf90c3-24e2-475c-b250-dbd919e11f40	96e79fa9-9dbf-47b9-9043-e4a940d95332_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2597_1_PB_Whole
+MMRF_2598	2212b23c-d9e8-44e5-8faf-41e8c34e5dee	5b0d2874-da25-4c41-8022-7b13e0266387_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2598_1_BM_CD138pos
+MMRF_2599	f15fd078-dfe9-4b8b-bb04-1a4d2a1f2d7c	ee5b76d7-c776-4afa-b848-f51fc001f5b6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2599_1_BM_CD138pos
+MMRF_2601	9897cfd4-c693-4e34-854b-aacbb212fbf9	2ab5aba4-97bd-4449-b49d-5482f624dd70_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2601_1_BM_CD138pos
+MMRF_2602	cc816918-e922-4d46-96e9-f552adb6bf2a	a8e24fec-87ed-42ca-96cd-c8acd8408de8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2602_1_BM_CD138pos
+MMRF_2604	bc45bee1-8223-4453-b3d2-d216615e3757	64e2524b-2781-4363-82b3-95c07ab91563_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2604_1_BM_CD138pos
+MMRF_2605	3fd1b6f1-34b6-4e85-82bd-2e9e2be311e7	78ed31f3-5c12-4d96-b33a-158979753489_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2605_1_PB_Whole
+MMRF_2606	1c9afb40-f9ae-44b5-8c34-f9a7757b49fb	2dc80374-7eca-4414-a717-9e30eb22a172_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2606_1_PB_WBC
+MMRF_2608	53569334-ed70-4593-949a-b10859dd175f	70a60d7b-af20-4219-b1ff-7ae37a4c74ae_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2608_1_PB_Whole
+MMRF_2609	e96f83dc-faa8-4093-ae60-c94611f8006b	cf51b442-e7cf-4440-aa00-2271bb0a9873_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2609_1_BM_CD138pos
+MMRF_2613	bb38680e-16bf-40be-a1da-c40fbe04e81a	9a37953a-3cd9-4f62-9bf2-dc7dc417fb53_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2613_1_PB_WBC
+MMRF_2614	e2d714bd-9b9d-4349-a97d-75a201cf04f2	59ab7199-984c-4788-8626-0707eee79728_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2614_1_BM_CD138pos
+MMRF_2621	e9a890b4-52c4-4061-8e72-4c69192e7705	e0bd1aa8-ec14-4f41-9260-1e0f4de0ed71_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2621_1_BM_CD138pos
+MMRF_2622	e6b64012-9f98-4ac3-9fff-00fbdc1a6664	69e9c9df-8353-4386-bd6e-b4bd8f0b7e09_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2622_1_PB_Whole
+MMRF_2624	c6abd166-1808-4f56-a6b1-80dd388bf24f	dbf6c04f-9ecc-481f-ae69-247e20410343_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2624_1_PB_WBC
+MMRF_2628	1cc1f1e4-087a-479a-94b0-15fed2b6013f	d24572d1-9cff-4346-a199-49fab4e0629d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2628_1_BM_CD138pos
+MMRF_2630	1266f95e-4cb1-45e0-bd1a-1cd4dc215d90	a2bd7ba1-4a2f-49c6-84b8-d3f333edd3a4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2630_1_BM_CD138pos
+MMRF_2631	7a41882b-fc27-4908-8aac-5cbab7fdbbaa	2128238d-5920-46a5-9aa9-35a8aba0ec55_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2631_1_BM_CD138pos
+MMRF_2634	5553c5e5-ff54-43c9-93d8-08c00b4353e5	95e346ba-dd77-4125-b41e-72a715a1bcb7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2634_1_BM_CD138pos
+MMRF_2635	e52a425e-d4a1-4a9e-9165-7fd2815bbbdc	e0ff105b-d0b5-4be0-a914-4fb90cc928ed_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2635_1_BM_CD138pos
+MMRF_2636	87fa7507-3b31-41a8-8902-5f21116e878d	f0ac7808-84bd-4519-a36a-12ca6417e8b1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2636_1_BM_CD138pos
+MMRF_2637	f3433e01-e23a-4888-96a1-2a8be1e3b2e9	f7b7b7e2-c097-4de7-ba02-9e83b5a1acfb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2637_1_BM_CD138pos
+MMRF_2638	a3ad9a26-4c53-4767-aadb-dc1a4a40b8a0	29d5b80f-b9ee-4737-817e-341fceb63a96_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2638_1_PB_WBC
+MMRF_2639	bbe3a986-98bd-45f5-86bd-845165f64247	2473e263-c329-4fb3-8eb8-6436c81e89bf_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2639_1_BM_CD138pos
+MMRF_2640	2cac6312-f3f7-4602-af8d-04a18a00d283	0a48c9a9-7f56-4124-bb89-d5d2569fa2b6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2640_1_BM_CD138pos
+MMRF_2641	d1408d2f-99b1-4f66-9b69-4f5bcd66ed4e	c2fa7190-959f-4e13-b8fb-799ba4d12c3e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2641_1_PB_WBC
+MMRF_2642	acb9bcbc-a032-4060-879a-4c598660d83b	6f7c21d8-0c06-41fc-9cac-6b38e2fa0395_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2642_1_PB_WBC
+MMRF_2643	f7e502fe-9fc1-4b96-ab92-35ce885ef7a5	5480588f-1ab1-4dad-a8ac-d6421887ec23_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2643_1_PB_WBC
+MMRF_2646	1fc7870d-45cc-48cc-a5c6-f6e160346746	91889eab-46f3-4cb7-b4c2-971ffcb10169_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2646_2_PB_WBC
+MMRF_2647	f8fc5742-14a6-4541-8d5f-75734febcee8	0bbd97de-4fc4-401a-ab3f-331f35be1d38_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2647_1_BM_CD138pos
+MMRF_2650	0d223660-7177-4d37-a8a9-836ea8f20802	3ba92a9c-0fb0-4a3d-9c2d-4cd9a1b7d0ca_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2650_1_BM_CD138pos
+MMRF_2651	97609ce2-10b6-43dd-8f5d-397614fff421	4ce460cc-b619-4006-92b0-edf6a6f0a885_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2651_1_PB_WBC
+MMRF_2652	6abf59a2-28ec-43fa-8e63-bd9664751964	a6474e04-f6aa-4f5b-bf81-756a44c37cdb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2652_1_BM_CD138pos
+MMRF_2654	0b9b97a2-e0e8-48bc-b149-3d4de70b856d	bcd1658c-14d1-4760-8bc4-caaa9fba1715_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2654_1_PB_WBC
+MMRF_2655	14f1e2ac-13f1-49bc-b774-7cc2e65b4c5a	a6f09952-4b38-4d1f-9218-cc8a19cd69f7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2655_1_PB_WBC
+MMRF_2659	0cfb1314-923c-4164-bbcf-a53d84166b3a	1f56914f-a328-4425-8ac2-e904291d8b1b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2659_1_PB_WBC
+MMRF_2660	c3153836-90ca-489b-aff0-51f5097f770f	69fb88e8-fecc-481f-b03c-f2336d4deabd_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2660_1_BM_CD138pos
+MMRF_2664	9018d78a-55f0-4bb6-b2e3-a7580dbd78ab	9ad3bb68-6c71-4e4a-82af-214fb63371e1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2664_1_PB_WBC
+MMRF_2665	314eb006-9a39-4aca-8fd0-40a3e19287b3	8c04d40f-4d45-4795-ae05-3a0b5fde5ffa_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2665_1_PB_WBC
+MMRF_2666	6c4bc4a1-7699-41bc-979e-2c00f7042bd0	dff696f1-9b14-476b-9f09-79401822a800_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2666_1_BM_CD138pos
+MMRF_2667	2f37a09c-3a69-4fae-823e-f0c183c1ca6f	aeba2e86-d159-42c2-883f-b57f2e0224db_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2667_1_PB_WBC
+MMRF_2669	6a20ef2a-798b-4b62-a38f-969c6b34dfe8	96f48438-d08f-4d72-84ad-4ce61038c0dd_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2669_1_BM_CD138pos
+MMRF_2670	b0ece358-2bb3-458b-84e6-ee9271ff1f79	38bf2de3-3712-4f04-9ac8-f9e2b35cfbe3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2670_1_PB_WBC
+MMRF_2671	fdc9e02b-90c3-4abd-b1f9-e412db4e2a5a	5e84a133-2f06-43c2-8171-9c2754b99ac6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2671_2_PB_WBC
+MMRF_2675	ce234e63-7321-42f6-a245-f5373b112677	f8b37f0d-af63-4986-bf6d-3958841c7f0a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2675_1_PB_WBC
+MMRF_2676	4100266f-ef89-4d5f-9dc1-fec1ce45b234	8ef6c220-f052-452c-be38-e61446c2f108_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2676_1_PB_WBC
+MMRF_2677	0a1d1cca-6230-4f0f-a94b-a62f36f44252	6cc74c79-9bd1-4ca1-8fa6-4d27da229cc9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2677_1_PB_WBC
+MMRF_2678	7412c7fc-f0c5-4e6b-ab0b-06f1f10fd9c2	1fa187fa-e223-4c21-8556-9b1601eecbc9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2678_1_BM_CD138pos
+MMRF_2679	ab8ce2ef-08d4-4e23-b8c5-b6b84b206be0	83d38505-6193-46db-89ca-71585af90ef8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2679_1_PB_WBC
+MMRF_2680	e5cc704f-9d9f-4178-812a-f9f01e469578	1eea5c7e-9c22-4460-958e-232ca341efa2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2680_1_PB_WBC
+MMRF_2681	59772d38-93e8-4aa0-abb4-a34aab64fdb2	71d76c9e-e22d-49d9-b856-547d300f4478_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2681_1_PB_WBC
+MMRF_2682	b895218d-3f65-428c-98b2-e5bc62800739	2f79eb83-1e96-4d09-91e6-e0a6ca5bf145_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2682_1_PB_WBC
+MMRF_2685	63d847bd-107c-45e7-a502-b0fa0e58fcda	b999bd72-9801-47cd-a48b-b31f4ea14789_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2685_1_PB_WBC
+MMRF_2688	0d077cae-d29d-4dc0-8e4b-17dae4aea8dd	f286c432-2893-44b7-ac6c-f157f7710b5b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2688_1_PB_WBC
+MMRF_2689	aa28482b-41f9-4cd0-b932-9bbffa7c8dca	3771e88f-0c73-4e0e-bfda-8fd9126b5eaa_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2689_1_BM_CD138pos
+MMRF_2690	a380a57b-ddc1-45a6-95ac-ad0dc928c8fc	74762611-cc04-4210-bba6-043bcd849fe8_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2690_1_BM_CD138pos
+MMRF_2691	84de0b78-83a9-49db-ba37-9137e4131f09	6cc5c14a-d199-41f8-8fa9-b10a03361e59_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2691_1_PB_WBC
+MMRF_2692	97869b1a-09b0-4987-b27e-0a142a607412	04a695d5-36e3-4cad-b2a0-d56323856d3f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2692_1_BM_CD138pos
+MMRF_2694	ae53af94-33f3-476a-b6d4-f286f0c6ea88	f6bec804-aa00-43fe-8aad-f5c0068dbb1d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2694_1_PB_WBC
+MMRF_2695	680c6c99-9a51-45f2-bed7-89d88804b81e	5415b739-3c11-4cef-9e13-b759bcec7f14_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2695_1_PB_WBC
+MMRF_2696	1d7ea9d7-bcac-4be9-8128-ed854376320f	4d54b34e-ac66-4cd7-a936-6c77c5c34a6a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2696_1_BM_CD138pos
+MMRF_2698	15e85e3a-1425-4b57-aa6a-e94caca582aa	0e318c60-1ac2-469b-83f0-0148bef252a3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2698_1_BM_CD138pos
+MMRF_2699	1a2f2f5b-34b7-4609-b978-4db70404d58a	c09397ee-69a3-4cf2-b2d4-2ca4f266c286_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2699_1_PB_WBC
+MMRF_2700	39c99c45-bea4-4e45-9d3f-781069141817	55d7d596-7d9a-4a3d-829d-2157218a804c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2700_1_PB_WBC
+MMRF_2701	a588fe01-fc93-4b73-8026-5b844cc414ac	ab623c25-e688-4401-af41-21c909c07384_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2701_1_BM_CD138pos
+MMRF_2702	24896984-d79d-4006-a1fd-cbfa270531a2	c0e5bbb7-3d5a-4ac5-969c-e0277adcc3c2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2702_1_PB_WBC
+MMRF_2703	c6a54bd2-dd0f-40f9-bc86-38496731e779	87374998-c16f-4238-be2e-e831259ad982_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2703_1_BM_CD138pos
+MMRF_2704	d43d21d2-4124-46a1-940c-c53d8a634dbe	ed9f4556-dbbc-417a-99b0-7109ff3d0ff5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2704_1_PB_WBC
+MMRF_2705	6380404f-5d23-42da-96ec-53dc6ff5aef7	e2ac313f-50b7-4721-950c-7657413d5c3c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2705_1_BM_CD138pos
+MMRF_2706	011c669b-d9a7-4694-9762-acd019630062	aa774a98-e20b-4b9d-959b-9b54294370fb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2706_1_PB_WBC
+MMRF_2707	7d730d14-60a8-4471-bc31-0b639841523b	ec4285a1-9454-4603-b6b6-5f707d265059_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2707_1_PB_WBC
+MMRF_2708	4ad65ee1-20c3-4014-83ef-27aa3115e72b	cdab465b-886f-4422-acac-9b1c5b76d12f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2708_1_PB_WBC
+MMRF_2709	507366e9-4d18-45e2-bea3-7986b444b64d	e6161b35-c921-45d5-af6d-806ead7c505a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2709_1_PB_WBC
+MMRF_2714	644065c7-c9f1-4280-b470-6f4459fd396b	7800b71b-e52e-4f8e-bc7d-9155ffccfa10_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2714_1_PB_WBC
+MMRF_2715	0876d1a4-a8be-4dd1-8a4b-f95a44ec813f	d5599832-07f1-48f3-91af-d2a0d99c8cf2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2715_1_PB_WBC
+MMRF_2716	0956ac17-1188-4770-8951-a69d95263c44	ca6531d2-b889-49b7-b86c-7ed3a94fe8d2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2716_1_BM_CD138pos
+MMRF_2718	bfe5eb43-a0fb-4148-b28a-09055c9ed039	422f4693-185a-4890-8266-ca6f049f4965_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2718_1_BM_CD138pos
+MMRF_2719	1e42e7af-f03f-406a-a69b-d03787b19671	e8b6c66b-5a30-41d9-b172-1d394d664729_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2719_1_PB_WBC
+MMRF_2721	3efdbcb6-c559-4b84-aa6a-3377cc8ab98b	31a4c8ec-a571-42af-8bee-5646fc257983_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2721_1_BM_CD138pos
+MMRF_2722	c831d0cb-507b-4f29-933d-2219f7103989	d6187b24-272b-4d38-ad5f-0339ceb8d941_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2722_1_BM_CD138pos
+MMRF_2723	fa59aaa3-ced5-4f4b-9616-b28a669f1485	5adb72bd-0663-4dfd-9bda-1b0e8400f727_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2723_1_PB_WBC
+MMRF_2727	38595bff-1c0f-4d68-bd42-9ca195ebb21d	32a3d776-0928-4d9e-b5d0-dbe3aa982aee_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2727_1_PB_WBC
+MMRF_2728	bd08bf1f-d1cb-49f7-b0df-3a52178562a7	8ca439b5-6297-4c61-9110-f23757b0af77_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2728_1_PB_WBC
+MMRF_2729	5042cd92-d2a3-4075-b8e0-accd78620c98	e70665b0-5265-461b-8084-683a66ee097c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2729_1_BM_CD138pos
+MMRF_2730	88c8867c-091d-4ce2-860d-9f4ffa49e397	99a51d45-afc9-49a6-9578-0f6fd8ca3945_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2730_1_PB_WBC
+MMRF_2731	b0246e10-83b0-411c-9d45-e56256357816	54904584-bb93-4698-a3ba-bccb8ec8ecfb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2731_1_BM_CD138pos
+MMRF_2732	7ab623bf-9904-4b5d-a541-8f30b681d9aa	8bdada94-9627-4630-8601-a36dd7bbdb34_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2732_1_PB_WBC
+MMRF_2733	c27e16c2-9d81-4bf5-b81e-f08897042bc1	3448ada5-a67b-4e5b-a013-ff96e629a713_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2733_1_BM_CD138pos
+MMRF_2734	35b60b95-4767-45b0-b1a5-555d2ef19321	30496e93-aa89-47ab-9f5b-eeca49b310d2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2734_1_BM_CD138pos
+MMRF_2737	f19242e6-2180-47d6-8873-446ba9e4339e	84cb4ed6-c033-485b-a1f3-7566002e82f6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2737_1_PB_WBC
+MMRF_2738	44ff318e-3bc7-4ad9-8877-e41b6c22dbbe	4ecb6aa1-869b-4110-a4cd-a7be82fde3e6_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2738_1_BM_CD138pos
+MMRF_2739	dfa59a00-ce09-41f1-bc36-6862121909d9	32aeecfb-5b6d-45bf-a249-63b1952a7eb0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2739_1_BM_CD138pos
+MMRF_2740	71c4bacb-5e34-476f-aa6d-b09697b46508	a6304c4d-fccb-4880-b713-441d45a4d309_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2740_1_PB_WBC
+MMRF_2742	7dcf72ef-6a47-43de-91a1-4e8cdceb9c24	ac012ccf-3865-436f-8ad2-1b9dd124db05_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2742_1_BM_CD138pos
+MMRF_2743	f68c5868-f57d-4c21-9892-1d60c24d5b49	f4fa6d4f-aef2-4e31-9e9e-f86becb1cc6b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2743_1_PB_WBC
+MMRF_2745	964f75f3-05fa-4e5b-af56-bec83700d2b6	dbed9912-b72c-472b-a5a6-7e34ce9538de_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2745_1_BM_CD138pos
+MMRF_2746	640398d6-25d1-4d8a-bcf0-751368211255	780d59d7-9eff-46e1-b3e0-69144743ff6b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2746_1_PB_WBC
+MMRF_2750	2614926d-f658-4575-82db-293150dbb4bd	a4b4e9f6-3c80-46fa-bf10-66756879e599_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2750_1_PB_WBC
+MMRF_2751	3ef9b7d8-fbef-4a2b-9548-b12102abc82b	3e0b08ad-8dd0-4fe3-ba4d-6ad26b480ce1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2751_1_PB_WBC
+MMRF_2752	337027ae-5980-4cec-97c0-0be677c17388	200a4595-9a0c-40ec-b25a-11e65f4c8c80_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2752_1_PB_WBC
+MMRF_2753	68a7e84c-c41f-49f0-b6b9-d9c74617f2e9	c9f716f4-32b1-4829-b71b-9dfb830305bc_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2753_1_PB_WBC
+MMRF_2754	e128b450-a096-454f-bd7a-e5c74eb5cf1c	cf0be452-8380-443f-bb99-57fcce6e868c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2754_1_BM_CD138pos
+MMRF_2755	a52c577a-95cb-4221-83f4-adcd71224b15	224d7825-0dfe-4c2b-bab2-cfaa4d726669_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2755_1_BM_CD138pos
+MMRF_2756	e7971c0f-50c6-4596-a912-8104ee660f69	b557d805-e02a-4cbc-af31-41973e39e1bd_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2756_1_PB_WBC
+MMRF_2757	26532919-2eeb-4526-8dc1-a5af1b97ea6c	ad4b5d65-ded4-4746-849e-41eaaa5b3430_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2757_1_PB_WBC
+MMRF_2758	8e0bb855-57a6-41a1-8c19-d0f1a2f90a17	059f09ea-3ac3-4de6-891e-244c10aa9101_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2758_1_PB_WBC
+MMRF_2760	608fe116-5d48-4948-a3c7-a8c4b9520a58	98b2e0ec-69f1-45b7-a47f-f13178f79293_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2760_1_PB_WBC
+MMRF_2761	89964c34-59f2-4a0c-b97f-25d4ff8c5af3	a94c2f3e-1357-4f57-969c-58eb7f8b7c16_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2761_1_PB_WBC
+MMRF_2762	b11d0937-1511-42e1-afde-5695fd46851b	c45fa923-f1fd-4060-b64c-d3946b48467e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2762_1_BM_CD138pos
+MMRF_2763	993f6974-1705-412b-ba10-526239068ab0	d8261436-27e8-437c-9860-34f6888b31e1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2763_1_PB_WBC
+MMRF_2764	ea44af47-9fa1-47d9-b399-c0fcd548bc3d	60f21f38-2402-4812-b77c-8dfe4a25c62f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2764_1_BM_CD138pos
+MMRF_2765	5cf32f4b-5338-4f7e-865f-69819e5921e0	5539ec24-7c9c-4f94-92a7-2255a874b7a1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2765_1_BM_CD138pos
+MMRF_2767	7df3aaad-2c9e-4249-bdf4-26b07914348a	06a4631e-6f2b-4811-b3b6-90887aae33d7_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2767_1_BM_CD138pos
+MMRF_2768	7e664346-81f9-4bdd-8650-66194eec4560	ac6f646c-1362-4ccc-8bb9-f69cd0ddf991_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2768_1_PB_WBC
+MMRF_2769	e3004058-421a-4e9f-98af-36e976eaf288	1aeb87db-45aa-4386-a9fc-738c5a3e2105_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2769_1_BM_CD138pos
+MMRF_2770	3344fc86-097f-4cd5-96f8-ba0b8c38f04a	062ad132-c3fb-4dbd-b6bb-9f87600a0c47_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2770_1_BM_CD138pos
+MMRF_2772	c50793c7-18cf-4811-b366-932072b8195a	db5cf754-8d4a-4736-abc0-0ace667807fe_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2772_1_PB_WBC
+MMRF_2774	40f7554b-6567-4a71-a8c3-f03b1e35e284	32f57976-e5fc-4b84-b431-e95645b40f3e_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2774_1_BM_CD138pos
+MMRF_2775	4a10594f-dbab-40fd-9182-cf9090c2b746	afd2f393-3036-4da4-bf1b-3a7ecbde478a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2775_1_BM_CD138pos
+MMRF_2776	bd125ce1-6b19-40b2-b7bd-9b116d147279	437342e7-80bc-4b3d-9ec1-6a02fd435867_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2776_1_PB_WBC
+MMRF_2778	51a40f9c-4b9a-4ff8-aa62-64f661b362d3	5ff13df1-520c-492b-81a1-714f6959b814_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2778_1_PB_WBC
+MMRF_2779	a46246d3-f047-49d9-90ae-adc0afc4d65d	1b759407-8611-4d86-816a-c13293678eef_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2779_1_PB_WBC
+MMRF_2781	dead7423-fcd8-4f00-85a8-105d3e800c7f	c67602fb-32bd-4e93-91a4-3a50d56d6b7d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2781_1_PB_WBC
+MMRF_2782	8277cbad-b6ae-4f85-99b8-b31af3023f37	e74f45c6-d441-41d0-b353-d3cc49388b3f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2782_1_PB_WBC
+MMRF_2787	659f4301-bcc4-4fbd-b30a-0aa3fbe7b3c8	0b219996-cb49-4a87-9f73-f8184e69bc3a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2787_1_BM_CD138pos
+MMRF_2788	4d2b7975-2af7-46e3-a9ad-fecd53f13b08	ab06911a-6b07-48b5-94ce-e6d7775830bb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2788_1_PB_WBC
+MMRF_2789	d224eee3-0114-499d-b5ad-57c03e47d14d	b2441331-b50e-4b69-89b5-d16c42f6b82c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2789_1_BM_CD138pos
+MMRF_2792	7fc8205c-de8b-4ed5-b67d-d0782c44e03d	4afbcc44-fe8c-48b9-ab1f-4017ce1a82dc_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2792_1_PB_WBC
+MMRF_2793	4443377f-986b-49b0-b69c-21ece3791b2e	6c2154a4-dcb6-4730-9367-ebc2f1ba00a5_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2793_1_BM_CD138pos
+MMRF_2794	c5c10c73-8931-41d8-a0a4-74e05fdeac88	0c5bd7b7-9724-4c7c-a3c1-8bab934f0771_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2794_1_BM_CD138pos
+MMRF_2795	97317c18-9ba4-4aaa-82c0-e41b2edb1d3b	895fd47c-4f97-408a-81ea-6a8368fdb06c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2795_1_PB_WBC
+MMRF_2799	83d36d27-2212-4dcf-8e26-7eedb21bfa4a	7245f5eb-52f3-4fdd-a41a-eab424207670_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2799_1_PB_WBC
+MMRF_2801	331f3508-c089-44e1-bdd6-dacc6568cd2f	72e416e5-9082-453f-ae8e-e5c7cee4e153_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2801_1_BM_CD138pos
+MMRF_2805	4eba06a6-5f0e-4e39-a795-e354c8e1a303	729dec40-9ec3-4feb-8198-576b919e4586_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2805_1_PB_WBC
+MMRF_2807	569d0f20-8ca6-4cbf-a6e3-eb9561cc1156	5a2b23ec-cbdf-41d5-8538-9026eecbf25a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2807_1_PB_WBC
+MMRF_2808	b0d71428-66a4-47e4-aaa3-76db366cf53d	9920a17b-bbe8-4f19-9ccf-9537aebee0f4_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2808_1_BM_CD138pos
+MMRF_2813	a01f6214-c58c-4f18-9169-23bbc79fbaec	29817507-83d6-44d3-b713-0a1ad99115f2_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2813_1_PB_WBC
+MMRF_2814	e5368879-7cd0-466e-89c2-b5b6b25c0a90	d7dafa1f-9cb1-499e-9978-f487136a21f9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2814_1_BM_CD138pos
+MMRF_2815	abaf3436-5709-4660-b7d6-6fd2ddcd5561	0333bae1-755c-4d62-aba4-284f02d65c5f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2815_1_PB_WBC
+MMRF_2816	cf9c7c2d-e56c-477c-b3aa-3f53b5c42d16	5cfa8b96-f54f-44e9-a126-1e4360fe1bd9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2816_1_BM_CD138pos
+MMRF_2817	e931b4e3-d9cc-4db0-9ee3-6719087bd5f7	b3deaa40-bf95-41b4-8949-f966a2479d93_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2817_1_PB_WBC
+MMRF_2818	64045946-b1b2-44e3-9d22-17c360510135	e9c08cf5-1d8d-4666-b9cd-fbbd2d90bc5f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2818_1_PB_WBC
+MMRF_2819	400c47c4-c7c1-4745-8493-fd1d035fcf5d	73342f58-8ba6-4d7d-a2cf-341b94f7b570_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2819_1_PB_WBC
+MMRF_2820	c261544e-928f-44c2-929f-48a99ffa45bf	b819cbf0-5ade-48cd-a15b-03cc80f579ce_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2820_1_PB_WBC
+MMRF_2821	1b5202e6-2443-449b-b5a4-2795a8d8875b	dec64bfd-d555-45ad-85da-22c4b13b1cc3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2821_1_BM_CD138pos
+MMRF_2822	5af27221-6580-4b97-8d3f-76310cd1bb53	618c0965-adeb-45b1-91a3-d3f5a1803d9c_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2822_1_BM_CD138pos
+MMRF_2823	cb217fea-c809-4e5e-83b2-344fb084dfc7	10590c8d-177f-41ed-ad83-d3bb57ebd89a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2823_1_BM_CD138pos
+MMRF_2826	e76eb305-391c-4c92-ab52-3a4707c3c2fb	664ae5c4-52bf-4325-8169-2805b01731a9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2826_1_PB_WBC
+MMRF_2827	0db06412-1254-48c5-8ec4-924122284d96	562569f5-3bc1-42e0-993f-1f9b08f31709_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2827_1_BM_CD138pos
+MMRF_2828	675990b9-3bcb-432e-9869-017f7001148a	704803e9-59ee-4685-83f8-fb59a59aa1b0_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2828_1_BM_CD138pos
+MMRF_2829	50bec326-f50a-4dc1-a655-e4e12394cbfc	6f614bc8-7e5b-44c0-bb14-6ace0202a65b_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2829_1_BM_CD138pos
+MMRF_2830	a743d2f0-57bd-489d-b799-9699b13c87ea	f2faef9e-c996-4f86-82ce-77b38bbbebbb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2830_1_BM_CD138pos
+MMRF_2831	760ff571-ff57-465b-aaa7-65f3efe63bab	7da53728-8513-450c-871b-4954bbbab725_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2831_1_PB_WBC
+MMRF_2832	56cca2f2-c055-466b-bc09-cafb4548bf9f	a720ff8b-ba76-437e-af81-c97dcf513525_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2832_1_PB_WBC
+MMRF_2833	93cc8a21-de87-4b8f-aea1-96e78eecc86c	91497f83-285f-40f1-8e78-6f198f20dcf9_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2833_1_BM_CD138pos
+MMRF_2834	25e9f454-53a6-4ebf-b496-0e549815ac54	836e222a-b21f-4749-895c-7d8779841560_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2834_1_BM_CD138pos
+MMRF_2835	6fcaf66e-cf1e-4d16-a3a0-6be33fb87080	1a5d46d0-7490-4b55-ab25-e9a440589357_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2835_1_PB_WBC
+MMRF_2836	b5b90f34-4249-4454-9305-0c7dba622228	c0685bde-c5b1-424e-a0d5-5135ef745bd3_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2836_1_PB_WBC
+MMRF_2838	8444a0d7-5023-4a9b-ac16-93379875bf09	15945b62-1566-454a-803e-d8b553f349fb_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2838_1_PB_WBC
+MMRF_2839	6cfe918e-5cc4-4b35-8591-50783b908dbf	26a2a2c6-200f-4100-9ee6-d184cd8c4e8f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2839_1_BM_CD138pos
+MMRF_2840	f1665e97-f625-4289-9192-f39d166a3b64	7435d25d-1e08-41a7-9f81-cb6318d5818a_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2840_1_BM_CD138pos
+MMRF_2847	0579a778-ef72-49e6-8fc9-37060288da35	b6c808af-f0ca-4d74-8bcf-c1dddd7d7bb1_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2847_1_BM_CD138pos
+MMRF_2848	ac5f0eda-28d8-4555-947b-fa89fec6b7d3	d80c9350-1b38-42ee-806b-4e5e31c61f8f_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2848_1_PB_WBC
+MMRF_2851	d844aa9c-e3ee-4b9f-9132-7d18f5345267	53807116-29b8-43f0-86f0-73eb9898030d_wgs_gdc_realn.cr.igv.reheader.seg.txt	Blood Derived Normal	MMRF_2851_1_PB_WBC
+MMRF_2853	d0de74b1-14fc-4a4d-92cd-d3e1d00308b6	918504b9-84a0-40bc-b3ee-d6109750d014_wgs_gdc_realn.cr.igv.reheader.seg.txt	Primary Blood Derived Cancer - Bone Marrow	MMRF_2853_1_BM_CD138pos

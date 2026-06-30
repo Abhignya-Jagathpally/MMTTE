@@ -1,0 +1,7 @@
+model,brier_at_horizon,calibration_slope,calibration_in_the_large,horizon
+clinical,0.1476,1.5391,-0.0201,24.0
+clinical+cytogenetics,0.1419,1.3526,-0.0277,24.0
+clinical+omics,0.1318,0.9576,-0.0285,24.0
+clinical+cytogenetics+omics,0.1299,1.0047,-0.0324,24.0
+clinical+programs,0.1348,1.1762,-0.0323,24.0
+clinical+cytogenetics+programs,0.1331,1.1634,-0.0335,24.0

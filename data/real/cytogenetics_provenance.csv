@@ -1,0 +1,9 @@
+feature,source,method,confidence,confirmatory_allowed
+amp1q,WGS Copy Number Segment,length-weighted 1q arm log2 (genome-median recentred),moderate,False
+del1p,WGS Copy Number Segment,length-weighted 1p arm log2,moderate,False
+del13q,WGS Copy Number Segment,length-weighted chr13 log2,moderate,False
+del17p,WGS Copy Number Segment,length-weighted 17p arm log2 (subclonal-sensitive),moderate,False
+hyperdiploid,WGS Copy Number Segment,>=2 trisomy of odd chromosomes,moderate,False
+t_4_14,RNA expression,NSD2/FGFR3 over-expression surrogate (z>cutoff @ prevalence),exploratory,False
+t_11_14,RNA expression,CCND1 over-expression surrogate,exploratory,False
+t_14_16,RNA expression,MAF over-expression surrogate,exploratory,False

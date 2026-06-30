@@ -1,0 +1,29 @@
+{
+  "n_train": 703,
+  "events_train": 140,
+  "n_val": 144,
+  "events_val": 32,
+  "n_test": 148,
+  "events_test": 19,
+  "n_features": 15,
+  "subtype_cols": [
+    "amp1q",
+    "del1p",
+    "del13q",
+    "del17p",
+    "t_4_14",
+    "t_11_14",
+    "t_14_16",
+    "hyperdiploid"
+  ],
+  "best_model": {
+    "model": "cox",
+    "val_cindex": 0.7195659545608681,
+    "test_cindex": 0.8013807753584705,
+    "test_cindex_ci_low": 0.6970647071666394,
+    "test_cindex_ci_high": 0.8792505374302192,
+    "ibs_proxy_test": 0.2545978260057792,
+    "n_test": 148,
+    "events_test": 19
+  }
+}

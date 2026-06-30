@@ -1,0 +1,18 @@
+# Large raw data (re-fetchable from GDC via scripts/realdata/)
+data/real/rna_counts/
+data/real/cnv_seg/
+data/real/omics_pc_loadings.csv
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# OS
+.DS_Store

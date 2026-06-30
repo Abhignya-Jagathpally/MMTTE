@@ -1,0 +1,10 @@
+{
+  "imputer_fit_on": "train",
+  "scaler_fit_on": "train",
+  "pca_fit_on": "train_or_precomputed",
+  "orthogonalizer_fit_on": "train",
+  "cox_fit_on": "train",
+  "test_used_for_model_selection": false,
+  "split_strategy": "stratified_event",
+  "note": "Omics PCA was fit once on the full RNA cohort (unsupervised, no labels) in build_omics.py; all survival-model preprocessing (impute/scale/orthogonalize/Cox) is train-only. No test outcomes touch any coefficient."
+}

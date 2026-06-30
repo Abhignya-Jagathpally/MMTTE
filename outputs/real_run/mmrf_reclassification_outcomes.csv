@@ -1,0 +1,7 @@
+group,n_patients,n_events,event_rate_by_horizon,median_survival_months,logrank_p_vs_rest,hazard_ratio_vs_rest
+clinical_low__molecular_low,186,10,0.0414,not_reached,0.0,0.197
+clinical_low__molecular_high,177,26,0.1414,not_reached,0.0612,0.67
+clinical_high__molecular_low,177,42,0.1775,not_reached,0.9392,0.986
+clinical_high__molecular_high,186,74,0.3498,37.8,0.0,3.369
+cyto_high__molecular_low,101,18,0.1409,not_reached,0.2638,0.756
+cyto_low__molecular_high,113,23,0.1993,not_reached,0.9152,1.024

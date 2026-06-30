@@ -1,0 +1,91 @@
+{
+  "tables": {
+    "clinical": {
+      "path": "data/demo/clinical.csv",
+      "n_rows": 260,
+      "n_patients": 260,
+      "columns": [
+        "patient_id",
+        "time_months",
+        "event",
+        "age",
+        "sex_M",
+        "iss_2",
+        "iss_3",
+        "riss_2",
+        "riss_3",
+        "line_of_therapy",
+        "split"
+      ],
+      "duplicate_patient_rows": 0,
+      "events": 185,
+      "median_time": 18.15,
+      "missing_time": 0,
+      "missing_event": 0
+    },
+    "cytogenetics": {
+      "path": "data/demo/cytogenetics.csv",
+      "n_rows": 260,
+      "n_patients": 260,
+      "patient_overlap_with_clinical": 260,
+      "subtype_cols": [
+        "amp1q",
+        "del1p",
+        "del13q",
+        "del17p",
+        "t_4_14",
+        "t_11_14",
+        "hyperdiploid"
+      ],
+      "subtype_counts": {
+        "amp1q": {
+          "n": 90,
+          "events": 73
+        },
+        "del1p": {
+          "n": 39,
+          "events": 31
+        },
+        "del13q": {
+          "n": 101,
+          "events": 77
+        },
+        "del17p": {
+          "n": 30,
+          "events": 25
+        },
+        "t_4_14": {
+          "n": 33,
+          "events": 27
+        },
+        "t_11_14": {
+          "n": 43,
+          "events": 31
+        },
+        "hyperdiploid": {
+          "n": 116,
+          "events": 74
+        }
+      }
+    },
+    "omics": {
+      "path": "data/demo/omics.csv",
+      "n_rows": 260,
+      "patient_overlap_with_clinical": 260,
+      "n_numeric_feature_columns_sampled": 120,
+      "note": "Omics is model-usable only if patient_id joins to survival labels and transformations are train-split fitted only."
+    }
+  },
+  "gates": {
+    "min_patients_50": true,
+    "min_events_20": true,
+    "one_row_per_patient_required": true,
+    "publication_grade_subtype_modeling": true,
+    "longitudinal_first_hitting_claim": "blocked unless repeated time-stamped molecular/clinical states exist before event/censoring"
+  },
+  "usable_for": {
+    "survival_tte": true,
+    "cytogenetic_subtype_tte": true,
+    "multiomic_tte": true
+  }
+}

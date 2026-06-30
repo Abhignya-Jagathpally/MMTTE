@@ -1,0 +1,23 @@
+{
+  "endpoint_name": "open_gdc_os",
+  "endpoint_type": "overall_survival",
+  "endpoint_role": "technical_validation",
+  "technical_validation_claim_allowed": true,
+  "primary_biological_claim_allowed": false,
+  "relapse_or_pfs_claim_allowed": false,
+  "omics_increment_confirmed": false,
+  "external_validation_available": false,
+  "proposal_target": "relapse",
+  "evidence_level_for_omics_increment": "technical_validation_only",
+  "omics_increment_summary": "SUGGESTIVE_NOT_CONFIRMED",
+  "_detail": {
+    "matched_n": 726,
+    "test_events": 38,
+    "clinical_cindex": 0.7355,
+    "full_cindex": 0.7757,
+    "omics_paired_delta": 0.0402,
+    "omics_paired_delta_ci_low": -0.052,
+    "molecular_residual_test_cindex": 0.6505,
+    "analysis_type": "scientific_matched_cohort"
+  }
+}

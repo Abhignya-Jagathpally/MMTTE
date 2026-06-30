@@ -1,0 +1,15 @@
+subtype,n,events,status,model,cindex
+amp1q,39,4,too_sparse,,
+del1p,24,3,too_sparse,,
+del13q,62,8,too_sparse,,
+del17p,14,4,too_sparse,,
+t_4_14,11,2,too_sparse,,
+t_11_14,18,2,too_sparse,,
+t_14_16,2,0,too_sparse,,
+hyperdiploid,80,12,ok,subtype_event_rate,0.4537177541729894
+hyperdiploid,80,12,ok,cox,0.7814871016691958
+hyperdiploid,80,12,ok,opsd_cox,0.7845220030349014
+hyperdiploid,80,12,ok,aft,0.7905918057663126
+hyperdiploid,80,12,ok,opsd_aft,0.48103186646433993
+hyperdiploid,80,12,ok,fht,0.7936267071320182
+hyperdiploid,80,12,ok,opsd_fht,0.4977238239757208

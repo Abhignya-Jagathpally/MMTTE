@@ -1,0 +1,8 @@
+subtype,n_patients,n_events,clinical_cindex,clinical_omics_cindex,delta_cindex,evidence_level
+amp1q,63,17,0.641,0.832,0.191,hypothesis_generating
+del1p,42,10,0.659,0.714,0.055,hypothesis_generating
+del13q,96,21,0.695,0.736,0.041,hypothesis_generating
+del17p,22,10,0.634,0.647,0.013,hypothesis_generating
+t_4_14,24,6,0.622,0.811,0.189,unstable_descriptive_only
+t_11_14,29,7,0.765,0.863,0.098,unstable_descriptive_only
+hyperdiploid,111,24,0.649,0.745,0.095,hypothesis_generating
