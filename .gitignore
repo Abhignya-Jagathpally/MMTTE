@@ -27,3 +27,6 @@ external/miner3/
 
 # Large fold-agnostic gene-expression cache (rebuildable via build_gene_matrix.py)
 data/real/gene_matrix.npz
+
+# Large external GEO series matrices (rebuildable via validation/external_geo.py fetch)
+data/external/

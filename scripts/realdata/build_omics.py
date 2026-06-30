@@ -29,6 +29,10 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
+# Single source of truth for the surrogate caller, shared with the external GEO
+# validation so both label the same way (validation/surrogate_caller.py).
+from mm_tte_survival.validation.surrogate_caller import TRANSLOC, call_translocation
+
 ROOT = Path(__file__).resolve().parents[2]
 RNADIR = ROOT / "data" / "real" / "rna_counts"
 MAPCSV = ROOT / "data" / "real" / "rna_file_map.tsv"
@@ -37,12 +41,6 @@ CYTO = ROOT / "data" / "real" / "cytogenetics.csv"
 
 N_PCS = 128
 N_TOPVAR = 2000
-# Translocation marker genes and approximate MM prevalence (for percentile cutoff).
-TRANSLOC = {
-    "t_11_14": (["CCND1"], 0.16),
-    "t_4_14":  (["NSD2", "WHSC1", "FGFR3"], 0.13),
-    "t_14_16": (["MAF"], 0.05),
-}
 SKIP_PREFIX = ("N_", "#")
 
 
@@ -93,21 +91,16 @@ def main():
     print(f"gene matrix: {mat.shape[0]} patients x {mat.shape[1]} protein-coding genes", file=sys.stderr)
     log_tpm = np.log2(mat + 1.0)
 
-    # ---- expression-surrogate translocation calls ----
+    # ---- expression-surrogate translocation calls (shared caller) ----
     surro = pd.DataFrame(index=log_tpm.index)
     for tcol, (genes, prev) in TRANSLOC.items():
-        present = [g for g in genes if g in log_tpm.columns]
+        calls, _, present = call_translocation(log_tpm, genes, prev)
+        surro[tcol] = calls
         if not present:
-            surro[tcol] = np.nan
             print(f"  {tcol}: marker genes {genes} absent -> NA", file=sys.stderr)
-            continue
-        # z-score each marker, take max across markers as the translocation score
-        z = (log_tpm[present] - log_tpm[present].mean()) / (log_tpm[present].std() + 1e-9)
-        score = z.max(axis=1)
-        cutoff = score.quantile(1 - prev)
-        surro[tcol] = (score > cutoff).astype(int)
-        print(f"  {tcol}: markers={present} prevalence={surro[tcol].mean()*100:.1f}% "
-              f"(target {prev*100:.0f}%)", file=sys.stderr)
+        else:
+            print(f"  {tcol}: markers={present} prevalence={np.nanmean(calls)*100:.1f}% "
+                  f"(target {prev*100:.0f}%)", file=sys.stderr)
 
     # ---- PCA embedding ----
     variances = log_tpm.var(axis=0).sort_values(ascending=False)

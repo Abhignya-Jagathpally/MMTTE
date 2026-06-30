@@ -1,0 +1,16 @@
+subtype,scheme,n_folds,mean_ibs,mean_dcal_p
+amp1q,pooled,5,0.1459,0.9067
+amp1q,real,5,0.1432,0.9546
+amp1q,scramble,5,0.1418,0.9865
+del13q,pooled,5,0.1431,0.9071
+del13q,real,5,0.1429,0.8661
+del13q,scramble,5,0.1436,0.8614
+del17p,pooled,5,0.1749,0.9392
+del17p,real,5,0.1504,0.8595
+del17p,scramble,5,0.1795,0.8064
+del1p,pooled,5,0.1653,0.9252
+del1p,real,4,0.1663,0.954
+del1p,scramble,5,0.1694,0.827
+hyperdiploid,pooled,5,0.1281,0.9044
+hyperdiploid,real,5,0.1283,0.9075
+hyperdiploid,scramble,5,0.135,0.9217

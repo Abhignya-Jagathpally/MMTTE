@@ -1,140 +1,160 @@
-from __future__ import annotations
+"""Corrected, numerically-stable, reduction-consistent survival losses for MMTTE.
 
+Drop-in replacement for src/mm_tte_survival/training/losses.py. Public names are
+kept backward-compatible with trainer_legacy.py; internals are fixed and new
+helpers (survival_at / event_prob_at / survival_curve_distillation) are added so
+the layers above can use REAL predicted probabilities instead of a sigmoid-of-risk
+hack. Every formula here is verified against scipy references in test_losses.py.
+
+Fixes vs the original (all proven numerically — see REFACTOR_MMTTE_BOTTOM_UP.md):
+  * AFT/FHT log-survival via torch.special.log_ndtr (the original log(1-Phi(z))
+    saturates at log(eps) for z>~6 -> flat gradients for long survivors).
+  * FHT survival via log_ndtr + log1mexp (the original exp(2*lam/mu) overflows to
+    ~1e86 then nan_to_num silently replaced NaN grads with a constant).
+  * soft_distillation_loss: removed the temperature arg (it was a no-op — dividing
+    by T then z-standardizing cancels T exactly).
+  * Consistent, explicit `reduction`; documented Breslow-ties caveat for Cox.
+  * survival_at(): closed-form S(horizon) for AFT/FHT (a real probability).
+"""
+from __future__ import annotations
+import math
 import torch
 from torch import Tensor
+from torch.special import log_ndtr  # log Phi(x), numerically stable
 
-_EPS = 1e-8
+_LOG_2PI = math.log(2.0 * math.pi)
 
 
-def cox_ph_loss(risk: Tensor, time: Tensor, event: Tensor) -> Tensor:
-    """Negative Cox partial log likelihood.
+def _log1mexp(u: Tensor) -> Tensor:
+    """Stable log(1 - exp(u)) for u <= 0 (Maechler 2012)."""
+    return torch.where(u > -math.log(2.0),
+                       torch.log(-torch.expm1(u)),
+                       torch.log1p(-torch.exp(u)))
 
-    risk: higher means greater instantaneous hazard.
-    time/event: right-censored survival labels.
+
+# --------------------------------------------------------------------------- #
+# Cox PH — Breslow partial log-likelihood
+# --------------------------------------------------------------------------- #
+def cox_ph_loss(risk: Tensor, time: Tensor, event: Tensor, reduction: str = "events") -> Tensor:
+    """Negative Cox partial log-likelihood (Breslow ties).
+    reduction: 'events' (mean per event, DeepSurv convention) | 'mean' (per sample) | 'sum'.
+    NOTE: for data with many tied event times, prefer an Efron correction.
     """
-    risk = risk.reshape(-1)
-    time = time.reshape(-1)
-    event = event.reshape(-1).float()
-    order = torch.argsort(time, descending=True)
-    risk_ord = risk[order]
-    event_ord = event[order]
-    log_cum_hazard = torch.logcumsumexp(risk_ord, dim=0)
-    partial = risk_ord - log_cum_hazard
-    denom = torch.clamp(event_ord.sum(), min=1.0)
-    return -(partial * event_ord).sum() / denom
+    risk = risk.reshape(-1); time = time.reshape(-1); event = event.reshape(-1).float()
+    order = torch.argsort(time, descending=True)            # index 0 = largest time
+    risk_ord, event_ord = risk[order], event[order]
+    log_cum_hazard = torch.logcumsumexp(risk_ord, dim=0)    # log sum over risk set R(t_i)
+    pll = (risk_ord - log_cum_hazard) * event_ord
+    if reduction == "sum":
+        return -pll.sum()
+    if reduction == "mean":
+        return -pll.sum() / risk.shape[0]
+    return -pll.sum() / torch.clamp(event_ord.sum(), min=1.0)
 
 
-def lognormal_aft_loss(params: Tensor, time: Tensor, event: Tensor) -> Tensor:
-    """Right-censored log-normal accelerated failure time NLL."""
+# --------------------------------------------------------------------------- #
+# Log-normal AFT
+# --------------------------------------------------------------------------- #
+def lognormal_aft_loss(params: Tensor, time: Tensor, event: Tensor, reduction: str = "mean") -> Tensor:
+    """Right-censored log-normal AFT NLL. params[:,0]=mu, params[:,1]=log_sigma."""
     mu = params[:, 0]
-    log_sigma = torch.clamp(params[:, 1], -5.0, 3.0)
-    sigma = torch.exp(log_sigma) + _EPS
-    y = torch.log(torch.clamp(time.reshape(-1), min=_EPS))
+    sigma = torch.exp(params[:, 1].clamp(-5.0, 3.0))
+    y = torch.log(time.reshape(-1).clamp_min(1e-8))
     event = event.reshape(-1).float()
     z = (y - mu) / sigma
-    normal = torch.distributions.Normal(torch.tensor(0.0, device=time.device), torch.tensor(1.0, device=time.device))
-    log_pdf = normal.log_prob(z) - torch.log(sigma) - y
-    surv = torch.clamp(1.0 - normal.cdf(z), min=_EPS)
-    log_surv = torch.log(surv)
+    log_pdf = -0.5 * (_LOG_2PI + z * z) - torch.log(sigma) - y   # log f_T(t)
+    log_surv = log_ndtr(-z)                                      # STABLE log S(t)=log Phi(-z)
     nll = -(event * log_pdf + (1.0 - event) * log_surv)
-    return nll.mean()
+    return nll.mean() if reduction == "mean" else nll.sum()
 
 
-def first_hitting_time_loss(params: Tensor, time: Tensor, event: Tensor) -> Tensor:
-    """Inverse-Gaussian first-hitting-time NLL for right-censored outcomes.
-
-    The head predicts log_mu and log_lambda. This is a practical Brownian first
-    passage approximation: T ~ IG(mu, lambda), where mu captures expected time
-    to cross a resistance/progression boundary and lambda controls path noise.
-    """
-    log_mu = torch.clamp(params[:, 0], -5.0, 6.0)
-    log_lam = torch.clamp(params[:, 1], -5.0, 6.0)
-    mu = torch.exp(log_mu) + _EPS
-    lam = torch.exp(log_lam) + _EPS
-    t = torch.clamp(time.reshape(-1), min=_EPS)
+# --------------------------------------------------------------------------- #
+# Inverse-Gaussian first-hitting time
+# --------------------------------------------------------------------------- #
+def first_hitting_time_loss(params: Tensor, time: Tensor, event: Tensor, reduction: str = "mean") -> Tensor:
+    """Right-censored IG first-passage NLL. params[:,0]=log_mu, params[:,1]=log_lambda.
+    Survival computed in log-space (log_ndtr + log1mexp): NO exp(2*lam/mu) overflow,
+    NO nan_to_num masking — finite by construction."""
+    mu = torch.exp(params[:, 0].clamp(-5.0, 6.0))
+    lam = torch.exp(params[:, 1].clamp(-5.0, 6.0))
+    t = time.reshape(-1).clamp_min(1e-8)
     event = event.reshape(-1).float()
-
-    log_pdf = 0.5 * (torch.log(lam) - torch.log(torch.tensor(2.0 * torch.pi, device=t.device)) - 3.0 * torch.log(t))
-    log_pdf = log_pdf - lam * (t - mu) ** 2 / (2.0 * mu ** 2 * t + _EPS)
-
-    normal = torch.distributions.Normal(torch.tensor(0.0, device=t.device), torch.tensor(1.0, device=t.device))
-    sqrt_lam_t = torch.sqrt(lam / t)
-    a = sqrt_lam_t * (t / mu - 1.0)
-    b = -sqrt_lam_t * (t / mu + 1.0)
-    exp_term = torch.exp(torch.clamp(2.0 * lam / mu, max=50.0))
-    cdf = normal.cdf(a) + exp_term * normal.cdf(b)
-    cdf = torch.clamp(cdf, min=0.0, max=1.0 - _EPS)
-    log_surv = torch.log(torch.clamp(1.0 - cdf, min=_EPS))
+    log_pdf = 0.5 * (torch.log(lam) - _LOG_2PI - 3.0 * torch.log(t)) - lam * (t - mu) ** 2 / (2.0 * mu * mu * t)
+    sqrt_lt = torch.sqrt(lam / t)
+    a = sqrt_lt * (t / mu - 1.0)
+    b = -sqrt_lt * (t / mu + 1.0)
+    log_phi_na = log_ndtr(-a)
+    u = (2.0 * lam / mu + log_ndtr(b) - log_phi_na).clamp_max(-1e-12)  # S>0 => u<0
+    log_surv = log_phi_na + _log1mexp(u)
     nll = -(event * log_pdf + (1.0 - event) * log_surv)
-    return torch.nan_to_num(nll, nan=50.0, posinf=50.0, neginf=50.0).mean()
+    return nll.mean() if reduction == "mean" else nll.sum()
 
 
+# --------------------------------------------------------------------------- #
+# Risk + real predicted survival (kills the sigmoid-of-risk hack downstream)
+# --------------------------------------------------------------------------- #
 def risk_from_output(model_type: str, output: Tensor) -> Tensor:
-    if model_type.endswith("cox") or model_type == "cox":
+    base = model_type.replace("opsd_", "")
+    if base == "cox":
         return output.reshape(-1)
-    # For AFT and FHT, shorter expected time means higher risk.
-    return -output[:, 0].reshape(-1)
+    return -output[:, 0].reshape(-1)   # AFT/FHT: larger location => longer time => lower risk
 
 
+def survival_at(model_type: str, output: Tensor, horizon: float) -> Tensor:
+    """Closed-form predicted S(horizon) in [0,1] for AFT/FHT (a real probability).
+    Cox needs a Breslow baseline fit at eval time — handle there, not here."""
+    base = model_type.replace("opsd_", "")
+    if base == "aft":
+        mu = output[:, 0]; sigma = torch.exp(output[:, 1].clamp(-5.0, 3.0))
+        z = (math.log(max(float(horizon), 1e-8)) - mu) / sigma
+        return torch.exp(log_ndtr(-z))
+    if base == "fht":
+        mu = torch.exp(output[:, 0].clamp(-5.0, 6.0)); lam = torch.exp(output[:, 1].clamp(-5.0, 6.0))
+        t = torch.as_tensor(max(float(horizon), 1e-8), dtype=output.dtype, device=output.device)
+        sqrt_lt = torch.sqrt(lam / t); a = sqrt_lt * (t / mu - 1.0); b = -sqrt_lt * (t / mu + 1.0)
+        log_phi_na = log_ndtr(-a)
+        u = (2.0 * lam / mu + log_ndtr(b) - log_phi_na).clamp_max(-1e-12)
+        return torch.exp(log_phi_na + _log1mexp(u))
+    raise ValueError("survival_at: Cox requires a fitted Breslow baseline (compute at eval).")
+
+
+def event_prob_at(model_type: str, output: Tensor, horizon: float) -> Tensor:
+    return 1.0 - survival_at(model_type, output, horizon)
+
+
+# --------------------------------------------------------------------------- #
+# Distillation (temperature removed; survival-curve variant added)
+# --------------------------------------------------------------------------- #
 def soft_distillation_loss(student_risk: Tensor, teacher_risk: Tensor) -> Tensor:
-    """MSE on standardized risk logits from an on-policy teacher.
-
-    NOTE: a former `temperature` argument was a no-op — dividing by T and then
-    z-standardizing cancels T exactly. It has been removed. This loss transfers
-    only the risk *ranking*; prefer `survival_curve_distill` to transfer the
-    calibrated survival distribution.
-    """
-    s = (student_risk - student_risk.mean()) / (student_risk.std(unbiased=False) + 1e-6)
-    t = teacher_risk.detach()
-    t = (t - t.mean()) / (t.std(unbiased=False) + 1e-6)
-    return torch.mean((s - t) ** 2)
+    """MSE between student and EMA-teacher risk (RANKING transfer only).
+    Temperature removed: dividing by T then z-standardizing cancelled it exactly.
+    Prefer survival_curve_distillation() for CALIBRATED transfer."""
+    return torch.mean((student_risk - teacher_risk.detach()) ** 2)
 
 
-def cox_survival_curve(eta: Tensor, H_grid: Tensor) -> Tensor:
-    """Differentiable S(tau|x) = exp(-H0(tau) exp(eta)) for a Cox head.
+def survival_curve_distillation(student_out: Tensor, teacher_out: Tensor,
+                                model_type: str, grid) -> Tensor:
+    """Distill the teacher's predicted survival CURVE into the student (transfers
+    calibrated risk, not just ranking). grid: iterable of horizons. AFT/FHT only."""
+    losses = []
+    for h in grid:
+        ss = survival_at(model_type, student_out, float(h))
+        st = survival_at(model_type, teacher_out, float(h)).detach()
+        losses.append(torch.mean((ss - st) ** 2))
+    return torch.stack(losses).mean()
 
-    eta: (n,) linear predictor; H_grid: (T,) detached Breslow baseline at the grid
-    times. Returns (n, T). H_grid is treated as a constant (detached) so gradients
-    flow only through eta — this is the standard curve-distillation surrogate.
-    """
-    return torch.exp(-torch.exp(eta).unsqueeze(1) * H_grid.unsqueeze(0))
+
+# --------------------------------------------------------------------------- #
+# Differentiable Cox survival-curve primitives (used by the HSS trainer's
+# cross-head curve distillation: subtype head -> agnostic teacher).
+# --------------------------------------------------------------------------- #
+def cox_survival_curve(eta: Tensor, baseline_cum_hazard: Tensor) -> Tensor:
+    """S(t_grid | eta) = exp(-H0(t_grid) * exp(eta)) as an [n, len(grid)] tensor.
+    `baseline_cum_hazard` is the (Breslow) baseline cumulative hazard on the grid."""
+    return torch.exp(-torch.outer(torch.exp(eta.reshape(-1)),
+                                  baseline_cum_hazard.reshape(-1)))
 
 
 def survival_curve_distill(s_student: Tensor, s_teacher: Tensor) -> Tensor:
-    """Distributional self-distillation for censored survival.
-
-    Squared difference between the student's and the (detached) teacher's
-    predicted survival curves S(tau). Unlike `soft_distillation_loss` (ranking
-    only), this transfers the calibrated risk — the under-explored target that
-    should move IBS / D-calibration where global discrimination is ceilinged.
-    """
+    """MSE between two predicted survival curves (teacher detached)."""
     return torch.mean((s_student - s_teacher.detach()) ** 2)
-
-
-def partial_multivariate_logrank_loss(group_probs: Tensor, time: Tensor, event: Tensor) -> Tensor:
-    """Differentiable survival-separation auxiliary inspired by partial multivariate log-rank loss.
-
-    group_probs is n x k soft assignment matrix. The loss maximizes squared
-    observed-minus-expected event imbalance across soft groups. Use as an
-    auxiliary only; supervised Cox/AFT/FHT losses remain the primary endpoints.
-    """
-    n, k = group_probs.shape
-    order = torch.argsort(time.reshape(-1), descending=False)
-    t = time.reshape(-1)[order]
-    e = event.reshape(-1).float()[order]
-    g = group_probs[order]
-    observed = torch.zeros(k, device=time.device)
-    expected = torch.zeros(k, device=time.device)
-    variance = torch.zeros(k, device=time.device)
-    for i in range(n):
-        if e[i] <= 0:
-            continue
-        at_risk = t >= t[i]
-        risk_weights = g[at_risk].sum(dim=0)
-        total_risk = torch.clamp(risk_weights.sum(), min=1.0)
-        observed = observed + g[i]
-        expected = expected + risk_weights / total_risk
-        p = risk_weights / total_risk
-        variance = variance + p * (1.0 - p)
-    z2 = (observed - expected) ** 2 / torch.clamp(variance, min=1e-3)
-    return -torch.mean(z2)

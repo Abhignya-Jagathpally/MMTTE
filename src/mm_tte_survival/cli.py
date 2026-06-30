@@ -67,6 +67,21 @@ def main(argv=None):
                                                   "vs independent Cox (per-subtype IBS)")
     p_reg.add_argument("--config", default="configs/experiments/regularization_open_gdc_os.yaml")
 
+    p_val = sub.add_parser("validate-subtypes",
+                           help="Layered subtype-label validation: external real-FISH (GEO) + "
+                                "cluster concordance + internal cross-modality + label-noise robustness")
+    p_val.add_argument("--config", default="configs/experiments/subtype_validation_open_gdc_os.yaml")
+
+    p_ln = sub.add_parser("label-noise",
+                          help="Label-noise robustness: flip CNV labels at published FISH-discordance "
+                               "rates; is the subtype-aware NULL robust?")
+    p_ln.add_argument("--config", default="configs/experiments/subtype_validation_open_gdc_os.yaml")
+
+    p_cal = sub.add_parser("subtype-calibration",
+                           help="Pre-registered one-shot: does subtype-stratified calibration beat "
+                                "pooled+scramble? (characterization only — external replication unmeetable)")
+    p_cal.add_argument("--config", default="configs/experiments/subtype_validation_open_gdc_os.yaml")
+
     args = parser.parse_args(argv)
     if args.cmd == "make-demo-data":
         make_demo_data(args.out, args.n, args.p, args.seed)
@@ -121,6 +136,25 @@ def main(argv=None):
         from .experiments_regularization import run_regularization
         cfg = load_config(args.config)
         res = run_regularization(cfg)
+        print(res["summary"].to_string(index=False))
+        print("\nDECISION:", res["decision"]["verdict"])
+        print(f"Outputs: {res['outdir']}")
+    elif args.cmd == "validate-subtypes":
+        from .validation.run_validation import run_subtype_validation
+        cfg = load_config(args.config)
+        res = run_subtype_validation(cfg)
+        print(f"Subtype-label validation written to {res['outdir']}/subtype_validation_summary.md")
+    elif args.cmd == "label-noise":
+        from .experiments_label_noise import run_label_noise
+        cfg = load_config(args.config)
+        res = run_label_noise(cfg)
+        print(res["summary"].to_string())
+        print("\nDECISION:", res["decision"]["verdict"])
+        print(f"Outputs: {res['outdir']}")
+    elif args.cmd == "subtype-calibration":
+        from .experiments_calibration_subtype import run_subtype_calibration
+        cfg = load_config(args.config)
+        res = run_subtype_calibration(cfg)
         print(res["summary"].to_string(index=False))
         print("\nDECISION:", res["decision"]["verdict"])
         print(f"Outputs: {res['outdir']}")

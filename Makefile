@@ -2,7 +2,7 @@ PY ?= python
 CONFIG ?= configs/experiments/experiment0_open_gdc_os.yaml
 
 .PHONY: setup fetch-open-gdc build-features audit experiment0 residual-report run \
-        analysis figures all exploratory test package clean
+        analysis figures all exploratory validation test package clean
 
 # ---------------------------------------------------------------------------
 # Canonical execution path (Fragility 1: one auditable path to the manuscript).
@@ -68,6 +68,14 @@ exploratory:
 	$(PY) -m mm_tte_survival.cli run-experiments --config configs/real_training.yaml
 	$(PY) scripts/realdata/benchmark.py
 	$(PY) scripts/realdata/interpret.py
+
+# Validation = subtype-label trustworthiness (external real-FISH on GEO + cluster
+# concordance + internal cross-modality + label-noise robustness) and the
+# pre-registered calibration one-shot. Supports the subtype-aware NULL framing
+# (docs/FRAMING_SUBTYPE_AWARE_NULL.md); not a manuscript model-record itself.
+validation:
+	$(PY) -m mm_tte_survival.cli validate-subtypes
+	$(PY) -m mm_tte_survival.cli subtype-calibration
 
 test:
 	pytest -q
